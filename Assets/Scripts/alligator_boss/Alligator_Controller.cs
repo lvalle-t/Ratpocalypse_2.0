@@ -2,27 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossController : MonoBehaviour
+public class Alligator_Controller : MonoBehaviour
 {
     public Transform player;
 
     public bool isFlipped = false;
 
-    //hp calls
+    //hp calls / variables
+    public int maxHealth = 100;
+    public int currentHealth;
+    public Alligator_healthBar healthBar;
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
 
-    // AlligatorHpController alligatorHpController;
-    // public GameObject healthBar;
-    // void Start()
-    // {
-    //     alligatorHpController = healthBar.GetComponent<AlligatorHpController>();
-    //     alligatorHpController.setHealth();
-    // }
+    }
 
-    // // Update is called once per frame
-    // void Update()
-    // {
-    //     alligatorHpController.getDamage();
-    // }
+    // Update is called once per frame
+    void Update()
+    {
+        //TESTING HP BAR 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(20);
+        }
+    }
 
 
     public void LookAtPlayer()
@@ -43,4 +48,12 @@ public class BossController : MonoBehaviour
             isFlipped = true;
         }
     }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+    }
 }
+
+

@@ -258,7 +258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa4937e3b86c244e97320c826f5a73c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  maxHealth: 10
+  currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!58 &1036330391
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -657,7 +659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb12dd56b4cade4f9601d592f5440fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  speed: 0
 --- !u!50 &1597724775
 Rigidbody2D:
   serializedVersion: 4

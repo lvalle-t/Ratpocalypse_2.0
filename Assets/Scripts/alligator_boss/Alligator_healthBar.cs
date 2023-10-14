@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlligatorHpSlider : MonoBehaviour
+public class Alligator_healthBar : MonoBehaviour
 {
 
     public Slider slider;
