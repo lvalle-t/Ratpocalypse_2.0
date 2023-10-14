@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss_run : StateMachineBehaviour
+public class Alligator_run : StateMachineBehaviour
 {
 
     Transform player;
     Rigidbody2D rb;
-    BossController boss;
+    Alligator_Controller boss;
     public float speed = 1f;
-    public float attackRange = 0.25f;
+    public float attackRange = 1.8f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
-        boss = animator.GetComponent<BossController>();
+        boss = animator.GetComponent<Alligator_Controller>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
