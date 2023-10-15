@@ -10,6 +10,7 @@ public class Alligator_run : StateMachineBehaviour
     Alligator_Controller boss;
     public float speed = 1f;
     public float attackRange = 1.8f;
+    public float tailAttackRange = 3f;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -33,12 +34,20 @@ public class Alligator_run : StateMachineBehaviour
         {
             animator.SetTrigger("Alligator_bite");
         }
+        if (Vector2.Distance(player.position, rb.position) <= tailAttackRange && Random.Range(0f, 90000f) >= 89000f)
+        {
+
+            animator.SetTrigger("Alligator_tail_swipe");
+        }
+
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("Alligator_bite");
+        animator.ResetTrigger("Alligator_tail_swipe");
     }
 
 

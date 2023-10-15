@@ -1109,6 +1109,24 @@ MonoBehaviour:
   attackMask:
     serializedVersion: 2
     m_Bits: 1024
+--- !u!114 &1080550836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080550817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145075ef32907724dab60b62ba5c0d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 30
+  attackOffset: {x: 0, y: 0, z: 0}
+  attackRange: 3
+  attackMask:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &1156128789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5128213976897783468, guid: bccccde9213ebfc42af4b46cb0fe88ba, type: 3}
@@ -2077,6 +2095,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5478190753613699989, guid: f15a1768eda2bd34bad11ef01f0c6c82, type: 3}
       insertIndex: 3
       addedObject: {fileID: 1080550830}
+    - targetCorrespondingSourceObject: {fileID: 5478190753613699989, guid: f15a1768eda2bd34bad11ef01f0c6c82, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1080550836}
   m_SourcePrefab: {fileID: 100100000, guid: f15a1768eda2bd34bad11ef01f0c6c82, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
