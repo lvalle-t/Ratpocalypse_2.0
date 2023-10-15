@@ -10,6 +10,7 @@ public class Alligator_tail_swipe_attack : MonoBehaviour
     public float attackRange = 3f;
     public LayerMask attackMask;
 
+
     public void tail_Attack()
     {
         Vector3 pos = transform.position;
@@ -30,7 +31,6 @@ public class Alligator_tail_swipe_attack : MonoBehaviour
         if (colInfo != null)
         {
             colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
-
         }
     }
 }

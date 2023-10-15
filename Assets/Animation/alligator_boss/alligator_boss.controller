@@ -61,6 +61,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ef55bb9cf2ee34b9ff65c0c07f47fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tailSwipeWarningCircle: {fileID: 6369942338581259141, guid: d46744ef1c2de814c8b9d4c8c25f80a3, type: 3}
+  tailSwipeWarningCircleClone: {fileID: 0}
   speed: 1
   attackRange: 1.8
   tailAttackRange: 3
@@ -78,13 +80,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Alligator_tail_swipe
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
