@@ -2497,7 +2497,7 @@ PrefabInstance:
     - target: {fileID: 598506184742790358, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8987e018de888294984d7f70f9c21a1f, type: 3}
+      objectReference: {fileID: -1107005210, guid: c9370a18d2950da4e8e037b60d38f4fa, type: 3}
     - target: {fileID: 1411093242263515560, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.549083
@@ -2557,6 +2557,10 @@ PrefabInstance:
     - target: {fileID: 3404640128947330900, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641089806308518961, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3641089806308518961, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
       propertyPath: m_Interpolate
