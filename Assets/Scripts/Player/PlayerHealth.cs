@@ -10,6 +10,10 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 10;
     public int currentHealth;
     public HealthBar healthBar;
+
+    private bool isDead;
+
+    public GameManagerScript gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +24,10 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !isDead)
         {
+            isDead = true;
+            gameManager.gameOver();
             Debug.Log("I am Dead!");
             Destroy(gameObject);
 
