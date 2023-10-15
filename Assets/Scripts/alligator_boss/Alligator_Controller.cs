@@ -12,6 +12,7 @@ public class Alligator_Controller : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public Alligator_healthBar healthBar;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -27,6 +28,15 @@ public class Alligator_Controller : MonoBehaviour
         {
             TakeDamage(20);
         }
+        if (currentHealth <= 0)
+        {
+            Debug.Log("I am Dead!");
+            Destroy(gameObject);
+        }
+        // if (player == null)
+        // {
+        //     return;
+        // }
     }
 
 
