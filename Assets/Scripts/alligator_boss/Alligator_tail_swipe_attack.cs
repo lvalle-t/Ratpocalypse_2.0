@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlligatorBiteAttack : MonoBehaviour
+public class Alligator_tail_swipe_attack : MonoBehaviour
 {
-    public int attackDamage = 20;
+    public int attackDamage = 30;
     public Vector3 attackOffset;
     public float attackRange = 3f;
     public LayerMask attackMask;
 
-    public void Attack()
+    public void tail_Attack()
     {
         Vector3 pos = transform.position;
         pos += transform.right * attackOffset.x;
@@ -32,7 +32,5 @@ public class AlligatorBiteAttack : MonoBehaviour
             colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
 
         }
-
     }
-
 }

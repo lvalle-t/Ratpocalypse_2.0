@@ -33,10 +33,6 @@ public class Alligator_Controller : MonoBehaviour
             Debug.Log("I am Dead!");
             Destroy(gameObject);
         }
-        // if (player == null)
-        // {
-        //     return;
-        // }
     }
 
 
