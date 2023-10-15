@@ -23,11 +23,12 @@ public class Alligator_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //TESTING HP BAR 
+        //TESTING HP BAR will need to delete once player has ability to attack
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(20);
         }
+
         if (currentHealth <= 0)
         {
             Debug.Log("I am Dead!");
