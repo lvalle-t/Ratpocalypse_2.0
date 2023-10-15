@@ -29,10 +29,14 @@ public class AlligatorBiteAttack : MonoBehaviour
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
         if (colInfo != null)
         {
-            Debug.Log("Collision " + colInfo.gameObject);
             colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
 
         }
+        // if (colInfo == null)
+        // {
+        //     return;
+        // }
+
     }
 
 }
