@@ -18,22 +18,29 @@ public class ant_health : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        // healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // testing area//
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(1);
+        }
+        // testing area///
+
         if (currentHealth <= 0 && !isDead)
         {
             isDead = true;
             Debug.Log("I am Dead!");
             Destroy(gameObject);
-
         }
+        
     }
 
-    public void damaged(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
