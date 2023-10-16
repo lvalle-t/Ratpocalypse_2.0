@@ -31,18 +31,9 @@ public class Rat_sprite_walking : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //         Rat_Mob.LookAtPlayer();
-    
-        // Vector2 target = new Vector2(player.position.x, player.position.y);
-        // Vector2 direction = (target - rb.position).normalized;
-        // Vector2 newPos = rb.position + direction * speed * Time.fixedDeltaTime;
-        // rb.MovePosition(newPos);
 
-        // if(Vector2.Distance(player.position, rb.position)<=attackRange){
-        //     animator.SetTrigger("rat_mob_attack");
-        // }
 
-         Rat_Mob.LookAtPlayer();
+        Rat_Mob.LookAtPlayer();
 
         Vector2 target = new Vector2(player.position.x, player.position.y);
         Vector2 direction = (target - rb.position).normalized;
