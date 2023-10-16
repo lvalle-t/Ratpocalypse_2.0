@@ -24,7 +24,8 @@ public class cat_movement : MonoBehaviour
             animator.SetFloat("yDir", movement.y);
             animator.SetBool("isWalking", true);
         }
-        else{
+        else
+        {
             animator.SetBool("isWalking", false);
         }
 
