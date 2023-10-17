@@ -617,7 +617,7 @@ RectTransform:
   m_GameObject: {fileID: 361748325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.59341, y: 0.59341, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 972901493}
@@ -3194,10 +3194,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8145e129bb9a6c9479f4c8cf7fd35359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swarmerPrefab: {fileID: 1538405301}
-  bigSwarmerPrefab: {fileID: 1995679735}
+  swarmerOriginalPrefab: {fileID: 4315102866460201227, guid: 5a025d8cb1828fe469021c323a3a6dbf, type: 3}
+  bigSwarmerOriginalPrefab: {fileID: 8708126162428485775, guid: d40686b7bbf6bd94ea3854ea13b56c2f, type: 3}
   swarmerInterval: 3.5
   bigSwarmerInterval: 10
+  totalTimeToSpawn: 60
 --- !u!4 &1684661270
 Transform:
   m_ObjectHideFlags: 0
@@ -3501,7 +3502,7 @@ RectTransform:
   m_Father: {fileID: 337063776}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3758,7 +3759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7681352004840346742, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7681352004840346742, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
       propertyPath: m_TagString
