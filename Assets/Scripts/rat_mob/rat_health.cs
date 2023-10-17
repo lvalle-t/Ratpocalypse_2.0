@@ -113,8 +113,9 @@ public class rat_health : MonoBehaviour
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if (Hitpoints <= 0)
         {
-            Debug.Log("Ant Hit ");
+            // Debug.Log("Ant Hit ");
             Destroy(gameObject);
+
         }
     }
 

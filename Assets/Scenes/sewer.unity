@@ -5977,7 +5977,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8800,7 +8800,7 @@ MonoBehaviour:
   bigSwarmerOriginalPrefab: {fileID: 8708126162428485775, guid: d40686b7bbf6bd94ea3854ea13b56c2f, type: 3}
   swarmerInterval: 3.5
   bigSwarmerInterval: 10
-  totalTimeToSpawn: 60
+  totalTimeToSpawn: 1
 --- !u!4 &1684661270
 Transform:
   m_ObjectHideFlags: 0
@@ -12730,7 +12730,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1036330385}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 4
+    OrthographicSize: 6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

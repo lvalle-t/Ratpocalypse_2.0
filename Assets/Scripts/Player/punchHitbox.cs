@@ -7,6 +7,7 @@ public class punchHitbox : MonoBehaviour
     // Start is called before the first frame update
     public Collider2D punchCollider;
     public float punchDamage = 2f;
+
     void Start()
     {
         if (punchCollider == null)
@@ -23,5 +24,6 @@ public class punchHitbox : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         col.collider.SendMessage("TakeDamage", punchDamage);
+
     }
 }
