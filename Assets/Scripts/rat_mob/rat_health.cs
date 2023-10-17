@@ -6,7 +6,7 @@
 
 // // public class rat_health : MonoBehaviour
 // // {
-   
+
 // //     public int maxHealth = 10;
 // //     public int currentHealth;
 // //     public HealthBar healthBar;
@@ -88,10 +88,11 @@ public class rat_health : MonoBehaviour
 {
 
     public int Hitpoints;
-    public int MaxHitpoints=5;
-    public ant_healthbar Healthbar;
+    public int MaxHitpoints = 5;
+    public rat_healthbar Healthbar;
 
-    void Start(){
+    void Start()
+    {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
     }
@@ -105,11 +106,13 @@ public class rat_health : MonoBehaviour
     //     }
     //     // testing area///
     // }
-    
-    public void TakeDamage(int damage){
+
+    public void TakeDamage(int damage)
+    {
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
-        if(Hitpoints <= 0){
+        if (Hitpoints <= 0)
+        {
             Debug.Log("Ant Hit ");
             Destroy(gameObject);
         }
@@ -121,5 +124,5 @@ public class rat_health : MonoBehaviour
     //     HealthBar.SetHealth(Hitpoints);
     // }
 
-    
+
 }

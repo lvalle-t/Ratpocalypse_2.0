@@ -1402,7 +1402,7 @@ MonoBehaviour:
   Slider: {fileID: 361748327}
   Low: {r: 0.8490566, g: 0, b: 0, a: 1}
   High: {r: 0.13115227, g: 0.5283019, b: 0, a: 1}
-  Offset: {x: 0, y: 0, z: 0}
+  Offset: {x: 0, y: 0.4, z: 0}
 --- !u!114 &610191397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2274,7 +2274,7 @@ MonoBehaviour:
   Slider: {fileID: 676394935}
   Low: {r: 0.735849, g: 0, b: 0, a: 1}
   High: {r: 0.060214885, g: 0.5566038, b: 0, a: 1}
-  Offset: {x: 0, y: 1.5, z: 0}
+  Offset: {x: 0, y: 0.3, z: 0}
 --- !u!1 &952140811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,7 +3057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hitpoints: 0
   MaxHitpoints: 5
-  Healthbar: {fileID: 0}
+  Healthbar: {fileID: 610191396}
 --- !u!1 &1539841524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +3753,10 @@ PrefabInstance:
       value: Rat_Sprite_Sheet_10
       objectReference: {fileID: 0}
     - target: {fileID: 7681352004840346742, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681352004840346742, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3974,6 +3978,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3641089806308518961, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
       propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641089806308518961, guid: ee6661b2b715e5c45b5d4f24d494c7ec, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
