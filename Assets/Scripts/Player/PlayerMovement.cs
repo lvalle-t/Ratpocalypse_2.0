@@ -51,6 +51,11 @@ public class PlayerMovement : MonoBehaviour
         {
             direction += Vector2.right;
         }
+
+        if (transform.position.y >= 5)
+        {
+            transform.position = new Vector3(transform.position.x, 5, 0);
+        }
     }
     private void SetAnimatorMovement(Vector2 direction)
     {
