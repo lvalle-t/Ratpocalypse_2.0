@@ -10,10 +10,13 @@ public class cat_movement : MonoBehaviour
     private Rigidbody2D rb;
     public float speed = 2;
     private Animator animator;
+    public GameObject punchHitbox;
+    Collider2D punchCollider;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        punchCollider = punchHitbox.GetComponent<Collider2D>();
     }
     private void OnMovement(InputValue value)
     {
@@ -24,8 +27,7 @@ public class cat_movement : MonoBehaviour
             animator.SetFloat("yDir", movement.y);
             animator.SetBool("isWalking", true);
         }
-        else
-        {
+        else{
             animator.SetBool("isWalking", false);
         }
 
@@ -41,5 +43,8 @@ public class cat_movement : MonoBehaviour
         //}
         //variant 3 for movement
         //rb.AddForce(movement * speed);
+    }
+    void OnAttack(){
+        animator.SetTrigger("isAttacking");
     }
 }
