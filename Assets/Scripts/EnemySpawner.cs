@@ -53,7 +53,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private float bigSwarmerInterval = 10f;
     [SerializeField]
-    private float totalTimeToSpawn = 60f; // Total time to spawn enemies in seconds.
+    public float totalTimeToSpawn = 60f; // Total time to spawn enemies in seconds.
 
     private float currentTime = 0f; // Current time elapsed.
 
@@ -69,11 +69,11 @@ public class EnemySpawner : MonoBehaviour
         while (currentTime < totalTimeToSpawn)
         {
             yield return new WaitForSeconds(interval);
-            GameObject newEnemy = Instantiate(originalPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(-6f, 6f), 0), Quaternion.identity);
+            GameObject newEnemy = Instantiate(originalPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0), Quaternion.identity);
             currentTime += interval;
         }
     }
-    
+
     // Add a method to stop spawning when needed.
     public void StopSpawning()
     {
