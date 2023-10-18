@@ -21,9 +21,12 @@ public class punchHitbox : MonoBehaviour
         collider.SendMessage("OnHit", punchDamage);
     }*/
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        col.collider.SendMessage("TakeDamage", punchDamage);
+        if (col.tag == "Alligator_Boss")
+        {
+            col.GetComponent<PolygonCollider2D>().SendMessage("TakeDamage", punchDamage);
+        }
 
     }
 }

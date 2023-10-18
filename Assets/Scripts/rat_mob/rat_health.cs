@@ -90,6 +90,8 @@ public class rat_health : MonoBehaviour
     public int Hitpoints;
     public int MaxHitpoints = 5;
     public rat_healthbar Healthbar;
+    public GameObject[] itemDrops;
+
 
     void Start()
     {
@@ -115,6 +117,8 @@ public class rat_health : MonoBehaviour
         {
             // Debug.Log("Ant Hit ");
             Destroy(gameObject);
+            ItemDrop();
+
 
         }
     }
@@ -124,6 +128,16 @@ public class rat_health : MonoBehaviour
     //     Hitpoints -= damage;
     //     HealthBar.SetHealth(Hitpoints);
     // }
+
+    private void ItemDrop()
+    {
+        for (int i = 0; i < itemDrops.Length; i++)
+        {
+            // Instantiate(itemDrops[i],transform.position + new Vector3(0,1), Quaternion.identity );
+
+            Instantiate(itemDrops[i], transform.position, Quaternion.identity);
+        }
+    }
 
 
 }
