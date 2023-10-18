@@ -445,8 +445,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 211894992}
-  - component: {fileID: 211894994}
   - component: {fileID: 211894993}
+  - component: {fileID: 211894994}
   m_Layer: 10
   m_Name: AttackHitbox
   m_TagString: Untagged
@@ -476,7 +476,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211894991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -501,7 +501,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.25, y: -0.05}
+  m_Offset: {x: 0.27554646, y: -0.049999997}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -512,7 +512,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18, y: 0.3}
+  m_Size: {x: 0.23109289, y: 0.3}
   m_EdgeRadius: 0
 --- !u!114 &211894994
 MonoBehaviour:
@@ -523,11 +523,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 211894991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9514997860c7804a89275fb888b52dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 59e88600294d6df40a9dc410a230a832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   punchCollider: {fileID: 211894993}
-  punchDamage: 1
+  punchDamage: 2
 --- !u!1 &231371993
 GameObject:
   m_ObjectHideFlags: 0
@@ -8173,7 +8173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 0
-  MaxHitpoints: 5
+  MaxHitpoints: 2
   Healthbar: {fileID: 610191396}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
@@ -13212,7 +13212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 0
-  MaxHitpoints: 5
+  MaxHitpoints: 4
   Healthbar: {fileID: 925989720}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
