@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class punchHitbox : MonoBehaviour
+public class TRISTANSpunchHitbox : MonoBehaviour
 {
     // Start is called before the first frame update
     public Collider2D punchCollider;
@@ -21,8 +21,12 @@ public class punchHitbox : MonoBehaviour
         collider.SendMessage("OnHit", punchDamage);
     }*/
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        col.collider.SendMessage("TakeDamage", punchDamage);
+        if (col.tag == "Alligator_Boss" || col.tag == "Enemy")
+        {
+            col.GetComponent<PolygonCollider2D>().SendMessage("TakeDamage", punchDamage);
+        }
+
     }
 }
