@@ -40,7 +40,7 @@ public class ant_mob : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         }
 
-        if (Vector2.Distance(player.position, rb.position) <= stoppingDistance && Random.Range(0f, 100000f) >= 50000f){
+        // if (Vector2.Distance(player.position, rb.position) <= stoppingDistance && Random.Range(0f, 100000f) >= 50000f){
             if (timeBtwShots <= 0)
             {
                 Instantiate(fire_breath, transform.position, Quaternion.identity);
@@ -50,7 +50,7 @@ public class ant_mob : MonoBehaviour
             {
                 timeBtwShots -= Time.deltaTime;
             }
-        }
+        // }
 
         
     }

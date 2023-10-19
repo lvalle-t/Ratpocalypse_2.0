@@ -27,7 +27,10 @@ public Slider Slider;
     // Update is called once per frame
     void Update()
     {
-        Slider.transform.position=Camera.main.WorldToScreenPoint(transform.parent.position+Offset);
+        if (Slider != null && Camera.main != null){
+
+            Slider.transform.position=Camera.main.WorldToScreenPoint(transform.parent.position+Offset);
+        }
     }
 }
 

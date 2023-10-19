@@ -1,9 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
 
 
 
-// https://youtu.be/SELTWo1XZ0c?si=vGJsgkCW5fuqYPeU
+// // https://youtu.be/SELTWo1XZ0c?si=vGJsgkCW5fuqYPeU
 
 // public class EnemySpawner : MonoBehaviour
 // {
@@ -36,47 +37,113 @@ using System.Collections.Generic;
 //     public string wa
 // }
 
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
+
+// public class EnemySpawner : MonoBehaviour
+// {
+//     [SerializeField]
+//     private GameObject swarmerOriginalPrefab; // The original enemy prefab
+//     [SerializeField]
+//     private GameObject bigSwarmerOriginalPrefab; // The original enemy prefab
+
+//     [SerializeField]
+//     private float swarmerInterval = 3.5f;
+//     [SerializeField]
+//     private float bigSwarmerInterval = 10f;
+//     [SerializeField]
+//     public float totalTimeToSpawn = 60f; // Total time to spawn enemies in seconds.
+
+//     private float currentTime = 0f; // Current time elapsed.
+
+//     // Start is called before the first frame update
+//     void Start()
+//     {
+//         StartCoroutine(SpawnEnemies(swarmerInterval, swarmerOriginalPrefab));
+//         StartCoroutine(SpawnEnemies(bigSwarmerInterval, bigSwarmerOriginalPrefab));
+//     }
+
+//     private IEnumerator SpawnEnemies(float interval, GameObject originalPrefab)
+//     {
+//         while (currentTime < totalTimeToSpawn)
+//         {
+//             yield return new WaitForSeconds(interval);
+//             GameObject newEnemy = Instantiate(originalPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0), Quaternion.identity);
+//             currentTime += interval;
+//         }
+//     }
+
+//     // Add a method to stop spawning when needed.
+//     public void StopSpawning()
+//     {
+//         StopAllCoroutines();
+//     }
+// }
+
+
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
-    private GameObject swarmerOriginalPrefab; // The original enemy prefab
+    private GameObject swarmerPrefab;
     [SerializeField]
-    private GameObject bigSwarmerOriginalPrefab; // The original enemy prefab
+    private GameObject bigSwarmerPrefab;
 
     [SerializeField]
-    private float swarmerInterval = 3.5f;
+    private int totalSwarmerEnemies = 10; // Total swarmer enemies for the wave.
     [SerializeField]
-    private float bigSwarmerInterval = 10f;
-    [SerializeField]
-    public float totalTimeToSpawn = 60f; // Total time to spawn enemies in seconds.
+    private float swarmerInterval = 2.5f;
 
-    private float currentTime = 0f; // Current time elapsed.
+    [SerializeField]
+    private int totalBigSwarmerEnemies = 5; // Total big swarmer enemies for the wave.
+    [SerializeField]
+    private float bigSwarmerInterval = 5f;
+
+    private int swarmerCount = 0;
+    private int bigSwarmerCount = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SpawnEnemies(swarmerInterval, swarmerOriginalPrefab));
-        StartCoroutine(SpawnEnemies(bigSwarmerInterval, bigSwarmerOriginalPrefab));
+        StartCoroutine(SpawnWave());
     }
 
-    private IEnumerator SpawnEnemies(float interval, GameObject originalPrefab)
+    private IEnumerator SpawnWave()
     {
-        while (currentTime < totalTimeToSpawn)
+        while (swarmerCount < totalSwarmerEnemies || bigSwarmerCount < totalBigSwarmerEnemies)
         {
-            yield return new WaitForSeconds(interval);
-            GameObject newEnemy = Instantiate(originalPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0), Quaternion.identity);
-            currentTime += interval;
+            if (swarmerCount < totalSwarmerEnemies)
+            {
+                Instantiate(swarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+                swarmerCount++;
+            }
+
+            if (bigSwarmerCount < totalBigSwarmerEnemies)
+            {
+                Instantiate(bigSwarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+                bigSwarmerCount++;
+            }
+
+            yield return new WaitForSeconds(swarmerInterval);
+            yield return new WaitForSeconds(bigSwarmerInterval);
         }
+
+        // Reset counts for the next wave.
+        swarmerCount = 0;
+        bigSwarmerCount = 0;
+
+        // Wait for a delay before starting the next wave.
+        yield return new WaitForSeconds(0.0f); // Adjust this time to control the gap between waves.
+
+        // Start the next wave.
+        StartCoroutine(SpawnWave());
     }
 
-    // Add a method to stop spawning when needed.
-    public void StopSpawning()
+    private Vector3 GetRandomSpawnPosition()
     {
-        StopAllCoroutines();
+        return new Vector3(Random.Range(-5f, 5f), Random.Range(-4f, 4f), 0);
     }
 }
-
