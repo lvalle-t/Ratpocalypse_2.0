@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
     public float speed;
     private Vector2 direction;
     private Animator animator;
+
+    public treat_counter tc;        // manages the treat counter script -deb
+
+    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -65,4 +68,12 @@ public class PlayerMovement : MonoBehaviour
         print(animator.GetFloat("xDir"));
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
+    {
+        if(collision.gameObject.CompareTag("Treats"))           // checks for assigned tag on object
+        {
+            tc.TreatCollection();                               // if it is a treat, go to treat counter
+            Destroy(collision.gameObject);                      // destroy treat after counter updated 
+        }
+    }
 }

@@ -8,6 +8,8 @@ public class Alligator_Controller : MonoBehaviour
 
     public bool isFlipped = false;
 
+    public int scoreNum = 0;        // adds to the scoreTxt count - deb
+
     //hp calls / variables
     public int maxHealth = 100;
     public int currentHealth;
@@ -33,6 +35,7 @@ public class Alligator_Controller : MonoBehaviour
         {
             Debug.Log("I am Dead!");
             Destroy(gameObject);
+            ScoreCollection();
         }
     }
 
@@ -60,6 +63,10 @@ public class Alligator_Controller : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+    }
+    public void ScoreCollection()
+    {
+        scoreNum = updater.scoreCount += 100;                 // updates the score counter
     }
 }
 
