@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,868 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 224
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9102b54fd64be64eaf58cc1a5d306fe
+      internalID: -164820033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 224
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86bd57c7bf3d1644becd56686507a0a
+      internalID: 1254750633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 224
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c522d4d566fb44b40b160c1580675575
+      internalID: -1322144190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 224
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e772d0ce1ab569e48af51d51299ce2f6
+      internalID: 1617729669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 224
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e115d0cbd4fc9e4d861b89f4f51367d
+      internalID: 1934953022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 224
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336d8532803f55b4d9a4efa507a798aa
+      internalID: -1331326394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 224
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ad2539d8091874ca213f2eda4f626d
+      internalID: 1366377487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 224
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a642aa3de927a249a1b8492bef1142b
+      internalID: 1128744480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c084f8b13afb404985e7d18b8f76871
+      internalID: -384436726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 192
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6647366250500b745826d404814ec803
+      internalID: -1764208582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 195
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b23b80bb3fdb24abbedf7830dd9d0b
+      internalID: -676751137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b27e465df5aa6448d7a8655eb524f1
+      internalID: -2137944900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 192
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59782d24308ef7240a273809e1ecfec3
+      internalID: -689587236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 193
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f591e724ab821634f8246bcde019902f
+      internalID: 126803996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 193
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773872322b16cd545937e2cc8f6e2a09
+      internalID: -333907000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 192
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea880869082518a40a63bd573050e81b
+      internalID: -711474459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 160
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9288d4a3ebb53aa4491b062d179cea19
+      internalID: -1042823410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a087ccb7d4484595ce6a90111121d
+      internalID: -1903092741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 160
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6001fe20f8174486e6666f727b1d4
+      internalID: 1159012478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9134474d9db7f124b81a214d8cbd2199
+      internalID: 624072179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731bf6c1838486946839cf80ce060257
+      internalID: 684232689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebef0eebfa64a2c4f8742bfd1c52209f
+      internalID: 67010803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 128
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285988e5bcec98843b942aca5e2e0a2e
+      internalID: -1680241229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 128
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1b6796e7908154d883c64fb8a111f0
+      internalID: 77388736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 128
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ad03ed53295f0448ccc1ca4a6e453f
+      internalID: -1579994306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 128
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4170cef688d7f4f84c927d352afdce
+      internalID: -349239186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720378ecebe30364aa751b25c0da82e3
+      internalID: 1679111075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1d5640891f1fb409ff5c4030726581
+      internalID: -1515061167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cc419a213fcca4083ed253ec744895
+      internalID: 1441542362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 96
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07c390b15bb9c34581174f86cc8e2e9
+      internalID: 934012346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d06969e7ac1d4fa8128c97557cc64
+      internalID: -158961087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33efa6da2c8ce141a555d06409a2e4c
+      internalID: 2120823809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 64
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090590a6480491f49b2204e7bc6688b9
+      internalID: 1317359634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa97a1bdd606243a3a4ed7b999ff2c
+      internalID: -1279024856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0336854217b63784a80d7e9077b8ccac
+      internalID: 446257836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef925982e113b14ca89d6c340a72d2f
+      internalID: 1235048236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5335481cb8ca645aebd2bd4afb0692
+      internalID: -1644807627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259dc70ef728ef74eaa952dc46543a87
+      internalID: 195483287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39d611850304f9419b5eb20a97a776b
+      internalID: -1120014450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960725d1aa0d68a4f8a4a07aa7faed7a
+      internalID: 1244621622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Naked Mole Rat Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e9afad793f924bb2bb08581c80791
+      internalID: 967462264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +993,48 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Naked Mole Rat Sprite Sheet_0: -164820033
+      Naked Mole Rat Sprite Sheet_1: 1254750633
+      Naked Mole Rat Sprite Sheet_10: -676751137
+      Naked Mole Rat Sprite Sheet_11: -2137944900
+      Naked Mole Rat Sprite Sheet_12: -689587236
+      Naked Mole Rat Sprite Sheet_13: 126803996
+      Naked Mole Rat Sprite Sheet_14: -333907000
+      Naked Mole Rat Sprite Sheet_15: -711474459
+      Naked Mole Rat Sprite Sheet_16: -1042823410
+      Naked Mole Rat Sprite Sheet_17: -1903092741
+      Naked Mole Rat Sprite Sheet_18: 1159012478
+      Naked Mole Rat Sprite Sheet_19: 624072179
+      Naked Mole Rat Sprite Sheet_2: -1322144190
+      Naked Mole Rat Sprite Sheet_20: 684232689
+      Naked Mole Rat Sprite Sheet_21: 67010803
+      Naked Mole Rat Sprite Sheet_22: -1680241229
+      Naked Mole Rat Sprite Sheet_23: 77388736
+      Naked Mole Rat Sprite Sheet_24: -1579994306
+      Naked Mole Rat Sprite Sheet_25: -349239186
+      Naked Mole Rat Sprite Sheet_26: 1679111075
+      Naked Mole Rat Sprite Sheet_27: -1515061167
+      Naked Mole Rat Sprite Sheet_28: 1441542362
+      Naked Mole Rat Sprite Sheet_29: 934012346
+      Naked Mole Rat Sprite Sheet_3: 1617729669
+      Naked Mole Rat Sprite Sheet_30: -158961087
+      Naked Mole Rat Sprite Sheet_31: 2120823809
+      Naked Mole Rat Sprite Sheet_32: 1317359634
+      Naked Mole Rat Sprite Sheet_33: -1279024856
+      Naked Mole Rat Sprite Sheet_34: 446257836
+      Naked Mole Rat Sprite Sheet_35: 1235048236
+      Naked Mole Rat Sprite Sheet_36: -1644807627
+      Naked Mole Rat Sprite Sheet_37: 195483287
+      Naked Mole Rat Sprite Sheet_38: -1120014450
+      Naked Mole Rat Sprite Sheet_39: 1244621622
+      Naked Mole Rat Sprite Sheet_4: 1934953022
+      Naked Mole Rat Sprite Sheet_40: 967462264
+      Naked Mole Rat Sprite Sheet_5: -1331326394
+      Naked Mole Rat Sprite Sheet_6: 1366377487
+      Naked Mole Rat Sprite Sheet_7: 1128744480
+      Naked Mole Rat Sprite Sheet_8: -384436726
+      Naked Mole Rat Sprite Sheet_9: -1764208582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
