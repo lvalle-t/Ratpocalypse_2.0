@@ -92,6 +92,8 @@ public class rat_health : MonoBehaviour
     public rat_healthbar Healthbar;
     public GameObject[] itemDrops;
 
+    public int scoreNum = 0;        // adds to the scoreTxt count - deb
+
 
     void Start()
     {
@@ -115,19 +117,11 @@ public class rat_health : MonoBehaviour
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if (Hitpoints <= 0)
         {
-            // Debug.Log("Ant Hit ");
             Destroy(gameObject);
             ItemDrop();
-
-
+            ScoreCollection();
         }
     }
-
-    // public void TakeDamage(int damage)
-    // {
-    //     Hitpoints -= damage;
-    //     HealthBar.SetHealth(Hitpoints);
-    // }
 
     private void ItemDrop()
     {
@@ -138,6 +132,8 @@ public class rat_health : MonoBehaviour
             Instantiate(itemDrops[i], transform.position, Quaternion.identity);
         }
     }
-
-
+    public void ScoreCollection()
+    {
+        scoreNum = updater.scoreCount += 50;                 // updates the score counter
+    }
 }

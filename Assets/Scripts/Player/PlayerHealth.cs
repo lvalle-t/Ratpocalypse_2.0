@@ -14,6 +14,7 @@ public class PlayerHealth : MonoBehaviour
     private bool isDead;
 
     public GameManagerScript gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         {
             isDead = true;
             gameManager.gameOver();
-            Debug.Log("I am Dead!");
+            //Debug.Log("I am Dead!");
             Destroy(gameObject);
 
         }
