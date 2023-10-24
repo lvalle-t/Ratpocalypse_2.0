@@ -7031,6 +7031,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705081097}
   m_CullTransparentMesh: 1
+--- !u!224 &844252586 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6485141611388747646, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
+  m_PrefabInstance: {fileID: 258689346358902320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &849512499
 GameObject:
   m_ObjectHideFlags: 0
@@ -13197,6 +13202,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.525
       objectReference: {fileID: 0}
+    - target: {fileID: 3032444897940794779, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3032444897940794779, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
+      propertyPath: m_FillRect
+      value: 
+      objectReference: {fileID: 844252586}
     - target: {fileID: 3348565478698468926, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
       propertyPath: m_SizeDelta.x
       value: 1.0644
@@ -13284,6 +13297,14 @@ PrefabInstance:
     - target: {fileID: 6362753536118868761, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485141611388747646, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485141611388747646, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7042628314737551037, guid: 8b1acb9faf20592418b6d6ebe02f5c45, type: 3}
       propertyPath: m_BodyType

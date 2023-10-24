@@ -9,6 +9,7 @@ public class mole_movement : MonoBehaviour
 
     public Transform player;
     public float speed = 20f;
+    public float smoothMove = 0.1f;
 
     private Rigidbody2D rb;
     private Vector3 direction;
