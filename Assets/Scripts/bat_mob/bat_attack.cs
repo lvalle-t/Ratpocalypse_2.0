@@ -9,13 +9,15 @@ using UnityEngine;
 //    - Text MeshPro Unity Sample Scripts
 //**************************************************************************deb*****
 
-public class updater : MonoBehaviour
+public class bat_attack : MonoBehaviour
 {
-    // accumulates the treats, score, and adjusts
-    // the hp as a collective of all scenes 
+    public PlayerHealth hm;           // player health manager -deb
 
-    public static int treatCount = 0;
-    public static int scoreCount = 0;
-    public static int moleHp = 100;
-    public static int batHp = 100;
+    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
+    {
+        if (collision.tag == "Player")
+        {
+            hm.TakeDamage(2);
+        }
+    }
 }

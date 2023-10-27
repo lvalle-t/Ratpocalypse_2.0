@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//**********************************************************************************
+// This Script Was Created Using the Following Resources:
+//    - https://pll.harvard.edu/course/cs50s-introduction-game-development
+//    - https://docs.unity3d.com/Manual/index.html
+//    - Text MeshPro Unity Sample Scripts
+//**************************************************************************deb*****
+
 public class mole_attack : MonoBehaviour
 {
-    public int attackDamage = 20;
-    public Vector3 attackOffset;
-    public float attackRange = 3f;
-    public LayerMask attackMask;
+    public PlayerHealth hm;           // player health manager -deb
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.tag == "Player")
+        {
+            hm.TakeDamage(3);
+        }
     }
 }

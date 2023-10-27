@@ -8,7 +8,8 @@ TagManager:
   - Alligator_Boss
   - Treats
   - Mole_Boss
-  - Dirt
+  - Bat_Mob
+  - AttackBox
   layers:
   - Default
   - TransparentFX
@@ -48,4 +49,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Midground
+    uniqueID: 3834249457
+    locked: 0
+  - name: Foreground
+    uniqueID: 2447820403
     locked: 0
