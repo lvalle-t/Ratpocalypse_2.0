@@ -10,30 +10,29 @@ using UnityEngine.UI;
 //    - Text MeshPro Unity Sample Scripts
 //**************************************************************************deb*****
 
-public class mole_hp_slider : MonoBehaviour
+public class Bat_hp_slider : MonoBehaviour
 {
-    public Slider slider;
+    public Slider batSlider;
     public Gradient gradient;
     public Image fill;
 
     // Start is called before the first frame update
     void Start()
     {
-        SetHealth(updater.moleHp);
-        fill.color = gradient.Evaluate(1f);
+        SetHealth(updater.batHp);
+        fill.color = gradient.Evaluate(10);
     }
 
     // Update is called once per frame
     void Update()
     {
-        float harm = updater.moleHp;
+        float harm = updater.batHp;
         SetHealth(harm);
     }
 
     public void SetHealth(float health)
     {
-        slider.value = health;
-        fill.color = gradient.Evaluate(slider.value);
-
+        batSlider.value = health;
+        fill.color = gradient.Evaluate(batSlider.value);
     }
 }
