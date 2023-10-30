@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rat_Mob_Weapon : MonoBehaviour
 {
-	public int damage;
+	public float damage = 0.05f;
 	public Vector3 attackOffset;
 	public float attackRange = 1f;
 
@@ -16,7 +16,7 @@ public class Rat_Mob_Weapon : MonoBehaviour
         {
             if (collider.CompareTag("Player"))
             {
-                collider.GetComponent<PlayerHealth>().damageEnemy(damage);
+                collider.GetComponent<PlayerHealth>().EnemyDamage(damage);
             }
         }
 	}

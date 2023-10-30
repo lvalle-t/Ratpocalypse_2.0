@@ -19,7 +19,7 @@ public class mole_hp_slider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SetHealth(updater.moleHp);
+        UpdateHealth(updater.moleHp);
         fill.color = gradient.Evaluate(1f);
     }
 
@@ -27,10 +27,10 @@ public class mole_hp_slider : MonoBehaviour
     void Update()
     {
         float harm = updater.moleHp;
-        SetHealth(harm);
+        UpdateHealth(harm);
     }
 
-    public void SetHealth(float health)
+    public void UpdateHealth(float health)
     {
         slider.value = health;
         fill.color = gradient.Evaluate(slider.value);

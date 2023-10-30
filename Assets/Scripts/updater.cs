@@ -16,6 +16,11 @@ public class updater : MonoBehaviour
 
     public static int treatCount = 0;
     public static int scoreCount = 0;
-    public static int moleHp = 100;
-    public static int batHp = 100;
+    public static float playerHp = 1f;
+    public static float alligatorHp = 1f;
+    public static float antHp = 1.0f;
+    public static float batHp = 1.0f;
+    public static float moleHp = 1.0f;
+    public static float ratHp = 1.0f;
+    public static float snakeHp = 1.0f;
 }

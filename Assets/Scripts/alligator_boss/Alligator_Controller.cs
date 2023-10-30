@@ -5,38 +5,27 @@ using UnityEngine;
 public class Alligator_Controller : MonoBehaviour
 {
     public Transform player;
-
     public bool isFlipped = false;
-
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
 
-    //hp calls / variables
-    public int maxHealth = 100;
-    public int currentHealth;
     public Alligator_healthBar healthBar;
+    public float damaged = 0.2f;
+    public GameObject[] itemDrops;
 
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //TESTING HP BAR will need to delete once player has ability to attack
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(20);
-        }
+        
+    }
 
-        if (currentHealth <= 0)
-        {
-            Debug.Log("I am Dead!");
-            Destroy(gameObject);
-            ScoreCollection();
-        }
+    private void FixedUpdate()
+    {
+        LookAtPlayer();
     }
 
 
@@ -59,14 +48,40 @@ public class Alligator_Controller : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        if (collision.gameObject.CompareTag("AttackBox"))
+        {
+            TakeDamage(damaged);
+        }
+    }
+
+    void TakeDamage(float damage)
+    {
+        if ((updater.alligatorHp - damage) > 0f)
+        {
+            updater.alligatorHp -= damage;
+        }
+        else
+        {
+            updater.alligatorHp = 0f;
+            ScoreCollection();
+        }
+        healthBar.UpdateHealth(updater.alligatorHp);
     }
     public void ScoreCollection()
     {
         scoreNum = updater.scoreCount += 100;                 // updates the score counter
+        Destroy(gameObject);
+        ItemDrop();
+    }
+
+    private void ItemDrop()
+    {
+        for (int i = 0; i < itemDrops.Length; i++)
+        {
+            Instantiate(itemDrops[i], transform.position, Quaternion.identity);
+        }
     }
 }
 

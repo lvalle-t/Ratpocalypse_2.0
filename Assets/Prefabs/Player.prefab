@@ -40,6 +40,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 283150066772146796}
     m_Modifications:
+    - target: {fileID: 5109649736572259452, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
+      propertyPath: tc
+      value: 
+      objectReference: {fileID: 1298411881304712945, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
     - target: {fileID: 6235901122301556469, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.85
@@ -84,6 +88,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cat_warrior_walking_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8488091692418510049, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 5082832378187433801, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
     - target: {fileID: 8892523441893628036, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

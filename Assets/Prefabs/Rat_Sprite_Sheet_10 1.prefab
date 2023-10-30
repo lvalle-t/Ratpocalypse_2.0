@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72581bc5dfc70044cac32c11472a3c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 0.05
   attackOffset: {x: 0, y: 0, z: 0}
   attackRange: 1
 --- !u!50 &534707216230125186
@@ -546,6 +546,7 @@ MonoBehaviour:
   Healthbar: {fileID: 3908538976729023058}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
+  scoreNum: 0
 --- !u!1 &8240818230564783600
 GameObject:
   m_ObjectHideFlags: 0

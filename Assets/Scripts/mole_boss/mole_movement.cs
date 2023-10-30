@@ -98,28 +98,29 @@ public class mole_movement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("AttackBox"))
         {
-            TakeDamage(20);
+            TakeDamage(0.2f);
         }
     }
 
-    private void TakeDamage(int damage)
+    private void TakeDamage(float damage)
     {
-        if ((updater.moleHp - damage) > 0)
+        if ((updater.moleHp - damage) > 0f)
         {
             updater.moleHp -= damage;
             StartCoroutine(SetMoleObject());
         }
         else
         {
-            updater.moleHp = 0;
+            updater.moleHp = 0f;
             StartCoroutine(SetMoleObject());
         }
+        healthBar.UpdateHealth(updater.moleHp);
     }
 
     IEnumerator SetMoleObject()
     {
         breakTime = true;
-        if (updater.moleHp <= 0)
+        if (updater.moleHp <= 0f)
         {
             isDead = true;
             moleAnimator.SetTrigger("isDead");
@@ -128,13 +129,13 @@ public class mole_movement : MonoBehaviour
 
             ScoreCollection();
         }
-        else if (updater.moleHp == 40 && breakTime == true)
+        else if (updater.moleHp <= 0.33f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
             Invoke("SpawnBats", 1);
         }
-        else if (updater.moleHp == 80 && breakTime == true)
+        else if (updater.moleHp <= 0.66f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
@@ -185,7 +186,7 @@ public class mole_movement : MonoBehaviour
     {
         moleStayUnder.SetActive(false);
         moleComeOut.SetActive(true);
-        Invoke("StartFighting", 2);
+        Invoke("StartFighting", 1);
     }
 
     public void StartFighting()
@@ -211,6 +212,6 @@ public class mole_movement : MonoBehaviour
 
     public void ResetMole()
     {
-        updater.moleHp = 10;
+        updater.moleHp = 1f;
     }
 }

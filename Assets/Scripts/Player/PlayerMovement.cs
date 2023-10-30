@@ -6,14 +6,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Vector2 direction;
-    private Animator animator;
+    private Animator playerAnimator;
 
     public treat_counter tc;        // manages the treat counter script -deb
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        playerAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         takeInput();
         Move();
     }
+
     private void Move()
     {
         transform.Translate(direction * speed * Time.deltaTime);
@@ -31,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            animator.SetLayerWeight(1, 0);
+            playerAnimator.SetLayerWeight(1, 0);
         }
 
     }
@@ -62,10 +63,10 @@ public class PlayerMovement : MonoBehaviour
     }
     private void SetAnimatorMovement(Vector2 direction)
     {
-        animator.SetLayerWeight(1, 1);
-        animator.SetFloat("xDir", direction.x);
-        animator.SetFloat("yDir", direction.y);
-        print(animator.GetFloat("xDir"));
+        playerAnimator.SetLayerWeight(1, 1);
+        playerAnimator.SetFloat("xDir", direction.x);
+        playerAnimator.SetFloat("yDir", direction.y);
+        print(playerAnimator.GetFloat("xDir"));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
