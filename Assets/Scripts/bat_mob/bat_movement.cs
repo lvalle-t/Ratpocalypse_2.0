@@ -84,7 +84,7 @@ public class bat_movement : MonoBehaviour
             SetAnimatorMovement(direction);
         }
 
-        //rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
+        rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
     }
 
     private void SetAnimatorMovement(Vector2 direction)
@@ -137,6 +137,6 @@ public class bat_movement : MonoBehaviour
 
     public void ResetBat()
     {
-        updater.batHp = 10;
+        updater.batHp = 1f;
     }
 }

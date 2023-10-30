@@ -12,12 +12,14 @@ using UnityEngine;
 public class mole_attack : MonoBehaviour
 {
     public PlayerHealth hm;           // player health manager -deb
+    public float damage = 0.3f;
 
     private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
     {
         if (collision.tag == "Player")
         {
-            hm.TakeDamage(3);
+            hm.EnemyDamage(damage);
+            //GetComponent<PlayerHealth>().EnemyDamage(damage);
         }
     }
 }

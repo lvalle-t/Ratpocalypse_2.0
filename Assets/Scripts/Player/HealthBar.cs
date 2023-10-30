@@ -1,24 +1,3 @@
-// using System.Collections;
-// using System.Collections.Generic;
-// using UnityEngine;
-// using UnityEngine.UI;
-
-// public class HealthBar : MonoBehaviour
-// {
-//     public Slider slider;
-   
-//     public void SetMaxHealth(int health){
-//         slider.maxHealth=health;
-//         slider.value=health;
-//     }
-
-//     public void SetHealth(int health){
-//         slider.value=health;
-//     }
-// }
-
-
-// https://www.youtube.com/watch?v=BLfNP4Sc_iA&t=626s
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,18 +5,28 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    public Slider slider;
+    public Slider playerSlider;
+    public Gradient gradient;
+    public Image fill;
 
-    // Set the maximum health for the health bar
-    public void SetMaxHealth(int maxHealth)
+    // Start is called before the first frame update
+    void Start()
     {
-        slider.maxValue = maxHealth;
-        slider.value = maxHealth;
+        playerSlider.value = updater.playerHp;
+        fill.color = gradient.Evaluate(updater.playerHp);
+        UpdateHealth(updater.playerHp);
     }
 
-    // Update the health bar with the current health
-    public void SetHealth(int currentHealth)
+    // Update is called once per frame
+    void Update()
     {
-        slider.value = currentHealth;
+        float harm = updater.playerHp;
+        UpdateHealth(harm);
+    }
+
+    public void UpdateHealth(float health)
+    {
+        playerSlider.value = health;
+        fill.color = gradient.Evaluate(playerSlider.value);
     }
 }

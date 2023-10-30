@@ -10,11 +10,11 @@ using UnityEngine;
 
 public class fire_damage : MonoBehaviour
 {
-    public int damage;
+    public float damage = 0.05f;
     
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag =="Player"){
-            other.gameObject.GetComponent<PlayerHealth>().damageEnemy(damage);
+            other.gameObject.GetComponent<PlayerHealth>().EnemyDamage(damage);
         }
     }
 }

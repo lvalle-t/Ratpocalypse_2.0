@@ -5,21 +5,28 @@ using UnityEngine.UI;
 
 public class Alligator_healthBar : MonoBehaviour
 {
-
-    public Slider slider;
+    public Slider alligatorSlider;
     public Gradient gradient;
     public Image fill;
 
-    public void SetMaxHealth(int health)
+    // Start is called before the first frame update
+    void Start()
     {
-        slider.maxValue = health;
-        slider.value = health;
+        UpdateHealth(updater.alligatorHp);
+        alligatorSlider.value = updater.alligatorHp;
+        fill.color = gradient.Evaluate(updater.alligatorHp);
     }
 
-    public void SetHealth(int health)
+    // Update is called once per frame
+    void Update()
     {
-        slider.value = health;
-
+        float harm = updater.alligatorHp;
+        UpdateHealth(harm);
     }
 
+    public void UpdateHealth(float health)
+    {
+        alligatorSlider.value = health;
+        fill.color = gradient.Evaluate(alligatorSlider.value);
+    }
 }

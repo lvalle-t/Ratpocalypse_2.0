@@ -16,11 +16,6 @@ public class punchHitbox : MonoBehaviour
         }
     }
 
-    /*void OnTriggerEnter2D(Collider2D collider)
-    {
-        collider.SendMessage("OnHit", punchDamage);
-    }*/
-
     void OnCollisionEnter2D(Collision2D col)
     {
         col.collider.SendMessage("TakeDamage", punchDamage);
