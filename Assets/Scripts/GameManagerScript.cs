@@ -7,17 +7,17 @@ public class GameManagerScript : MonoBehaviour
 {
     public GameObject gameOverUI;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    //// Start is called before the first frame update
+    //void Start()
+    //{
 
-    }
+    //}
 
-    // Update is called once per frame
-    void Update()
-    {
+    //// Update is called once per frame
+    //void Update()
+    //{
 
-    }
+    //}
 
     public void gameOver()
     {
@@ -28,6 +28,7 @@ public class GameManagerScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         updater.playerHp = 1f;
+        updater.treatCount = 0;
         updater.alligatorHp = 1f;
         updater.antHp = 1f;
         updater.batHp = 1f;
