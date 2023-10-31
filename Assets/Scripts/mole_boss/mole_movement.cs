@@ -17,7 +17,6 @@ public class mole_movement : MonoBehaviour
 
     public Transform player;
     public float speed = 2f;
-    //public float smoothMove = 0.1f;
     public float stoppingDistance = .1f; // tells mole how far it can go before it will overlap
     public float attackRange = .05f;
 
