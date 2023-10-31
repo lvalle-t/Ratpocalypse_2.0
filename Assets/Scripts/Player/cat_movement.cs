@@ -70,13 +70,6 @@ public class cat_movement : MonoBehaviour
             rb.velocity = new Vector2(dirX, rb.velocity.y);
         }
 
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            punchHitbox.SetActive(true);
-        }
-        else { punchHitbox.SetActive(false); }
-
         SetAnima();
     }
 

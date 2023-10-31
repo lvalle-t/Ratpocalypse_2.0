@@ -45,12 +45,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1298411881304712945, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
     - target: {fileID: 6235901122301556469, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38825786
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235901122301556469, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.36117002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235901122301556469, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.85
+      value: 7.785
       objectReference: {fileID: 0}
     - target: {fileID: 6235901122301556469, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.31
+      value: -0.219
       objectReference: {fileID: 0}
     - target: {fileID: 6235901122301556469, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: m_LocalPosition.z
@@ -87,6 +95,10 @@ PrefabInstance:
     - target: {fileID: 7647355105303222281, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: m_Name
       value: cat_warrior_walking_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087004345009127266, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8488091692418510049, guid: c1988f66de406514fabf8302ad3c6b63, type: 3}
       propertyPath: gameManager

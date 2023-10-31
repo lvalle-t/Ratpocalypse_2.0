@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1848880159}
+    - target: {fileID: 1476097319854309516, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2246873861410449258, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -191,6 +195,10 @@ PrefabInstance:
       propertyPath: tc
       value: 
       objectReference: {fileID: 1848880158}
+    - target: {fileID: 3812931046585371506, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

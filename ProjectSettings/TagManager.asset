@@ -17,7 +17,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Midground
     uniqueID: 3834249457
+    locked: 0
+  - name: Gound
+    uniqueID: 3861902631
     locked: 0
   - name: Foreground
     uniqueID: 2447820403
