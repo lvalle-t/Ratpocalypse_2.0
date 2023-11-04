@@ -16,10 +16,19 @@ public class bat_attack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
     {
-        if (collision.tag == "Player")
+
+        /*
+            Needed to change collision.tag -> collision.gameObject.tag
+
+            Then add it to the get component line
+
+            -Tristan fry
+        */
+
+        if (collision.gameObject.tag == "Player")
         {
             //hm.TakeDamage(0.2f);
-            GetComponent<PlayerHealth>().EnemyDamage(damage);
+            collision.gameObject.GetComponent<PlayerHealth>().EnemyDamage(damage);
         }
     }
 }
