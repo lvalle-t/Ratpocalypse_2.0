@@ -12,23 +12,13 @@ public class ant_health : MonoBehaviour
     public ant_healthbar Healthbar;
     public GameObject[] itemDrops;
 
-    public int scoreNum = 0;        // adds to the scoreTxt count - deb
+    public int scoreNum = 0;
 
     void Start()
     {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
     }
-
-
-    // // testing area//
-    // void Update(){
-    //     if (Input.GetKeyDown(KeyCode.Space))
-    //     {
-    //         TakeDamage(1);
-    //     }
-    //     // testing area///
-    // }
 
     public void TakeDamage(int damage)
     {
@@ -42,18 +32,10 @@ public class ant_health : MonoBehaviour
         }
     }
 
-    // public void TakeDamage(int damage)
-    // {
-    //     Hitpoints -= damage;
-    //     HealthBar.SetHealth(Hitpoints);
-    // }
-
     private void ItemDrop()
     {
         for (int i = 0; i < itemDrops.Length; i++)
         {
-            // Instantiate(itemDrops[i],transform.position + new Vector3(0,1), Quaternion.identity );
-
             Instantiate(itemDrops[i], transform.position, Quaternion.identity);
         }
     }
