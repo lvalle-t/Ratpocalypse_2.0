@@ -1,0 +1,1975 @@
+fileFormatVersion: 2
+guid: f7ddfd74193ff0c45989bebb745f0ab4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 305
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405d6e7a334053040b2af02507fb539c
+      internalID: 1945998239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 305
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3902c7804be73458a2bb6e23169f3d
+      internalID: -1077367152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 305
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cfb8b59dcb046489f387ebf6343ca5
+      internalID: 1715488574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 305
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c32b5256b9d70a4399f74526d9ac6dd
+      internalID: 2025118314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 305
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a74d937c9055c4997daf4b041d44a7
+      internalID: 1132770606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 305
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7cce63a5a5e3d409bfbebdfe46c168
+      internalID: 77092866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 305
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771c9286299b4984b914ab442f872014
+      internalID: 997003316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 305
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dba6babe387d548a22c1bc8956e3da
+      internalID: 842487901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 273
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084ce8246f946ab48831625bdb423536
+      internalID: 1750833219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 273
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30df02a23298514499cd1af4b8423700
+      internalID: 1059980610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 273
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17a6509a9baa0045a2ae0da8d2a0735
+      internalID: 1018056813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 273
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29de79672d47e54bac1a07bbacff73c
+      internalID: 1990488908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 273
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e803414091a9ddc42b6ec82214f92ce1
+      internalID: 31367900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 273
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623acd73d6a0bee4fbaffe09b63a4dbc
+      internalID: -1833817901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 273
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0561e2b9cb8c0a741964741d4c1b7123
+      internalID: -646726131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_15
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 273
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aeb5aad828f9f43802838707663678
+      internalID: 1710707287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 241
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5111d0596eb2042a4cbb75a4814c47
+      internalID: 1038807632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bafccfe3e297984aad97df90007b78c
+      internalID: 1322168829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba24002ed264c14448928cfd56b1a036
+      internalID: -1428011677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 241
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2159dd1a41410419f3041366bd894b
+      internalID: 685160440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 241
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66246daaebc03324b8c768efd5e3059d
+      internalID: 2008234178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_21
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 241
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a4090dc0b2d3b4f96d2a13fc09b876
+      internalID: 2090567703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 241
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1474bb6984bf849952b3dcb60b0356
+      internalID: 1071274781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_23
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8718ed9bbb217cf488253898c994ac9c
+      internalID: -140655585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 209
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8138a9c3f879a24bb83bdf226f05514
+      internalID: 791857581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 209
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab16cfc1de8c374194a288e122ea586
+      internalID: 374317260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 209
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6a92180577d48498cbe53284f0ff6b
+      internalID: -117196602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 209
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67f65c91c7dbb949ae21082f85540e7
+      internalID: 363761023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 209
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635a8982d23e59742ad5a8ff1daa8f2f
+      internalID: -764522496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_29
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 209
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56c505aef024fc4cbe86622744ab21e
+      internalID: -1702697081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_30
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 209
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e15a61b42eb7eb469146840a863cbc4
+      internalID: 1305783024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_31
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 209
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002ebec7cd89a1c40aac2e8e24cfbda6
+      internalID: -1010080162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 177
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceebdf12b331824f92444a7493c6ab9
+      internalID: 461627849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_33
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 177
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88718789f6762b4784fa9c80dd22f64
+      internalID: -2010714434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 177
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba38b077376b8847a980d114f774e08
+      internalID: 2037492809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 177
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dea091a3439c9d4fb2b3f9272ffe9db
+      internalID: -1674938701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 177
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0586df71c80a75741a693df9d35cd522
+      internalID: 1442818900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_37
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 177
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19417cf5ced3b2c48b7fcbaef28ce7ee
+      internalID: -295227858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 177
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc42c17dfbf20143bfab54c4ea4d7f7
+      internalID: -1666224744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_39
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 177
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd227378c5e80e45bfe3bfe6508d4d8
+      internalID: -853839816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_40
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 145
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06bc4b6401fd140b5b1bc6c0460bc7
+      internalID: -1354242282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 145
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df00aca5507512648933fa65eeab078e
+      internalID: 1640939594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 145
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c69614a5ba44e48b1384549255f6e2
+      internalID: 181344154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_43
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7395509c082754b9da749ec1298a1a
+      internalID: 757392466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_44
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 145
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d62fc6e1cafe04686da5f7250c81cc
+      internalID: -587768495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_45
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 145
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090469427c2b9ca458d13ec30c41496f
+      internalID: 1701803798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_46
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 145
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af987608365c5048b398f7a2953e83a
+      internalID: -437494393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_47
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 145
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d472a5d629045d44ab9e6848bc933ce
+      internalID: -1698791318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 121
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c98d17576aa9d14d82dc52de8204837
+      internalID: 1616205607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_49
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 113
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139b0ecdd51c30847ae870dd4f444d83
+      internalID: -452389713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc17deaad69b9488d1dcc004f88af5
+      internalID: -956281592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 113
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cf7b9dfb2986149aebaceca0ba93fe
+      internalID: 552249452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_52
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 113
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7f983a88ccbd944bebc3f60c7ce415
+      internalID: -133819414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 113
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd73898a39b73e84ab7cfaef5324b501
+      internalID: 1519490624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_54
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 113
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0812e39f5875d3439b8250040107789
+      internalID: -750677750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_55
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 113
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7a0a40331da33459dbe79288fe4cdf
+      internalID: 431798966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_56
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 113
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d17659d216904a9d52a4b0b5ef687
+      internalID: -927902845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_57
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 113
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dd791e0af819a4094c7e8a473d9e4e
+      internalID: 601619146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 85
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc6b661a86099245bfeb4fb348b4a54
+      internalID: -293017802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_59
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 81
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0449b5cb33671418da81d0b008210c
+      internalID: -588981363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 86
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0792367bb1da5be42a97560b72e2b02f
+      internalID: 1875379598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 81
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a67ad9576f146449900bf4f3fe1b3e2
+      internalID: 252509804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 81
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc134c018666d4419cb4557334b961e
+      internalID: -1550429892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_63
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 81
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c087ace7c890b48868e587fd7f3460
+      internalID: -2053476224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 81
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0f92c75af1cd249bcd9c3646dbba5c
+      internalID: 1228333999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 81
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee2802f4d6209f4e998097cb6fd06f8
+      internalID: 447184134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_66
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 81
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c34dbfb67c38814cbecb551b2f0809f
+      internalID: -959410511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_67
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 81
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df4da29c44f69f42946dee349ddc632
+      internalID: -611018025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 50
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94005cee24c9b304c9f63954aa9aa7f3
+      internalID: -1409363967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_69
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 50
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e903a6d28705a204290a3726a004ad97
+      internalID: -1995178386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_70
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 50
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120308cb97fe8c34b8bc1fb9aaff2141
+      internalID: -1035489879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_71
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 50
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647f104bc6c21545bdb6c114d793eeb
+      internalID: -1562153338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 50
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eebc68e4613ff84492f9c78f0050032
+      internalID: -2092700069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_73
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 50
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4329fa6017929fb40bdc7f0075d3fb86
+      internalID: -384350790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_74
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 50
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6985f3a2a4c904abf9efd3721b6e27
+      internalID: 470170262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_75
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 50
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1ead11accc80741adc29e288c28d5d
+      internalID: 497146217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 18
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3034d2107d0947c409118c509adc382b
+      internalID: -1400715511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_77
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e37196442a8e94598566729d3821f1
+      internalID: -1128624979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 18
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b561efb7cdd911f439c7d52635a0b0f8
+      internalID: -1705000905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_79
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 18
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29adf6825115cc4fa286481ab5fb2bb
+      internalID: 1536718986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_80
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e7eacd7125488469c88ba210cfe3fe
+      internalID: -377902392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_81
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 18
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e3bb3b7c6ac6247882e3a223f5bd45
+      internalID: 14314409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 18
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b03110278d06d5458fb76abd6eae73b
+      internalID: -2003822404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_apocalypse_icon_assetpack_83
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 18
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bd5e57f1c094e4b8c127c0b19ca58c
+      internalID: 358850303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Post_apocalypse_icon_assetpack_0: 1945998239
+      Post_apocalypse_icon_assetpack_1: -1077367152
+      Post_apocalypse_icon_assetpack_10: 1018056813
+      Post_apocalypse_icon_assetpack_11: 1990488908
+      Post_apocalypse_icon_assetpack_12: 31367900
+      Post_apocalypse_icon_assetpack_13: -1833817901
+      Post_apocalypse_icon_assetpack_14: -646726131
+      Post_apocalypse_icon_assetpack_15: 1710707287
+      Post_apocalypse_icon_assetpack_16: 1038807632
+      Post_apocalypse_icon_assetpack_17: 1322168829
+      Post_apocalypse_icon_assetpack_18: -1428011677
+      Post_apocalypse_icon_assetpack_19: 685160440
+      Post_apocalypse_icon_assetpack_2: 1715488574
+      Post_apocalypse_icon_assetpack_20: 2008234178
+      Post_apocalypse_icon_assetpack_21: 2090567703
+      Post_apocalypse_icon_assetpack_22: 1071274781
+      Post_apocalypse_icon_assetpack_23: -140655585
+      Post_apocalypse_icon_assetpack_24: 791857581
+      Post_apocalypse_icon_assetpack_25: 374317260
+      Post_apocalypse_icon_assetpack_26: -117196602
+      Post_apocalypse_icon_assetpack_27: 363761023
+      Post_apocalypse_icon_assetpack_28: -764522496
+      Post_apocalypse_icon_assetpack_29: -1702697081
+      Post_apocalypse_icon_assetpack_3: 2025118314
+      Post_apocalypse_icon_assetpack_30: 1305783024
+      Post_apocalypse_icon_assetpack_31: -1010080162
+      Post_apocalypse_icon_assetpack_32: 461627849
+      Post_apocalypse_icon_assetpack_33: -2010714434
+      Post_apocalypse_icon_assetpack_34: 2037492809
+      Post_apocalypse_icon_assetpack_35: -1674938701
+      Post_apocalypse_icon_assetpack_36: 1442818900
+      Post_apocalypse_icon_assetpack_37: -295227858
+      Post_apocalypse_icon_assetpack_38: -1666224744
+      Post_apocalypse_icon_assetpack_39: -853839816
+      Post_apocalypse_icon_assetpack_4: 1132770606
+      Post_apocalypse_icon_assetpack_40: -1354242282
+      Post_apocalypse_icon_assetpack_41: 1640939594
+      Post_apocalypse_icon_assetpack_42: 181344154
+      Post_apocalypse_icon_assetpack_43: 757392466
+      Post_apocalypse_icon_assetpack_44: -587768495
+      Post_apocalypse_icon_assetpack_45: 1701803798
+      Post_apocalypse_icon_assetpack_46: -437494393
+      Post_apocalypse_icon_assetpack_47: -1698791318
+      Post_apocalypse_icon_assetpack_48: 1616205607
+      Post_apocalypse_icon_assetpack_49: -452389713
+      Post_apocalypse_icon_assetpack_5: 77092866
+      Post_apocalypse_icon_assetpack_50: -956281592
+      Post_apocalypse_icon_assetpack_51: 552249452
+      Post_apocalypse_icon_assetpack_52: -133819414
+      Post_apocalypse_icon_assetpack_53: 1519490624
+      Post_apocalypse_icon_assetpack_54: -750677750
+      Post_apocalypse_icon_assetpack_55: 431798966
+      Post_apocalypse_icon_assetpack_56: -927902845
+      Post_apocalypse_icon_assetpack_57: 601619146
+      Post_apocalypse_icon_assetpack_58: -293017802
+      Post_apocalypse_icon_assetpack_59: -588981363
+      Post_apocalypse_icon_assetpack_6: 997003316
+      Post_apocalypse_icon_assetpack_60: 1875379598
+      Post_apocalypse_icon_assetpack_61: 252509804
+      Post_apocalypse_icon_assetpack_62: -1550429892
+      Post_apocalypse_icon_assetpack_63: -2053476224
+      Post_apocalypse_icon_assetpack_64: 1228333999
+      Post_apocalypse_icon_assetpack_65: 447184134
+      Post_apocalypse_icon_assetpack_66: -959410511
+      Post_apocalypse_icon_assetpack_67: -611018025
+      Post_apocalypse_icon_assetpack_68: -1409363967
+      Post_apocalypse_icon_assetpack_69: -1995178386
+      Post_apocalypse_icon_assetpack_7: 842487901
+      Post_apocalypse_icon_assetpack_70: -1035489879
+      Post_apocalypse_icon_assetpack_71: -1562153338
+      Post_apocalypse_icon_assetpack_72: -2092700069
+      Post_apocalypse_icon_assetpack_73: -384350790
+      Post_apocalypse_icon_assetpack_74: 470170262
+      Post_apocalypse_icon_assetpack_75: 497146217
+      Post_apocalypse_icon_assetpack_76: -1400715511
+      Post_apocalypse_icon_assetpack_77: -1128624979
+      Post_apocalypse_icon_assetpack_78: -1705000905
+      Post_apocalypse_icon_assetpack_79: 1536718986
+      Post_apocalypse_icon_assetpack_8: 1750833219
+      Post_apocalypse_icon_assetpack_80: -377902392
+      Post_apocalypse_icon_assetpack_81: 14314409
+      Post_apocalypse_icon_assetpack_82: -2003822404
+      Post_apocalypse_icon_assetpack_83: 358850303
+      Post_apocalypse_icon_assetpack_9: 1059980610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
