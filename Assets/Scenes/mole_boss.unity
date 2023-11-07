@@ -491,11 +491,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94554735}
   m_CullTransparentMesh: 1
---- !u!4 &134290682 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3660500862404643099, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
-  m_PrefabInstance: {fileID: 707100075}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &197713116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10434,6 +10429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_old
       objectReference: {fileID: 0}
+    - target: {fileID: 512858563010754954, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1264714657811206927, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
       propertyPath: gameManager
       value: 
@@ -10460,11 +10459,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2246873861410449258, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2246873861410449258, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2499487308933460882, guid: f81c12810a6c7ed4aa1813b6fefa77aa, type: 3}
       propertyPath: tc
@@ -10571,7 +10570,7 @@ MonoBehaviour:
   ma: {fileID: 393963649}
   healthBar: {fileID: 94554737}
   isDead: 0
-  player: {fileID: 134290682}
+  player: {fileID: 2132546149}
   speed: 2
   stoppingDistance: 0.01
   attackRange: 1
@@ -10585,9 +10584,9 @@ MonoBehaviour:
   moleStayUnder: {fileID: 593472899}
   moleComeOut: {fileID: 1128227436}
   antPrefab:
-  - {fileID: 8708126162428485775, guid: d40686b7bbf6bd94ea3854ea13b56c2f, type: 3}
+  - {fileID: 8594168584654016826, guid: 35934eaae01971b4eb66977b04ec5f33, type: 3}
   batPrefab:
-  - {fileID: 707358864449814811, guid: afffcfbb985127b479edcc36c4261ae8, type: 3}
+  - {fileID: 4845142261740708278, guid: b23229427c38b684c905bd043b34d0fd, type: 3}
 --- !u!60 &829942584
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -10617,7 +10616,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -41344,7 +41343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1894013722
 Transform:
   m_ObjectHideFlags: 0
@@ -41455,7 +41454,7 @@ RectTransform:
   m_Father: {fileID: 94554736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -41653,6 +41652,10 @@ PrefabInstance:
     - target: {fileID: 8113101424626134475, guid: 89417557fb7fbf54bab5083875aa44c4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8250483373246187407, guid: 89417557fb7fbf54bab5083875aa44c4, type: 3}
+      propertyPath: punchDamage
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

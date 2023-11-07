@@ -89,7 +89,7 @@ public class ant_mob : MonoBehaviour
         timeBtwShots = startTimeBtwShots;
 
         // Set the AIPath's destination to the player's position.
-        aiPath.destination = player.position;
+        //aiPath.destination = player.position;
     }
 
     void Update()
