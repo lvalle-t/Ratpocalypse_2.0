@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 //**********************************************************************************
 // This Script Was Created Using the Following Resources:
@@ -30,65 +31,65 @@ public class bat_movement : MonoBehaviour
     public Animator batAnimator;
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
     public GameObject[] itemDrops;
+    private AIPath aiPath;
 
     // Start is called before the first frame update
     void Start()
     {
+        aiPath = GetComponent<AIPath>();
+        if (aiPath == null)
+        {
+            aiPath = gameObject.AddComponent<AIPath>();
+        }
         rb = GetComponent<Rigidbody2D>();
         batAnimator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        aiPath.destination = player.position;
     }
 
     // Update is called once per frame
     void Update()
     {
         isDead = false;
-        direction = player.position - transform.position;
-        direction.Normalize();
-        move = direction;
-    }
-
-    private void FixedUpdate()
-    {
-        Follow(move);
-
-        Vector2 target = new Vector2(player.position.x, player.position.y);
-        Vector2 direction = (target - rb.position).normalized;
-        Vector2 newPos = rb.position;
-
-        if (Vector2.Distance(player.position, rb.position) <= attackRange)
+        aiPath.destination = player.position;
+        // direction = player.position - transform.position;
+        // direction.Normalize();
+        // move = direction;
+        if (Vector2.Distance(player.position, transform.position) <= attackRange)
         {
-            // Start attacking when the player is within attack range
             batAnimator.SetTrigger("isAttacking");
         }
-        else if (Vector2.Distance(player.position, rb.position) > stoppingDistance)
-        {
-            // Move towards the player if they are outside the stopping distance
-            newPos = rb.position + direction * speed * Time.fixedDeltaTime;
-        }
 
-        rb.MovePosition(newPos);
     }
 
-    void Follow(Vector2 direction)
-    {
-        Vector3 flipped = transform.localScale;
-        flipped.z *= -1f;
+    // private void FixedUpdate()
+    // {
+    //     Vector2 target = new Vector2(player.position.x, player.position.y);
+    //     Vector2 direction = (target - rb.position).normalized;
+    //     Vector2 newPos = rb.position;
+    //     rb.MovePosition(newPos);
+    // }
 
-        if (transform.position.x < player.position.x && isFlipped)
-        {
-            SetAnimatorMovement(direction);
-        }
-        else if (transform.position.x > player.position.x && !isFlipped)
-        {
-            SetAnimatorMovement(direction);
-        }
+    // void Follow(Vector2 direction)
+    // {
+    //     Vector3 flipped = transform.localScale;
+    //     flipped.z *= -1f;
 
-        rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
-    }
+    //     if (transform.position.x < player.position.x && isFlipped)
+    //     {
+    //         SetAnimatorMovement(direction);
+    //     }
+    //     else if (transform.position.x > player.position.x && !isFlipped)
+    //     {
+    //         SetAnimatorMovement(direction);
+    //     }
+
+    //     rb.MovePosition((Vector2)transform.position + (direction * speed * Time.deltaTime));
+    // }
 
     private void SetAnimatorMovement(Vector2 direction)
     {
-        batAnimator.SetLayerWeight(1, 1);
+        batAnimator.SetLayerWeight(0, 1);
         batAnimator.SetFloat("xDir", direction.x);
         batAnimator.SetFloat("yDir", direction.y);
         print(batAnimator.GetFloat("xDir"));
