@@ -12121,9 +12121,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2386579753152719010}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
+      propertyPath: swarmerInterval
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: bigSwarmerPrefab
       value: 
       objectReference: {fileID: 25929290}
+    - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
+      propertyPath: bigSwarmerInterval
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
