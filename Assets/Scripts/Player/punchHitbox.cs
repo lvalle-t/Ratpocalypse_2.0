@@ -18,6 +18,6 @@ public class punchHitbox : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        col.collider.SendMessage("TakeDamage", punchDamage);
+        col.collider.SendMessage("TakeDamage", punchDamage,SendMessageOptions.DontRequireReceiver);
     }
 }
