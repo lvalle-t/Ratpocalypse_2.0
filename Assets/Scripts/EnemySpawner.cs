@@ -82,8 +82,75 @@
 // }
 
 
+// using System.Collections;
+// using UnityEngine;
+
+// public class EnemySpawner : MonoBehaviour
+// {
+//     [SerializeField]
+//     private GameObject swarmerPrefab;
+//     [SerializeField]
+//     private GameObject bigSwarmerPrefab;
+
+//     [SerializeField]
+//     private int totalSwarmerEnemies = 10; // Total swarmer enemies for the wave.
+//     [SerializeField]
+//     private float swarmerInterval = 2.5f;
+
+//     [SerializeField]
+//     private int totalBigSwarmerEnemies = 5; // Total big swarmer enemies for the wave.
+//     [SerializeField]
+//     private float bigSwarmerInterval = 5f;
+
+//     private int swarmerCount = 0;
+//     private int bigSwarmerCount = 0;
+
+//     // Start is called before the first frame update
+//     void Start()
+//     {
+//         StartCoroutine(SpawnWave());
+//     }
+
+//     private IEnumerator SpawnWave()
+//     {
+//         while (swarmerCount < totalSwarmerEnemies || bigSwarmerCount < totalBigSwarmerEnemies)
+//         {
+//             if (swarmerCount < totalSwarmerEnemies)
+//             {
+//                 Instantiate(swarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+//                 swarmerCount++;
+//             }
+
+//             if (bigSwarmerCount < totalBigSwarmerEnemies)
+//             {
+//                 Instantiate(bigSwarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+//                 bigSwarmerCount++;
+//             }
+
+//             yield return new WaitForSeconds(swarmerInterval);
+//             yield return new WaitForSeconds(bigSwarmerInterval);
+//         }
+
+//         // Reset counts for the next wave.
+//         swarmerCount = 0;
+//         bigSwarmerCount = 0;
+
+//         // Wait for a delay before starting the next wave.
+//         yield return new WaitForSeconds(0.0f); // Adjust this time to control the gap between waves.
+
+//         // Start the next wave.
+//         StartCoroutine(SpawnWave());
+//     }
+
+//     private Vector3 GetRandomSpawnPosition()
+//     {
+//         return new Vector3(Random.Range(-5f, 5f), Random.Range(-4f, 4f), 0);
+//     }
+// }
+
 using System.Collections;
 using UnityEngine;
+using Pathfinding;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -105,9 +172,14 @@ public class EnemySpawner : MonoBehaviour
     private int swarmerCount = 0;
     private int bigSwarmerCount = 0;
 
+    private Transform player; // Reference to the player's transform.
+    private Transform parentObject; // Reference to the parent object.
+
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform; // Assuming your player has the "Player" tag.
+        parentObject = transform; // Set the parent object as the script's GameObject.
         StartCoroutine(SpawnWave());
     }
 
@@ -117,13 +189,17 @@ public class EnemySpawner : MonoBehaviour
         {
             if (swarmerCount < totalSwarmerEnemies)
             {
-                Instantiate(swarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+                GameObject swarmer = Instantiate(swarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+                SetupAIPath(swarmer); // Set up AIPath and AIDestination.
+                SetParent(swarmer); // Set the parent of the spawned mob.
                 swarmerCount++;
             }
 
             if (bigSwarmerCount < totalBigSwarmerEnemies)
             {
-                Instantiate(bigSwarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+                GameObject bigSwarmer = Instantiate(bigSwarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
+                SetupAIPath(bigSwarmer); // Set up AIPath and AIDestination.
+                SetParent(bigSwarmer); // Set the parent of the spawned mob.
                 bigSwarmerCount++;
             }
 
@@ -146,4 +222,19 @@ public class EnemySpawner : MonoBehaviour
     {
         return new Vector3(Random.Range(-5f, 5f), Random.Range(-4f, 4f), 0);
     }
+
+    private void SetupAIPath(GameObject enemy)
+    {
+        AIPath aiPath = enemy.GetComponent<AIPath>();
+        if (aiPath != null)
+        {
+            aiPath.destination = player.position; // Set the player's position as the destination for AIPath.
+        }
+    }
+
+    private void SetParent(GameObject enemy)
+    {
+        enemy.transform.parent = parentObject; // Set the parent of the spawned mob to the parent object.
+    }
 }
+
