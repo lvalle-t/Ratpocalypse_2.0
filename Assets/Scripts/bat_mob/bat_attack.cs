@@ -14,21 +14,12 @@ public class bat_attack : MonoBehaviour
     //public PlayerHealth hm;           // player health manager -deb
     public float damage = 0.2f;
 
-    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        /*
-            Needed to change collision.tag -> collision.gameObject.tag
-
-            Then add it to the get component line
-
-            -Tristan fry
-        */
-
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
-            //hm.TakeDamage(0.2f);
             collision.gameObject.GetComponent<PlayerHealth>().EnemyDamage(damage);
         }
     }
+
 }
