@@ -1,21 +1,30 @@
 using UnityEngine;
-
+using Pathfinding;
 public class EnemyController : MonoBehaviour
 {
     public float attackRange = 3.0f; // Adjust the attack range as needed
     public float attackCooldown = 1.0f; // Time between attacks
-    public int attackDamage = 10; // Damage the enemy deals
+    public float attackDamage = 0.2f; // Damage the enemy deals
 
     private Transform player;
     private bool canAttack = true;
+    private AIPath aiPath;
 
     private void Start()
     {
+        aiPath = GetComponent<AIPath>();
+        if (aiPath == null)
+        {
+            
+            aiPath = gameObject.AddComponent<AIPath>();
+        }
         player = GameObject.FindGameObjectWithTag("Player").transform; // Assumes the player has a "Player" tag
     }
 
     private void Update()
     {
+        aiPath.orientation = OrientationMode.YAxisForward;
+        aiPath.destination = player.position;
         if (Vector3.Distance(transform.position, player.position) <= attackRange)
         {
             if (canAttack)
@@ -29,10 +38,10 @@ public class EnemyController : MonoBehaviour
 
     private void AttackPlayer()
     {
-        PlayerHealth2 playerHealth = player.GetComponent<PlayerHealth2>();
+        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(attackDamage);
+            playerHealth.EnemyDamage(attackDamage);
         }
     }
 

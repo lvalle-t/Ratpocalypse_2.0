@@ -67,7 +67,7 @@ AnimatorStateMachine:
     m_Position: {x: 230, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1359916186124794546}
-    m_Position: {x: 50, y: 100, z: 0}
+    m_Position: {x: -90, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3761116872747893806}
     m_Position: {x: -100, y: 230, z: 0}
@@ -139,9 +139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0635e0d187f4049b201318a5d532de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
-  stoppingDistance: 0.3
   attackRange: 1
+  attackCooldown: 1
+  attackDamage: 0.2
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -156,19 +156,19 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Blend
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: xDir
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -216,14 +216,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c0635e0d187f4049b201318a5d532de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
-  stoppingDistance: 0.3
   attackRange: 1
+  attackCooldown: 1
+  attackDamage: 0.2
 --- !u!1102 &3761116872747893806
 AnimatorState:
   serializedVersion: 6

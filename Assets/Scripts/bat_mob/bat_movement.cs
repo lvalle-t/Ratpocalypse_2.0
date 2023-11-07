@@ -26,7 +26,6 @@ public class bat_movement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 direction;
     private Vector2 move;
-    private bool isFlipped = false;
 
     public Animator batAnimator;
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
