@@ -75,17 +75,23 @@ public class EnemySpawner : MonoBehaviour
 
     private void SetupAIPath(GameObject enemy)
     {
-        AIPath aiPath = enemy.GetComponent<AIPath>();
-        if (aiPath != null)
+        if (enemy != null) // Check if the enemy is null before accessing it.
         {
-            aiPath.orientation = OrientationMode.YAxisForward;
-            aiPath.destination = player.position; // Set the player's position as the destination for AIPath.
+            AIPath aiPath = enemy.GetComponent<AIPath>();
+            if (aiPath != null)
+            {
+                //aiPath.orientation = OrientationMode.YAxisForward;
+                aiPath.destination = player.position;
+            }
         }
     }
 
     private void SetParent(GameObject enemy)
     {
-        enemy.transform.parent = parentObject; // Set the parent of the spawned mob to the parent object.
+        if (enemy != null) // Check if the enemy is null before accessing it.
+        {
+            enemy.transform.parent = parentObject;
+        }
     }
 }
 
