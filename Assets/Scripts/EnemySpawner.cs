@@ -92,6 +92,9 @@ public class EnemySpawner : MonoBehaviour
         {
             enemy.transform.parent = parentObject;
         }
+        else{
+            Debug.LogError("Enemy GameObject is null in SetParent.");
+        }
     }
 }
 
