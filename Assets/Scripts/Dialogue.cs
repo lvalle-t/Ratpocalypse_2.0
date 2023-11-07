@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 public class Dialogue : MonoBehaviour
 {
     public TextMeshPro textComponent;
@@ -12,6 +13,7 @@ public class Dialogue : MonoBehaviour
     private bool StartDialogue = true;
     public GameObject startPlayer;
     public GameObject startMap;
+
     // Start is called before the first frame update
 
     // Update is called once per frame
@@ -19,16 +21,19 @@ public class Dialogue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(StartDialogue){
+            if (StartDialogue)
+            {
                 dialogueAnimator.SetTrigger("enter");
                 StartDialogue = false;
             }
-            else{
+            else
+            {
                 NextLine();
             }
-            
+
         }
     }
+
     IEnumerator TypeLine()
     {
         foreach (char c in lines[index].ToCharArray())
@@ -38,6 +43,7 @@ public class Dialogue : MonoBehaviour
         }
         index++;
     }
+
     void NextLine()
     {
         if (index <= lines.Length - 1)
@@ -45,18 +51,21 @@ public class Dialogue : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
-        else{
+        else
+        {
             textComponent.text = string.Empty;
             dialogueAnimator.SetTrigger("exit");
-            // index = 0;
-            // StartDialogue = true;
+            // Call the StartLevel function to turn on objects
+            StartLevel();
         }
     }
+
     public void StartLevel()
     {
         startPlayer.SetActive(true);
         startMap.SetActive(true);
     }
+
     public void CloseBox()
     {
         startPlayer.SetActive(false);
