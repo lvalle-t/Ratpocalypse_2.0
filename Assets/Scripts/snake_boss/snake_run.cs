@@ -8,7 +8,7 @@ public class snake_run : StateMachineBehaviour
     Transform player;
     Rigidbody2D rb;
     snake_controller boss;
-    Transform boss_transform;
+    //Transform boss_transform;
 
     public float speed = 1f;
 
@@ -18,7 +18,7 @@ public class snake_run : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        boss_transform = GameObject.FindGameObjectWithTag("snake_boss").transform;
+        //boss_transform = GameObject.FindGameObjectWithTag("snake_boss").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<snake_controller>();
     }

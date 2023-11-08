@@ -6,27 +6,26 @@ using Pathfinding;
 public class snake_controller : MonoBehaviour
 {
     public Transform player;
-    //public bool isFlipped = false;
+    public bool isFlipped = false;
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
 
     public snake_healthBar healthBar;
     public float damaged = 0.2f;
     public GameObject[] itemDrops;
 
-
-     private AIPath aiPath;
+    private AIPath aiPath;
 
     void Start()
     {
-         aiPath = GetComponent<AIPath>();
-         if (aiPath == null)
-         {
-             aiPath = gameObject.AddComponent<AIPath>();
-         }
-         //rb = GetComponent<Rigidbody2D>();
-         //batAnimator = GetComponent<Animator>();
-         player = GameObject.FindGameObjectWithTag("Player").transform;
-         aiPath.destination = player.position;
+        aiPath = GetComponent<AIPath>();
+        if (aiPath == null)
+        {
+            aiPath = gameObject.AddComponent<AIPath>();
+        }
+        //rb = GetComponent<Rigidbody2D>();
+        //batAnimator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        aiPath.destination = player.position;
     }
 
     // Update is called once per frame
@@ -38,7 +37,6 @@ public class snake_controller : MonoBehaviour
     private void FixedUpdate()
     {
     }
-
 
 
     private void OnTriggerEnter2D(Collider2D collision)
