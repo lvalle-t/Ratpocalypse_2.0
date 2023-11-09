@@ -141,6 +141,7 @@ public class rat_sprite_run : MonoBehaviour
     private bool canAttack = true;
     private AIPath aiPath;
     Animator animator;
+    [SerializeField] private AudioSource ratAttackSFX;
 
     private void Start()
     {
@@ -161,6 +162,7 @@ public class rat_sprite_run : MonoBehaviour
         {
             if (canAttack)
             {
+                ratAttackSFX.Play();
                 animator.SetTrigger("rat_mob_attack");
                 // AttackPlayer(); // Removed this line, the attack logic will be handled by the Attack function in the AnimationEvent
                 canAttack = false;

@@ -15,6 +15,7 @@ public class WeaponParent : MonoBehaviour
     public bool WillAttack {get; private set;}
     public Transform circleOrigin;
     public float radius;
+    [SerializeField] private AudioSource swordSFX;
     public void ResetwillAttack(){
         WillAttack = false;
     }
@@ -46,7 +47,7 @@ public class WeaponParent : MonoBehaviour
         if(attackBlocked){
             return;
         }
-
+        swordSFX.Play();
         animator.SetTrigger("Attack");
         WillAttack = true;
         attackBlocked = true;

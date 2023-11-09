@@ -25,6 +25,7 @@ public class cat_movement : MonoBehaviour
     public GameManagerScript gameManager;
     public GameObject weapon;
     private WeaponParent weaponParentScript;
+    [SerializeField] AudioSource walkingSFX;
     private void Awake()
     {
         isDead = false;
@@ -47,14 +48,21 @@ public class cat_movement : MonoBehaviour
     private void OnMovement(InputValue value)
     {
         movement = value.Get<Vector2>();
+        
         if (movement.x != 0 || movement.y != 0)
         {
+            if(!walkingSFX.isPlaying){
+                walkingSFX.Play();
+            }
+            
             playerAnimator.SetFloat("xDir", movement.x);
             playerAnimator.SetFloat("yDir", movement.y);
             playerAnimator.SetBool("isWalking", true);
+            
         }
         else
         {
+            walkingSFX.Stop();
             playerAnimator.SetBool("isWalking", false);
         }
 
