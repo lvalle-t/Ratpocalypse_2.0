@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using Pathfinding;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -10,26 +9,20 @@ public class EnemySpawner : MonoBehaviour
     private GameObject bigSwarmerPrefab;
 
     [SerializeField]
-    private int totalSwarmerEnemies = 10; // Total swarmer enemies for the wave.
+    private int totalSwarmerEnemies = 10;
     [SerializeField]
     private float swarmerInterval = 2.5f;
 
     [SerializeField]
-    private int totalBigSwarmerEnemies = 5; // Total big swarmer enemies for the wave.
+    private int totalBigSwarmerEnemies = 5;
     [SerializeField]
     private float bigSwarmerInterval = 5f;
 
     private int swarmerCount = 0;
     private int bigSwarmerCount = 0;
 
-    private Transform player; // Reference to the player's transform.
-    private Transform parentObject; // Reference to the parent object.
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform; // Assuming your player has the "Player" tag.
-        parentObject = transform; // Set the parent object as the script's GameObject.
         StartCoroutine(SpawnWave());
     }
 
@@ -39,17 +32,13 @@ public class EnemySpawner : MonoBehaviour
         {
             if (swarmerCount < totalSwarmerEnemies)
             {
-                GameObject swarmer = Instantiate(swarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
-                SetupAIPath(swarmer); // Set up AIPath and AIDestination.
-                SetParent(swarmer); // Set the parent of the spawned mob.
+                SpawnEnemy(swarmerPrefab);
                 swarmerCount++;
             }
 
             if (bigSwarmerCount < totalBigSwarmerEnemies)
             {
-                GameObject bigSwarmer = Instantiate(bigSwarmerPrefab, GetRandomSpawnPosition(), Quaternion.identity);
-                SetupAIPath(bigSwarmer); // Set up AIPath and AIDestination.
-                SetParent(bigSwarmer); // Set the parent of the spawned mob.
+                SpawnEnemy(bigSwarmerPrefab);
                 bigSwarmerCount++;
             }
 
@@ -68,33 +57,16 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(SpawnWave());
     }
 
+    private void SpawnEnemy(GameObject enemyPrefab)
+    {
+        Vector3 spawnPosition = GetRandomSpawnPosition();
+        Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+    }
+
     private Vector3 GetRandomSpawnPosition()
     {
         return new Vector3(Random.Range(-5f, 5f), Random.Range(-4f, 4f), 0);
     }
-
-    private void SetupAIPath(GameObject enemy)
-    {
-        if (enemy != null) // Check if the enemy is null before accessing it.
-        {
-            AIPath aiPath = enemy.GetComponent<AIPath>();
-            if (aiPath != null)
-            {
-                //aiPath.orientation = OrientationMode.YAxisForward;
-                aiPath.destination = player.position;
-            }
-        }
-    }
-
-    private void SetParent(GameObject enemy)
-    {
-        if (enemy != null) // Check if the enemy is null before accessing it.
-        {
-            enemy.transform.parent = parentObject;
-        }
-        else{
-            Debug.LogError("Enemy GameObject is null in SetParent.");
-        }
-    }
 }
+
 
