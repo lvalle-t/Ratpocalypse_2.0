@@ -72,6 +72,10 @@
 //         startMap.SetActive(false);
 //     }
 // }
+
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -89,23 +93,22 @@ public class DialogueLine : MonoBehaviour
     public GameObject startMap;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        // Open the dialogue box initially
-        dialogueAnimator.SetTrigger("enter");
-        StartDialogue = false;
-
-        // Start typing the first line
-        StartCoroutine(TypeLine());
-    }
 
     // Update is called once per frame
     void Update()
     {
-        // Check for space key press to advance to the next line
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            NextLine();
+            if (StartDialogue)
+            {
+                dialogueAnimator.SetTrigger("enter");
+                StartDialogue = false;
+            }
+            else
+            {
+                NextLine();
+            }
+
         }
     }
 
@@ -141,7 +144,6 @@ public class DialogueLine : MonoBehaviour
         startMap.SetActive(true);
     }
 
-    // CloseBox method is called to close the dialogue box initially
     public void CloseBox()
     {
         startPlayer.SetActive(false);
