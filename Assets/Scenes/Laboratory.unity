@@ -4291,7 +4291,7 @@ MonoBehaviour:
   - The first objective to complete is to learn how to manuever around this world
   textSpeed: 0.05
   dialogueAnimator: {fileID: 573968432}
-  startPlayer: {fileID: 2998471369673272073}
+  startPlayer: {fileID: 0}
   startMap: {fileID: 559120577}
 --- !u!483693784 &573968430
 TilemapRenderer:
@@ -32633,14 +32633,14 @@ PrefabInstance:
     - target: {fileID: 202188900186956318, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 881676857472510334}
+      objectReference: {fileID: 1594160354}
     - target: {fileID: 1454903119028385569, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1454903119028385569, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.97
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1454903119028385569, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36102,6 +36102,11 @@ MeshRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 2
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &1594160354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3522564375660717792, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+  m_PrefabInstance: {fileID: 5814483266791494683}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1769988062
 GameObject:
   m_ObjectHideFlags: 0
@@ -36430,11 +36435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4583498723439339193, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4583498723439339193, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.97
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4583498723439339193, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37880,16 +37885,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!4 &881676857472510334 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6284506100024076709, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
-  m_PrefabInstance: {fileID: 5814483266791494683}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2998471369673272073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5562346336502240963, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
-  m_PrefabInstance: {fileID: 5814483266791494683}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5814483266791494683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37938,6 +37933,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1843547975608065024, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844592750718044199, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280861399446908436, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3739664784623122536, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -37946,9 +37953,53 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3992135383161625576, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992135383161625576, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1847146893
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999544840465718480, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575128198450852485, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4945749228415260886, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506029391179089171, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506029391179089171, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1847146893
+      objectReference: {fileID: 0}
     - target: {fileID: 5562346336502240963, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356241332713837649, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889648809081372247, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965505256762576395, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166611618543748325, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

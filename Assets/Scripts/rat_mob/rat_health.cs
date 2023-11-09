@@ -93,7 +93,7 @@ public class rat_health : MonoBehaviour
     public GameObject[] itemDrops;
 
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
-
+    [SerializeField] private AudioSource hitDamageSFX;
 
     void Start()
     {
@@ -115,6 +115,7 @@ public class rat_health : MonoBehaviour
     {
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        hitDamageSFX.Play();
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
