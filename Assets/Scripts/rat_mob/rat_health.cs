@@ -87,8 +87,8 @@ using UnityEngine.UI;
 public class rat_health : MonoBehaviour
 {
 
-    public int Hitpoints;
-    public int MaxHitpoints = 5;
+    public float Hitpoints;
+    public float MaxHitpoints;
     public rat_healthbar Healthbar;
     public GameObject[] itemDrops;
     private FlashDamage flashDamage;
