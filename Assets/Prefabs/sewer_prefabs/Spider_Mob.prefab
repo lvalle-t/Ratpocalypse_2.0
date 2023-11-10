@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 7207293540620480760}
   - component: {fileID: 3330308969700019448}
   - component: {fileID: 2962165918403551805}
-  - component: {fileID: 2864318025818837745}
+  - component: {fileID: 4914162881923429684}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -529,12 +529,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
---- !u!114 &2864318025818837745
-=======
->>>>>>> Stashed changes
+--- !u!114 &4914162881923429684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169005783270230780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}
 --- !u!1 &1765425888800695430
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +552,6 @@ GameObject:
   m_Component:
   - component: {fileID: 603220279158188891}
   - component: {fileID: 4934298437594148884}
-  - component: {fileID: 4914162881923429684}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -580,52 +586,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765425888800695430}
   m_CullTransparentMesh: 1
---- !u!114 &4914162881923429684
-<<<<<<< Updated upstream
-=======
->>>>>>> c9291b28d7a0d53127624018101a223e3eb10784
->>>>>>> Stashed changes
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1169005783270230780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}
-=======
->>>>>>> Stashed changes
-  m_GameObject: {fileID: 1765425888800695430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3648399624730675803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,10 +1058,6 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-=======
->>>>>>> c9291b28d7a0d53127624018101a223e3eb10784
->>>>>>> Stashed changes
 --- !u!1 &7401581611416096709
 GameObject:
   m_ObjectHideFlags: 0
