@@ -23,7 +23,7 @@ public class cat_movement : MonoBehaviour
     private bool isDead;
     private bool isOver;
     public GameManagerScript gameManager;
-    public GameObject weapon;
+    //public GameObject weapon;
     private WeaponParent weaponParentScript;
     [SerializeField] AudioSource walkingSFX;
     private void Awake()
@@ -34,7 +34,7 @@ public class cat_movement : MonoBehaviour
         playerAnimator = GetComponent<Animator>();
         punchCollider = punchHitbox.GetComponent<Collider2D>();
         // Get the WeaponParent script attached to the weapon GameObject
-        weaponParentScript = weapon.GetComponent<WeaponParent>();
+        //weaponParentScript = weapon.GetComponent<WeaponParent>();
     }
 
     private void Update()
@@ -97,43 +97,45 @@ public class cat_movement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
-
-    void OnAttack()
-    {
-        //playerAnimator.SetTrigger("isAttacking");
-        weaponParentScript.Attack();
-        Vector2 pointerPosition = GetPointerInput();
-
-        // Ensure the weapon is not null
-        if (weapon != null)
-        {
-            // Update the PointerPosition property in the WeaponParent script
-            if (weaponParentScript != null)
-            {
-                weaponParentScript.PointerPosition = pointerPosition;
-            }
-        }
+    void OnAttack(){
+        playerAnimator.SetTrigger("isAttacking");
     }
-    void OnPointerPosition(InputValue value)
-    {
-        Vector2 pointerPosition = GetPointerInput();
+    // void OnAttack()
+    // {
+    //     //playerAnimator.SetTrigger("isAttacking");
+    //     weaponParentScript.Attack();
+    //     Vector2 pointerPosition = GetPointerInput();
 
-        // Ensure the weapon is not null
-        if (weapon != null)
-        {
-            // Update the PointerPosition property in the WeaponParent script
-            if (weaponParentScript != null)
-            {
-                weaponParentScript.PointerPosition = pointerPosition;
-            }
-        }
-    }
-    private Vector2 GetPointerInput()
-    {
-        Vector3 mousePos = Mouse.current.position.ReadValue();
-        mousePos.z = Camera.main.nearClipPlane;
-        return Camera.main.ScreenToWorldPoint(mousePos);
-    }
+    //     // Ensure the weapon is not null
+    //     if (weapon != null)
+    //     {
+    //         // Update the PointerPosition property in the WeaponParent script
+    //         if (weaponParentScript != null)
+    //         {
+    //             weaponParentScript.PointerPosition = pointerPosition;
+    //         }
+    //     }
+    // }
+    // void OnPointerPosition(InputValue value)
+    // {
+    //     Vector2 pointerPosition = GetPointerInput();
+
+    //     // Ensure the weapon is not null
+    //     if (weapon != null)
+    //     {
+    //         // Update the PointerPosition property in the WeaponParent script
+    //         if (weaponParentScript != null)
+    //         {
+    //             weaponParentScript.PointerPosition = pointerPosition;
+    //         }
+    //     }
+    // }
+    // private Vector2 GetPointerInput()
+    // {
+    //     Vector3 mousePos = Mouse.current.position.ReadValue();
+    //     mousePos.z = Camera.main.nearClipPlane;
+    //     return Camera.main.ScreenToWorldPoint(mousePos);
+    // }
 
     public void SetAnima()
     {
