@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 7207293540620480760}
   - component: {fileID: 3330308969700019448}
   - component: {fileID: 2962165918403551805}
+  - component: {fileID: 2864318025818837745}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -528,6 +529,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+--- !u!114 &2864318025818837745
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1765425888800695430
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,11 +581,27 @@ CanvasRenderer:
   m_GameObject: {fileID: 1765425888800695430}
   m_CullTransparentMesh: 1
 --- !u!114 &4914162881923429684
+<<<<<<< Updated upstream
+=======
+>>>>>>> c9291b28d7a0d53127624018101a223e3eb10784
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1169005783270230780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1765425888800695430}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1075,6 +1098,10 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> c9291b28d7a0d53127624018101a223e3eb10784
+>>>>>>> Stashed changes
 --- !u!1 &7401581611416096709
 GameObject:
   m_ObjectHideFlags: 0

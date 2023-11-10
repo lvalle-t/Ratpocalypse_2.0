@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 5982964154659782265}
   - component: {fileID: 5485029710669079146}
   - component: {fileID: 1414044382109090339}
+  - component: {fileID: 169807832527920291}
   m_Layer: 11
   m_Name: Rat_Sprite_Sheet_10 1
   m_TagString: Enemy
@@ -418,8 +419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0.05
-  attackOffset: {x: 0, y: 0, z: 0}
-  attackRange: 1
 --- !u!50 &534707216230125186
 Rigidbody2D:
   serializedVersion: 4
@@ -547,6 +546,20 @@ MonoBehaviour:
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   scoreNum: 0
+  hitDamageSFX: {fileID: 0}
+--- !u!114 &169807832527920291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315102866460201227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}
 --- !u!1 &8240818230564783600
 GameObject:
   m_ObjectHideFlags: 0
