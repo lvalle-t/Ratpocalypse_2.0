@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 2883964255703731704}
   - component: {fileID: 6432385785020901529}
   - component: {fileID: 7796831315062669910}
+  - component: {fileID: 5601627712909002302}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Enemy
@@ -737,6 +738,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5601627712909002302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3076043717112600858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}
 --- !u!1 &3498478856066707633
 GameObject:
   m_ObjectHideFlags: 0

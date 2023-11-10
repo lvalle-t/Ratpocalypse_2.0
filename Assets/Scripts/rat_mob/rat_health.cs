@@ -91,6 +91,7 @@ public class rat_health : MonoBehaviour
     public int MaxHitpoints = 5;
     public rat_healthbar Healthbar;
     public GameObject[] itemDrops;
+    private FlashDamage flashDamage;
 
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
     [SerializeField] private AudioSource hitDamageSFX;
@@ -99,7 +100,10 @@ public class rat_health : MonoBehaviour
     {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        flashDamage = GetComponent<FlashDamage>();
     }
+
+ 
 
 
     // // testing area//
@@ -113,6 +117,7 @@ public class rat_health : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        flashDamage.FlashOnDamage();
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         hitDamageSFX.Play();
@@ -122,6 +127,8 @@ public class rat_health : MonoBehaviour
             ItemDrop();
             ScoreCollection();
         }
+
+       
     }
 
     private void ItemDrop()
