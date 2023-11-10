@@ -6,12 +6,12 @@ public class FlashDamage : MonoBehaviour
 {
     public Material flashMaterial;
     private Material originalMaterial;
-    private Renderer renderer;
+    Renderer objRenderer;
     // Start is called before the first frame update
     private void Start()
     {
-       renderer = GetComponent<Renderer>();
-       originalMaterial = renderer.material;
+       objRenderer = GetComponent<Renderer>();
+       originalMaterial = objRenderer.material;
     }
 
 
@@ -22,8 +22,8 @@ public class FlashDamage : MonoBehaviour
 
     IEnumerator FlashCoroutine()
     {
-        renderer.material = flashMaterial;
+        objRenderer.material = flashMaterial;
         yield return new WaitForSeconds(0.1f);
-        renderer.material = originalMaterial;
+        objRenderer.material = originalMaterial;
     }
 }
