@@ -353,9 +353,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6600891684495054227}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,7 +580,6 @@ MonoBehaviour:
   speed: 3
   punchHitbox: {fileID: 1844592750718044199}
   gameManager: {fileID: 5082832378187433801, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
-  weapon: {fileID: 4575128198450852485}
   walkingSFX: {fileID: 9147378519022466673}
 --- !u!114 &3618574615679243565
 MonoBehaviour:
