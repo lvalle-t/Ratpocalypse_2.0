@@ -1,3 +1,4 @@
+
 // // // https://www.youtube.com/watch?v=v1UGTTeQzbo&t=3s
 
 using System.Collections;
@@ -5,17 +6,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class rat_health : MonoBehaviour
+public class spider_health : MonoBehaviour
 {
 
     public float Hitpoints;
-    public float MaxHitpoints;
-    public rat_healthbar Healthbar;
+    public float MaxHitpoints = 5;
+    public spider_healthbar Healthbar;
     public GameObject[] itemDrops;
     private FlashDamage flashDamage;
 
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
-    [SerializeField] private AudioSource hitDamageSFX;
+    // [SerializeField] private AudioSource hitDamageSFX;
 
     void Start()
     {
@@ -41,9 +42,10 @@ public class rat_health : MonoBehaviour
         flashDamage.FlashOnDamage();
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
-        hitDamageSFX.Play();
+        // hitDamageSFX.Play();
         if (Hitpoints <= 0)
         {
+            Debug.Log("Taking damage: " + damage);
             Destroy(gameObject);
             ItemDrop();
             ScoreCollection();
@@ -66,3 +68,4 @@ public class rat_health : MonoBehaviour
         scoreNum = updater.scoreCount += 50;                 // updates the score counter
     }
 }
+
