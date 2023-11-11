@@ -17,10 +17,13 @@ public class snake_strike : MonoBehaviour
         pos += transform.up * attackOffset.y;
 
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo.gameObject.tag == "Player")
+        if (colInfo != null)
         {
-            colInfo.GetComponent<PlayerHealth>().EnemyDamage(attackDamage);
+            if (colInfo.gameObject.tag == "Player")
+            {
+                colInfo.GetComponent<PlayerHealth>().EnemyDamage(attackDamage);
 
+            }
         }
 
     }
