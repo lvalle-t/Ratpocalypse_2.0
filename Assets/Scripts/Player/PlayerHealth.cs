@@ -6,7 +6,67 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameManagerScript gameManager;
     public HealthBar healthBar;
+    private bool isDead;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite halfHeart;
+    public Sprite emptyHeart;
+
+    private void Start() {
+        UpdateHealth();
+    }
+
+    public void UpdateHealth() {
+
+        //make sure that player health cannot be more than max health
+        /*if(updater.playerHp > updater.maxHp){ 
+            updater.playerHp = updater.maxHp;
+        }*/
+
+        for(int i = 0; i < hearts.Length; i++){
+            
+            if (i < updater.playerHp && ((i+0.5) == updater.playerHp)){
+                hearts[i].sprite = halfHeart;
+            }
+            else if(i< updater.playerHp){ 
+                hearts[i].sprite = fullHeart;
+            }
+            else{
+                hearts[i].sprite = emptyHeart;
+            }
+
+            if(i < updater.maxHp){
+                hearts[i].enabled = true;
+            }
+            else{
+                hearts[i].enabled = false;
+            }
+        }
+    }
+
+    public void EnemyDamage(float damage)
+    {   
+        updater.playerHp -= damage;
+
+        healthBar.UpdateHealth(updater.playerHp);
+        UpdateHealth();
+
+        if (updater.playerHp <= 0f && !isDead)
+        {   
+            updater.playerHp = 0f;
+            isDead = true;
+            gameManager.gameOver();
+            Debug.Log("Player is dead!"); // Print "dead" message to the console
+        }
+    }
+
+}
+
+/* old code
+
+public HealthBar healthBar;
 
     public GameManagerScript gameManager;
 
@@ -51,6 +111,4 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Player is dead!"); // Print "dead" message to the console
         }
     }
-
-
-}
+    */

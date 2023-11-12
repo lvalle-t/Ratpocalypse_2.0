@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d80cb236c2c063d47bc88363220318f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0.05
+  damage: 1
 --- !u!114 &8269178752618903401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,7 +713,7 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: -65298
+  m_InstanceId: 169268
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 0.5, z: 0}

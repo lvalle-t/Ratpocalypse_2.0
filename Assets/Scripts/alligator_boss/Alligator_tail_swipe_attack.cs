@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Alligator_tail_swipe_attack : MonoBehaviour
 {
-    public float attackDamage = 0.3f;
+    public float attackDamage = 1f;
     public Vector3 attackOffset;
     public float attackRange = 3f;
     public LayerMask attackMask;

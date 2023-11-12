@@ -23,6 +23,6 @@ public class treat_text : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        treatTxt.text = "Treats: " + updater.treatCount;    // assigning the text and counter updater before adding - deb
+        treatTxt.text = updater.treatCount.ToString();    // assigning the text and counter updater before adding - deb
     }
 }
