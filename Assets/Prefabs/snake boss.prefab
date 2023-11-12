@@ -61,7 +61,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &505103158663390062
 MonoBehaviour:
@@ -265,7 +265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -88.5, y: 216.4}
+  m_AnchoredPosition: {x: -87.9, y: 211.8}
   m_SizeDelta: {x: 89.1947, y: 11.1492}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3844625693034138538
@@ -391,7 +391,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1332260594, guid: d77bdbfd76748c541955ff3c76341eb0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -511,7 +511,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.17, y: 11.64, z: -0.3273891}
-  m_LocalScale: {x: 5.65, y: 5.65, z: 5.65}
+  m_LocalScale: {x: 4.3, y: 4.3, z: 4.3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1836834125878145495}
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 1
   attackOffset: {x: -0.6, y: 0}
-  attackRange: 4
+  attackRange: 3
   attackMask:
     serializedVersion: 2
     m_Bits: 1024
