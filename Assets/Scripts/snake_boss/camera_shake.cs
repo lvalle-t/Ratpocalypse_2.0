@@ -67,7 +67,7 @@ public class camera_shake : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("Player") && counter == 0) // Replace "Obstacle" with the tag of your collidable object
+        if (col.gameObject.CompareTag("Player") && counter == 0)
         {
             ShakeCamera();
             StartCoroutine(StopShakeAfterDuration(shakeDurationAfterCollision));
