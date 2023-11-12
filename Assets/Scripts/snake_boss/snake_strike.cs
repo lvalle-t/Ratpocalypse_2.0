@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class snake_strike : MonoBehaviour
 {
-    public float attackDamage = 0.2f;
+    public float attackDamage = 1f;
     public Vector2 attackOffset;
     public float attackRange = 5f;
     public LayerMask attackMask;

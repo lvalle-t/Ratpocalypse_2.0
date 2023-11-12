@@ -12,7 +12,7 @@ using UnityEngine;
 public class bat_attack : MonoBehaviour
 {
     //public PlayerHealth hm;           // player health manager -deb
-    public float damage = 0.2f;
+    public float damage = 1f;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

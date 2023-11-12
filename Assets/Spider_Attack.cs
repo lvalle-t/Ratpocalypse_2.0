@@ -4,7 +4,7 @@ public class EnemyController : MonoBehaviour
 {
     public float attackRange = 3.0f; // Adjust the attack range as needed
     public float attackCooldown = 1.0f; // Time between attacks
-    public float attackDamage = 0.2f; // Damage the enemy deals
+    public float attackDamage = 0.5f; // Damage the enemy deals
 
     private Transform player;
     private bool canAttack = true;
