@@ -17,8 +17,9 @@ public class mole_movement : MonoBehaviour
 
     public Transform player;
     public float speed = 2f;
-    public float stoppingDistance = .1f; // tells mole how far it can go before it will overlap
-    public float attackRange = .05f;
+    public float stoppingDistance = .2f; // tells mole how far it can go before it will overlap
+    public float attackRange = .1f;
+    public float damage;
 
     private Rigidbody2D rb;
     private Vector3 direction;
@@ -26,7 +27,6 @@ public class mole_movement : MonoBehaviour
     private bool isFlipped = false;
 
     public Animator moleAnimator;
-    public int scoreNum = 0;        // adds to the scoreTxt count - deb
     public GameObject[] itemDrops;
 
     public GameObject moleBoss;
@@ -74,6 +74,7 @@ public class mole_movement : MonoBehaviour
 
         rb.MovePosition(newPos);
     }
+
     void Follow(Vector2 direction)
     {
         Vector3 flipped = transform.localScale;
@@ -97,7 +98,7 @@ public class mole_movement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("AttackBox"))
         {
-            TakeDamage(0.2f);
+            TakeDamage(damage);
         }
     }
 
@@ -178,7 +179,7 @@ public class mole_movement : MonoBehaviour
     {
         moleGoUnderground.SetActive(false);
         moleStayUnder.SetActive(true);
-        Invoke("Aboveground", 8);
+        Invoke("Aboveground", 6);
     }
 
     public void Aboveground()
@@ -196,7 +197,6 @@ public class mole_movement : MonoBehaviour
 
     public void ScoreCollection()
     {
-        scoreNum = updater.scoreCount += 100;                 // updates the score counter
         Destroy(gameObject);
         ItemDrop();
     }

@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class fire_damage : MonoBehaviour
 {
-    public float damage = 0.5f;
+    public float damage = 0.2f;
     
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag =="Player"){

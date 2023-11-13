@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator playerAnimator;
 
     public treat_counter tc;        // manages the treat counter script -deb
+    public Gate openGate;
 
     // Start is called before the first frame update
     void Start()
@@ -75,6 +77,18 @@ public class PlayerMovement : MonoBehaviour
         {
             tc.TreatCollection();                               // if it is a treat, go to treat counter
             Destroy(collision.gameObject);                      // destroy treat after counter updated 
+        }
+        else if (collision.gameObject.CompareTag("NextScene"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (collision.gameObject.CompareTag("PreviousScene"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+        else if (collision.gameObject.CompareTag("Gate"))
+        {
+            openGate.OpenGate();
         }
     }
 }
