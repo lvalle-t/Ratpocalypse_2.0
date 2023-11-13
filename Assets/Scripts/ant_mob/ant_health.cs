@@ -12,8 +12,6 @@ public class ant_health : MonoBehaviour
     public ant_healthbar Healthbar;
     public GameObject[] itemDrops;
 
-    public int scoreNum = 0;
-
     void Start()
     {
         Hitpoints = MaxHitpoints;
@@ -28,7 +26,6 @@ public class ant_health : MonoBehaviour
         {
             Destroy(gameObject);
             ItemDrop();
-            ScoreCollection();
         }
     }
 
@@ -38,9 +35,5 @@ public class ant_health : MonoBehaviour
         {
             Instantiate(itemDrops[i], transform.position, Quaternion.identity);
         }
-    }
-    public void ScoreCollection()
-    {
-        scoreNum = updater.scoreCount += 25;                 // updates the score counter
     }
 }

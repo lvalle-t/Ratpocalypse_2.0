@@ -12,7 +12,7 @@ using UnityEngine;
 public class mole_attack : MonoBehaviour
 {
     public PlayerHealth hm;           // player health manager -deb
-    public float damage = 1f;
+    public float damage = 0.2f;
 
     private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
     {

@@ -74,8 +74,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa4937e3b86c244e97320c826f5a73c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 3080846523149471768, guid: e7655c7a7f194294a8514ac2c7256860, type: 3}
   gameManager: {fileID: 0}
+  healthBar: {fileID: 3080846523149471768, guid: e7655c7a7f194294a8514ac2c7256860, type: 3}
+  hearts: []
+  fullHeart: {fileID: 0}
+  halfHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
 --- !u!114 &4087227367403106730
 MonoBehaviour:
   m_ObjectHideFlags: 0
