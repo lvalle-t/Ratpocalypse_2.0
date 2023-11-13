@@ -14,6 +14,7 @@ public class spider_health : MonoBehaviour
     public spider_healthbar Healthbar;
     public GameObject[] itemDrops;
     private FlashDamage flashDamage;
+    [SerializeField] private AudioSource spiderHitSFX;
 
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
     // [SerializeField] private AudioSource hitDamageSFX;
@@ -41,6 +42,7 @@ public class spider_health : MonoBehaviour
     {
         flashDamage.FlashOnDamage();
         Hitpoints -= damage;
+        spiderHitSFX.Play();
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         // hitDamageSFX.Play();
         if (Hitpoints <= 0)

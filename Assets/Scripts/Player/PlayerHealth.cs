@@ -53,12 +53,16 @@ public class PlayerHealth : MonoBehaviour
         healthBar.UpdateHealth(updater.playerHp);
         UpdateHealth();
 
-        if (updater.playerHp <= 0f && !isDead)
-        {   
-            updater.playerHp = 0f;
-            isDead = true;
-            gameManager.gameOver();
-            Debug.Log("Player is dead!"); // Print "dead" message to the console
+        // if (updater.playerHp <= 0f && !isDead)
+        // {   
+        //     updater.playerHp = 0f;
+        //     isDead = true;
+        //     gameManager.gameOver();
+        //     Debug.Log("Player is dead!"); // Print "dead" message to the console
+        // }
+        if(updater.playerHp < 0){
+            Debug.Log("Cat Warrior is dead");
+            Destroy(gameObject);
         }
     }
 

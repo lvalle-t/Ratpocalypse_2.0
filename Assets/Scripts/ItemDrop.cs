@@ -18,14 +18,22 @@ public class ItemDrop : MonoBehaviour
     //     }
     // }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    // public void OnCollisionEnter2D(Collision2D collision)
+    // {
+    //     if (collision.gameObject.CompareTag("Player"))
+    //     {
+    //         // pickupTreat.Play();
+    //          gameObject.SetActive(false);
+    //     }
+    // }
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             // pickupTreat.Play();
              gameObject.SetActive(false);
+             updater.treatCount += 1;
         }
     }
-
     
 }

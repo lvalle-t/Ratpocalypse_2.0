@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using static UnityEngine.Rendering.DebugUI;
 using Unity.VisualScripting;
+using System;
 
 public class cat_movement : MonoBehaviour
 {
@@ -20,45 +21,32 @@ public class cat_movement : MonoBehaviour
 
     public bool climb { get; set; }
     private float dirX, dirY;
-    private bool isDead;
-    private bool isOver;
+    // private bool isDead = false;
+    // private bool isOver = false;
     public GameManagerScript gameManager;
-    //public GameObject weapon;
-    private WeaponParent weaponParentScript;
     [SerializeField] AudioSource walkingSFX;
-    private void Awake()
+    void Start()
     {
-        isDead = false;
-        isOver = false;
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         punchCollider = punchHitbox.GetComponent<Collider2D>();
-        // Get the WeaponParent script attached to the weapon GameObject
-        //weaponParentScript = weapon.GetComponent<WeaponParent>();
-    }
-
-    private void Update()
-    {
-        if (climb)
-        {
-            dirY = Input.GetAxisRaw("Vertical") * speed;
-        }
     }
 
     private void OnMovement(InputValue value)
     {
         movement = value.Get<Vector2>();
-        
+
         if (movement.x != 0 || movement.y != 0)
         {
-            if(!walkingSFX.isPlaying){
+            if (!walkingSFX.isPlaying)
+            {
                 walkingSFX.Play();
             }
-            
+
             playerAnimator.SetFloat("xDir", movement.x);
             playerAnimator.SetFloat("yDir", movement.y);
             playerAnimator.SetBool("isWalking", true);
-            
+
         }
         else
         {
@@ -71,19 +59,7 @@ public class cat_movement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-
-        if (climb && !isDead)
-        {
-            rb.isKinematic = true;
-            rb.velocity = new Vector2(dirX, dirY);
-        }
-        else
-        {
-            rb.isKinematic = false;
-            rb.velocity = new Vector2(dirX, rb.velocity.y);
-        }
-
-        SetAnima();
+        //SetAnima();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -97,64 +73,29 @@ public class cat_movement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
-    void OnAttack(){
-        playerAnimator.SetTrigger("isAttacking");
-    }
     // void OnAttack()
     // {
-    //     //playerAnimator.SetTrigger("isAttacking");
-    //     weaponParentScript.Attack();
-    //     Vector2 pointerPosition = GetPointerInput();
+    //     playerAnimator.SetTrigger("isAttacking");
+    // }
 
-    //     // Ensure the weapon is not null
-    //     if (weapon != null)
+    // public void SetAnima()
+    // {
+    //     if ((updater.playerHp <= 0f) && !isDead)
     //     {
-    //         // Update the PointerPosition property in the WeaponParent script
-    //         if (weaponParentScript != null)
-    //         {
-    //             weaponParentScript.PointerPosition = pointerPosition;
-    //         }
+    //         isDead = true;
+    //         playerAnimator.SetTrigger("isDead");
+    //         gameManager.gameOver();
+    //         Invoke("GameOverAnimation", 1);
     //     }
     // }
-    // void OnPointerPosition(InputValue value)
-    // {
-    //     Vector2 pointerPosition = GetPointerInput();
 
-    //     // Ensure the weapon is not null
-    //     if (weapon != null)
+    // public void GameOverAnimation()
+    // {
+    //     if (isDead && !isOver)
     //     {
-    //         // Update the PointerPosition property in the WeaponParent script
-    //         if (weaponParentScript != null)
-    //         {
-    //             weaponParentScript.PointerPosition = pointerPosition;
-    //         }
+    //         isDead = false;
+    //         isOver = true;
+    //         playerAnimator.SetTrigger("isOver");
     //     }
     // }
-    // private Vector2 GetPointerInput()
-    // {
-    //     Vector3 mousePos = Mouse.current.position.ReadValue();
-    //     mousePos.z = Camera.main.nearClipPlane;
-    //     return Camera.main.ScreenToWorldPoint(mousePos);
-    // }
-
-    public void SetAnima()
-    {
-        if ((updater.playerHp <= 0f) && !isDead)
-        {
-            isDead = true;
-            playerAnimator.SetTrigger("isDead");
-            gameManager.gameOver();
-            Invoke("GameOverAnimation", 1);
-        }
-    }
-
-    public void GameOverAnimation()
-    {
-        if (isDead == true && !isOver)
-        {
-            isDead = false;
-            isOver = true;
-            playerAnimator.SetTrigger("isOver");
-        }
-    }
 }
