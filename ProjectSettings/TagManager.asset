@@ -15,6 +15,7 @@ TagManager:
   - PlayerHItBox
   - snake_boss
   - start_camerashake
+  - Door_Exit
   layers:
   - Default
   - TransparentFX
@@ -51,7 +52,7 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 1501278051
-    locked: 0
+    locked: 1
   - name: Default
     uniqueID: 0
     locked: 0

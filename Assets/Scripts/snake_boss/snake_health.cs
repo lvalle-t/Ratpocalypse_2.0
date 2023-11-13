@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 //using UnityEngine.UI;
 
 public class snake_health : MonoBehaviour
@@ -12,13 +13,21 @@ public class snake_health : MonoBehaviour
     public snake_healthbar Healthbar;
     public GameObject[] itemDrops;
     public float damaged = 0.2f;
-
     public int scoreNum = 0;
+
+    private GameObject door_exit;
+    private GameObject door_exit_bg;
 
     void Start()
     {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints);
+
+        door_exit_bg = GameObject.Find("Door Bg");
+        door_exit = GameObject.Find("Door Exit");
+
+        door_exit_bg.SetActive(false);
+        door_exit.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -36,6 +45,10 @@ public class snake_health : MonoBehaviour
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
+
+            door_exit_bg.SetActive(true);
+            door_exit.SetActive(true);
+
             ItemDrop();
             ScoreCollection();
         }
