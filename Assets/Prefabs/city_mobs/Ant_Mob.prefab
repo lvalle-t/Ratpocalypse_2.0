@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868149228653533368}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -68,7 +68,7 @@ Transform:
   m_GameObject: {fileID: 1837328126477410877}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -40, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -265,7 +265,6 @@ MonoBehaviour:
   Healthbar: {fileID: 719021805834198017}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
-  scoreNum: 0
 --- !u!114 &4242163449887264349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,7 +304,7 @@ MonoBehaviour:
   - {x: 0.31, y: -0.255, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 251896
+  m_InstanceId: 123528
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.31, y: 0.255, z: 0}
