@@ -24,7 +24,7 @@ public class snake_spawner : MonoBehaviour
     {
         if (counter == 0)
         {
-            Instantiate(boss, new Vector3(11, 15, 0), Quaternion.identity);
+            Instantiate(boss, new Vector3(11, 5, 0), Quaternion.identity);
             fall_warning_box.enabled = true;
             counter = 1;
 
