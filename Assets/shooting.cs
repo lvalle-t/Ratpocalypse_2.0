@@ -13,6 +13,7 @@ public class shooting : MonoBehaviour
     private float timer;
     public float timeBetweenFiring;
     [SerializeField] private AudioSource gunShotSFX;
+    public Animator myAnimator;
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
@@ -36,6 +37,7 @@ public class shooting : MonoBehaviour
         }
         if (Input.GetMouseButton(0) && canFire)
         {
+            myAnimator.SetTrigger("isShot");
             gunShotSFX.Play();
             canFire = false;
             Instantiate(bullet, bulletTransform.position, Quaternion.identity);

@@ -35,15 +35,18 @@ public class GameManagerScript : MonoBehaviour
         updater.moleHp = 1f;
         updater.ratHp = 1f;
         updater.snakeHp = 1f;
+        Debug.Log("RESTART!!!!!");
     }
 
     public void mainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        Debug.Log("MAINMENU!!!!!");
     }
 
     public void quit()
     {
         Application.Quit();
+        Debug.Log("QUITTT!!!!!");
     }
 }
