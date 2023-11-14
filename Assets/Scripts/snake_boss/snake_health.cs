@@ -15,6 +15,8 @@ public class snake_health : MonoBehaviour
     public float damaged = 0.2f;
     public int scoreNum = 0;
 
+    public GameObject enemy;
+
     public bool isInvulnerable = false;
 
     private GameObject door_exit;
@@ -64,6 +66,7 @@ public class snake_health : MonoBehaviour
 
         if (Hitpoints <= 5)
         {
+             Instantiate(enemy, new Vector3(0, 0, 0), Quaternion.identity);
             GetComponent<Animator>().SetBool("isEnraged", true);
             m_SpriteRenderer.color = Color.red;
         }
