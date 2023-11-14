@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     private Transform player;
     private bool canAttack = true;
     private AIPath aiPath;
+
     [SerializeField] private AudioSource spiderAttackSFX;
     private void Start()
     {
