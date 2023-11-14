@@ -123,6 +123,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &137057723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1703580485207588932, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 353925924}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510345189226785922, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553663567114340157, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553663567114340157, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863482034012371847, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
+      propertyPath: bigSwarmerPrefab
+      value: 
+      objectReference: {fileID: 7401581611416096709, guid: 4f284c28968a8cc419957dd832fee11c, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
 --- !u!1 &235117306
 GameObject:
   m_ObjectHideFlags: 0
@@ -10404,8 +10473,8 @@ Tilemap:
   - first: {x: 27, y: 17, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 8
+      m_TileIndex: 9
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -15827,11 +15896,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c3bc61c8cff260d4eac63adbc4885623, type: 2}
   - m_RefCount: 101
     m_Data: {fileID: 11400000, guid: ab9e99808e38836408912d2c1c7368d6, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 2511444ff91a0094092b10cef2f34b08, type: 2}
   - m_RefCount: 14
     m_Data: {fileID: 11400000, guid: 1ac02c78901eef94db9e58391d8fff2f, type: 2}
-  - m_RefCount: 33
+  - m_RefCount: 34
     m_Data: {fileID: 11400000, guid: 30f6865736eeb9f4584ec61df6422860, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -15862,7 +15931,7 @@ Tilemap:
     m_Data: {fileID: 1503383903, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
   - m_RefCount: 34
     m_Data: {fileID: 124031067, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
-  - m_RefCount: 33
+  - m_RefCount: 34
     m_Data: {fileID: -1277537338, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
   - m_RefCount: 143
     m_Data: {fileID: 1513977167, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
@@ -15874,7 +15943,7 @@ Tilemap:
     m_Data: {fileID: -726409112, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
   - m_RefCount: 14
     m_Data: {fileID: 2010170879, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 808954777, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1470508213, guid: 0b11bfbc5026f174bbb42aa069352730, type: 3}
@@ -18992,6 +19061,7 @@ MonoBehaviour:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   damaged: 0.2
   scoreNum: 100
+  enemy: {fileID: 0}
   isInvulnerable: 0
 --- !u!1 &1135602707
 GameObject:
@@ -28687,7 +28757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1848519458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29596,12 +29666,13 @@ SceneRoots:
   - {fileID: 1535535127}
   - {fileID: 1167910143}
   - {fileID: 299174744}
+  - {fileID: 1848519459}
+  - {fileID: 137057723}
   - {fileID: 1998121252}
   - {fileID: 781604943}
   - {fileID: 1602211227}
   - {fileID: 1309860845}
   - {fileID: 1363688162}
   - {fileID: 1020140733}
-  - {fileID: 1848519459}
   - {fileID: 1782869452}
   - {fileID: 1169177745}
