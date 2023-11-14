@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 7187796022705456958}
   m_Layer: 0
   m_Name: snake
-  m_TagString: Untagged
+  m_TagString: snake
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -910,8 +910,8 @@ MonoBehaviour:
   Healthbar: {fileID: 3331922303937980659}
   itemDrops: []
   damaged: 0.2
-  tilemap: {fileID: 2880806265157548023, guid: 88a5258df2875c04c8c435d9807036b7, type: 3}
   scoreNum: 0
+  isInvulnerable: 0
 --- !u!114 &7713572383614772502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,6 +925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 1
+  enragedAttackDamage: 2
   attackOffset: {x: -0.6, y: 0}
   attackRange: 3
   attackMask:
@@ -1049,8 +1050,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.14814815}
-    newSize: {x: 1, y: 0.14814815}
+    oldSize: {x: 0.9259259, y: 0.7962963}
+    newSize: {x: 0.9259259, y: 0.7962963}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

@@ -16117,6 +16117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 0.2
+  enragedAttackDamage: 2
   attackOffset: {x: -0.6, y: 0}
   attackRange: 1.2
   attackMask:
@@ -16141,6 +16142,7 @@ MonoBehaviour:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   damaged: 0.2
   scoreNum: 100
+  isInvulnerable: 0
 --- !u!1 &1135602707
 GameObject:
   m_ObjectHideFlags: 0
@@ -25984,6 +25986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3302135724740177633, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: timeBetweenFiring
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3618574615679243565, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: gameManager
       value: 
