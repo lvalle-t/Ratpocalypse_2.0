@@ -15,19 +15,33 @@ public class snake_health : MonoBehaviour
     public float damaged = 0.2f;
     public int scoreNum = 0;
 
+    public bool isInvulnerable = false;
+
     private GameObject door_exit;
     private GameObject door_exit_bg;
+    private GameObject snake;
+
+    SpriteRenderer m_SpriteRenderer;
+    Color m_NewColor;
 
     void Start()
     {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints);
 
+        // m_SpriteRenderer = GetComponent<SpriteRenderer>();
+        snake = GameObject.Find("snake");
+        m_SpriteRenderer = snake.GetComponent<SpriteRenderer>();
+
+        Debug.Log(snake);
+        Debug.Log(m_SpriteRenderer);
+
         door_exit_bg = GameObject.Find("Door Bg");
         door_exit = GameObject.Find("Door Exit");
 
         door_exit_bg.SetActive(false);
         door_exit.SetActive(false);
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -40,8 +54,20 @@ public class snake_health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (isInvulnerable)
+        {
+            return;
+        }
+
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
+
+        if (Hitpoints <= 5)
+        {
+            GetComponent<Animator>().SetBool("isEnraged", true);
+            m_SpriteRenderer.color = Color.red;
+        }
+
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
