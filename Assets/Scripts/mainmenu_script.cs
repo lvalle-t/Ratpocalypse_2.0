@@ -7,6 +7,10 @@ public class mainmenu_script : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject settingScreen;
+    [SerializeField] private AudioSource MainMenuSFX;
+    void Start(){
+        MainMenuSFX.Play();
+    }
     public void StartGame()
     {
         SceneManager.LoadScene(1);
