@@ -908,7 +908,8 @@ MonoBehaviour:
   Hitpoints: 0
   MaxHitpoints: 10
   Healthbar: {fileID: 3331922303937980659}
-  itemDrops: []
+  itemDrops:
+  - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   damaged: 0.2
   scoreNum: 0
   enemy: {fileID: 7553663567114340157, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
