@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite halfHeart;
     public Sprite emptyHeart;
+    public Animator myAnimator;
 
     private void Start() {
         UpdateHealth();
@@ -47,23 +48,28 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void EnemyDamage(float damage)
-    {   
+    {
         updater.playerHp -= damage;
 
         healthBar.UpdateHealth(updater.playerHp);
         UpdateHealth();
 
-        // if (updater.playerHp <= 0f && !isDead)
-        // {   
-        //     updater.playerHp = 0f;
-        //     isDead = true;
-        //     gameManager.gameOver();
-        //     Debug.Log("Player is dead!"); // Print "dead" message to the console
-        // }
-        if(updater.playerHp < 0){
-            Debug.Log("Cat Warrior is dead");
-            Destroy(gameObject);
+        if (updater.playerHp <= 0 && !isDead)
+        {
+            myAnimator.SetTrigger("isDead");
+            isDead = true;
+            StartCoroutine(ShowGameOverScreenAfterAnimation());
+            Debug.Log("Player is dead!"); // Print "dead" message to the console
         }
+    }
+    IEnumerator ShowGameOverScreenAfterAnimation()
+    {
+        // Wait for the death animation to complete
+        yield return new WaitForSeconds(myAnimator.GetCurrentAnimatorClipInfo(0).Length);
+
+        // Show the game over screen
+        gameManager.gameOver();
+        gameObject.SetActive(false);
     }
 
 }

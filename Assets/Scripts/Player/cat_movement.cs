@@ -21,9 +21,6 @@ public class cat_movement : MonoBehaviour
 
     public bool climb { get; set; }
     private float dirX, dirY;
-    // private bool isDead = false;
-    // private bool isOver = false;
-    public GameManagerScript gameManager;
     [SerializeField] AudioSource walkingSFX;
     void Start()
     {
@@ -59,7 +56,6 @@ public class cat_movement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-        //SetAnima();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -76,26 +72,5 @@ public class cat_movement : MonoBehaviour
     // void OnAttack()
     // {
     //     playerAnimator.SetTrigger("isAttacking");
-    // }
-
-    // public void SetAnima()
-    // {
-    //     if ((updater.playerHp <= 0f) && !isDead)
-    //     {
-    //         isDead = true;
-    //         playerAnimator.SetTrigger("isDead");
-    //         gameManager.gameOver();
-    //         Invoke("GameOverAnimation", 1);
-    //     }
-    // }
-
-    // public void GameOverAnimation()
-    // {
-    //     if (isDead && !isOver)
-    //     {
-    //         isDead = false;
-    //         isOver = true;
-    //         playerAnimator.SetTrigger("isOver");
-    //     }
     // }
 }
