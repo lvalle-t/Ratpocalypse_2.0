@@ -6,7 +6,7 @@ public class punchHitbox : MonoBehaviour
 {
     // Start is called before the first frame update
     public Collider2D punchCollider;
-    public float punchDamage = 0.2f;
+    public float punchDamage;
 
     void Start()
     {

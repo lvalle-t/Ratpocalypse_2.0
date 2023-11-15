@@ -813,14 +813,30 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3522564375660717792, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3522564375660717792, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3522564375660717792, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618574615679243565, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 548580673}
+    - target: {fileID: 3787936547500426231, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 3.3161502
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870742473402050453, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870742473402050453, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4075030354100409121, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
@@ -832,7 +848,15 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4311695438613209235, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: openGate
+      value: 
+      objectReference: {fileID: 549880970}
+    - target: {fileID: 4311695438613209235, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356241332713837649, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6600891684495054227, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
@@ -875,9 +899,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7236074246642388145, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: punchDamage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8817779726072294517, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: speed
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10990,6 +11018,17 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &548580673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5082832378187433801, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
+  m_PrefabInstance: {fileID: 1096101240}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39901d1a0760c0549adf921c8b2786ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &549880966
 GameObject:
   m_ObjectHideFlags: 0
@@ -11491,7 +11530,7 @@ MonoBehaviour:
   speed: 4
   stoppingDistance: 0.01
   attackRange: 1
-  damage: 0.34
+  damage: 1
   moleAnimator: {fileID: 829942586}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
