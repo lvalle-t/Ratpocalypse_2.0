@@ -46,7 +46,7 @@ public class rat_health : MonoBehaviour
         {
             Destroy(gameObject);
             ItemDrop();
-            ScoreCollection();
+            //ScoreCollection();
         }
 
        
@@ -61,8 +61,8 @@ public class rat_health : MonoBehaviour
             Instantiate(itemDrops[i], transform.position, Quaternion.identity);
         }
     }
-    public void ScoreCollection()
-    {
-        scoreNum = updater.scoreCount += 50;                 // updates the score counter
-    }
+    //public void ScoreCollection()
+    //{
+    //    scoreNum = updater.scoreCount += 50;                 // updates the score counter
+    //}
 }

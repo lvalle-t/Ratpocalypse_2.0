@@ -1901,6 +1901,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8817779726072294517, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1993,10 +1997,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
+    - target: {fileID: 7546460471005663228, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: swarmerPrefab
       value: 
       objectReference: {fileID: 4551248159238598939, guid: edebf838e9dd5984a811176504444644, type: 3}
+    - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
+      propertyPath: swarmerPrefab
+      value: 
+      objectReference: {fileID: 7401581611416096709, guid: 4f284c28968a8cc419957dd832fee11c, type: 3}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: swarmerInterval
       value: 2
@@ -2011,7 +2019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: totalSwarmerEnemies
-      value: 15
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: totalBigSwarmerEnemies
