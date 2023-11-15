@@ -20,7 +20,7 @@ public class updater : MonoBehaviour
     public static float alligatorHp = 1f;
     public static float antHp = 1.0f;
     public static float batHp = 1.0f;
-    public static float moleHp = 1.0f;
+    public static float moleHp = 10.0f;
     public static float ratHp = 1.0f;
     public static float snakeHp = 1.0f;
 

@@ -370,6 +370,7 @@ MonoBehaviour:
   speed: 3
   punchHitbox: {fileID: 7629891780829049623}
   walkingSFX: {fileID: 1047536886071741761}
+  tr: {fileID: 0}
 --- !u!114 &4777297774913596957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa4937e3b86c244e97320c826f5a73c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 5082832378187433801, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
   healthBar: {fileID: 0}
   hearts:
   - {fileID: 8865267920014199666}

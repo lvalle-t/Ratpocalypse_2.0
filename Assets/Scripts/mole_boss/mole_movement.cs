@@ -129,13 +129,13 @@ public class mole_movement : MonoBehaviour
 
             ScoreCollection();
         }
-        else if (updater.moleHp <= 0.33f && breakTime == true)
+        else if (updater.moleHp <= 4f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
             Invoke("SpawnBats", 1);
         }
-        else if (updater.moleHp <= 0.66f && breakTime == true)
+        else if (updater.moleHp <= 8f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
