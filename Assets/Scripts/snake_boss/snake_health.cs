@@ -79,7 +79,7 @@ public class snake_health : MonoBehaviour
             door_exit.SetActive(true);
 
             ItemDrop();
-            ScoreCollection();
+            //ScoreCollection();
         }
     }
 
@@ -90,8 +90,8 @@ public class snake_health : MonoBehaviour
             Instantiate(itemDrops[i], transform.position, Quaternion.identity);
         }
     }
-    public void ScoreCollection()
-    {
-        scoreNum = updater.scoreCount += 100;                 // updates the score counter
-    }
+    //public void ScoreCollection()
+    //{
+    //    scoreNum = updater.scoreCount += 100;                 // updates the score counter
+    //}
 }

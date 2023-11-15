@@ -129,13 +129,13 @@ public class mole_movement : MonoBehaviour
 
             ScoreCollection();
         }
-        else if (updater.moleHp <= 4f && breakTime == true)
+        else if (updater.moleHp <= 3f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
             Invoke("SpawnBats", 1);
         }
-        else if (updater.moleHp <= 8f && breakTime == true)
+        else if (updater.moleHp <= 6f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
@@ -146,7 +146,7 @@ public class mole_movement : MonoBehaviour
 
     public void SpawnAnts()
     {
-        int enemiesThisRow = 8;
+        int enemiesThisRow = 6;
 
         for (int i = 0; i < enemiesThisRow; i++)
         {
@@ -158,7 +158,7 @@ public class mole_movement : MonoBehaviour
 
     public void SpawnBats()
     {
-        int enemiesThisRow = 10;
+        int enemiesThisRow = 4;
 
         for (int i = 0; i < enemiesThisRow; i++)
         {
@@ -209,8 +209,8 @@ public class mole_movement : MonoBehaviour
         }
     }
 
-    public void ResetMole()
-    {
-        updater.moleHp = 1f;
-    }
+    //public void ResetMole()
+    //{
+    //    updater.moleHp = 1f;
+    //}
 }

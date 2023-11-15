@@ -21,7 +21,7 @@ public class mole_hp_slider : MonoBehaviour
     {
         slider.value = updater.moleHp;
         fill.color = gradient.Evaluate(slider.value);
-        UpdateHealth(slider.value);
+        UpdateHealth(updater.moleHp);
     }
 
     // Update is called once per frame

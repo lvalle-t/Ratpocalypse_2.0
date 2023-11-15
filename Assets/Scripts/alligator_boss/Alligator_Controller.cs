@@ -71,7 +71,7 @@ public class Alligator_Controller : MonoBehaviour
     }
     public void ScoreCollection()
     {
-        scoreNum = updater.scoreCount += 100;                 // updates the score counter
+        //scoreNum = updater.scoreCount += 100;                 // updates the score counter
         Destroy(gameObject);
         ItemDrop();
     }
