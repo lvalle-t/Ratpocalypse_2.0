@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 direction;
     private Animator playerAnimator;
 
+    public respwn_position rp;
+
     public treat_counter tc;        // manages the treat counter script -deb
     public Gate openGate;
 
@@ -85,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         else if (collision.gameObject.CompareTag("PreviousScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            rp.ResponPos();
         }
         else if (collision.gameObject.CompareTag("Gate"))
         {
