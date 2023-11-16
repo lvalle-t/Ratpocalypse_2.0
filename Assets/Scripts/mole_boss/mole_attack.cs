@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 //**********************************************************************************
 // This Script Was Created Using the Following Resources:
@@ -11,15 +12,14 @@ using UnityEngine;
 
 public class mole_attack : MonoBehaviour
 {
-    public PlayerHealth hm;           // player health manager -deb
-    public float damage = 0.2f;
+    public float damage = 4f;
 
-    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
-            hm.EnemyDamage(damage);
-            //GetComponent<PlayerHealth>().EnemyDamage(damage);
+            collision.gameObject.GetComponent<PlayerHealth>().EnemyDamage(damage);
         }
     }
+
 }
