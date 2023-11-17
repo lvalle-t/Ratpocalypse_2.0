@@ -32,7 +32,7 @@ public class GameManagerScript : MonoBehaviour
         updater.alligatorHp = 1f;
         updater.antHp = 1f;
         updater.batHp = 1f;
-        updater.moleHp = 1f;
+        updater.moleHp = 10f;
         updater.ratHp = 1f;
         updater.snakeHp = 1f;
         Debug.Log("RESTART!!!!!");

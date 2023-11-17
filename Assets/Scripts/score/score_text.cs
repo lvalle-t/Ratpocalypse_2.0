@@ -16,6 +16,6 @@ public class score_text : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreTxt.text = "Score: " + updater.scoreCount;    // assigning the text and counter updater before adding - deb
+        //scoreTxt.text = "Score: " + updater.scoreCount;    // assigning the text and counter updater before adding - deb
     }
 }

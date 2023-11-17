@@ -26,6 +26,14 @@ public class shooting : MonoBehaviour
         Vector3 rotation = mousePos - transform.position;
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
+        Vector2 scale = transform.localScale;
+        if(rotation.x < 0){
+            scale.y = -1;
+        }
+        else if(rotation.x > 0){
+            scale.y = 1;
+        }
+        transform.localScale = scale;
         if (!canFire)
         {
             timer += Time.deltaTime;
