@@ -4,7 +4,7 @@
 # Team Summary
 #
 Fabian Silva (Music)
-Debbie DeLeon (Engineer, Associate Producer, Associate Designer)
+Debbie DeLeon (Engineer, Associate Designer, Associate Artist, Associate Producer)
 Tristan Fry (Engineer, Associate Designer)
 Lupita Valle (Producer, Engineer, Associate Designer)
 Patricia Kurniawan (Designer, Artist)
