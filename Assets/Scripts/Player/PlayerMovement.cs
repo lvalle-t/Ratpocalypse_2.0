@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Vector2 direction;
+    private Rigidbody playerRB;
     private Animator playerAnimator;
 
     private Vector3 respawnPosition;
@@ -19,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerAnimator = GetComponent<Animator>(); 
+        playerRB = GetComponent<Rigidbody>();
+        playerAnimator = GetComponent<Animator>();
         respawnPosition = transform.position;
     }
 
@@ -32,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        respawnPosition = transform.position;
+        //respawnPosition = transform.position;
         //nextSceneCollider.transform.position = new Vector2(transform.position.x, nextSceneCollider.transform.position.y);
     }
 
@@ -93,11 +95,12 @@ public class PlayerMovement : MonoBehaviour
         else if (collision.gameObject.CompareTag("NextScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            respawnPosition = transform.position;
         }
         else if (collision.gameObject.CompareTag("PreviousScene"))
         {
-            transform.position = respawnPosition;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            respawnPosition = transform.position;
         }
         else if (collision.gameObject.CompareTag("Gate"))
         {
