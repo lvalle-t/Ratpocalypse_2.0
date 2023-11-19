@@ -102,9 +102,9 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
             respawnPosition = transform.position;
         }
-        else if (collision.gameObject.CompareTag("Gate"))
-        {
-            openGate.OpenGate();
-        }
+        //else if (collision.gameObject.CompareTag("Gate"))
+        //{
+        //    openGate.OpenGate();
+        //}
     }
 }
