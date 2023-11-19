@@ -10209,6 +10209,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 920101584}
+    - target: {fileID: 202188900186956318, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1454903119028385569, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.4374475
@@ -10294,8 +10298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.01454, y: 0.08398}
-  m_SizeDelta: {x: 0.88247, y: 0.26906}
+  m_AnchoredPosition: {x: 0.01454, y: 0.07546}
+  m_SizeDelta: {x: 0.88247, y: 0.13274}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373080866
 MonoBehaviour:
@@ -11604,7 +11608,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.23, y: 22.5706, z: 0}
-  m_LocalScale: {x: 16, y: 15.5888, z: 16}
+  m_LocalScale: {x: 14, y: 14, z: 14}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 373080865}
@@ -11645,7 +11649,7 @@ MonoBehaviour:
   damage: 1
   moleAnimator: {fileID: 829942586}
   itemDrops:
-  - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
+  - {fileID: 5770570619722049334, guid: f54cb3b7ca060c84aad932cc9abe2ce0, type: 3}
   moleBoss: {fileID: 1075246495}
   moleDigging: {fileID: 1156250879}
   moleGoUnderground: {fileID: 351408143}
@@ -12136,8 +12140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0325, y: 0.023}
-  m_SizeDelta: {x: 0.3894, y: 0.2045}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075641863
 MonoBehaviour:
@@ -12159,7 +12163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70de9068a6da3304facded24f20fa1f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ae43dad17e96ee4282ac3ff8a3dbdad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12372,6 +12376,10 @@ PrefabInstance:
     - target: {fileID: 2336919843979598860, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626170051453876289, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
+      propertyPath: orthographic size
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4127890365546053234, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: mainCharacter
@@ -80855,8 +80863,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361411564}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.0031537518, w: 0.99999505}
-  m_LocalPosition: {x: 6.473, y: 25.441, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0047106626, w: 0.9999889}
+  m_LocalPosition: {x: 6.474, y: 25.595, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -80899,8 +80907,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0.990566, g: 0.87904316, b: 0.032707386, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.8, g: 0.6392157, b: 0.32941177, a: 1}
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 63af7b5900000000f1008ae427f52fe673c6e691
@@ -80922,7 +80930,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 0.49720597
+  m_PointLightOuterRadius: 0.65112656
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -80933,17 +80941,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!114 &1426038162 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6171850769367399703, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
-  m_PrefabInstance: {fileID: 1096101240}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8d77f0eeb9d4e843a334f3703c765fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1461219356
 GameObject:
   m_ObjectHideFlags: 0
@@ -90850,11 +90847,15 @@ PrefabInstance:
     - target: {fileID: 5717559266550704974, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: rp
       value: 
-      objectReference: {fileID: 1426038162}
+      objectReference: {fileID: 0}
     - target: {fileID: 5717559266550704974, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: openGate
       value: 
       objectReference: {fileID: 549880970}
+    - target: {fileID: 8885122191049713964, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

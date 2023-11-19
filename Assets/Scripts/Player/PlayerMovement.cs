@@ -7,17 +7,22 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Vector2 direction;
+    private Rigidbody playerRB;
     private Animator playerAnimator;
 
-    public respwn_position rp;
+    private Vector3 respawnPosition;
+    //public GameObject nextSceneCollider;
 
+    public GameObject[] keyPrefab;
     public treat_counter tc;        // manages the treat counter script -deb
     public Gate openGate;
 
     // Start is called before the first frame update
     void Start()
     {
+        playerRB = GetComponent<Rigidbody>();
         playerAnimator = GetComponent<Animator>();
+        respawnPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -25,6 +30,12 @@ public class PlayerMovement : MonoBehaviour
     {
         takeInput();
         Move();
+    }
+
+    private void FixedUpdate()
+    {
+        //respawnPosition = transform.position;
+        //nextSceneCollider.transform.position = new Vector2(transform.position.x, nextSceneCollider.transform.position.y);
     }
 
     private void Move()
@@ -38,8 +49,8 @@ public class PlayerMovement : MonoBehaviour
         {
             playerAnimator.SetLayerWeight(1, 0);
         }
-
     }
+
     private void takeInput()
     {
         direction = Vector2.zero;
@@ -65,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
             transform.position = new Vector3(transform.position.x, 5, 0);
         }
     }
+
     private void SetAnimatorMovement(Vector2 direction)
     {
         playerAnimator.SetLayerWeight(1, 1);
@@ -83,15 +95,16 @@ public class PlayerMovement : MonoBehaviour
         else if (collision.gameObject.CompareTag("NextScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            respawnPosition = transform.position;
         }
         else if (collision.gameObject.CompareTag("PreviousScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            rp.ResponPos();
+            respawnPosition = transform.position;
         }
-        else if (collision.gameObject.CompareTag("Gate"))
-        {
-            openGate.OpenGate();
-        }
+        //else if (collision.gameObject.CompareTag("Gate"))
+        //{
+        //    openGate.OpenGate();
+        //}
     }
 }

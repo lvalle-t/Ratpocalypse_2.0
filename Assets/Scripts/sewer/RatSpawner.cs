@@ -12,6 +12,16 @@ public class RatSpawner : MonoBehaviour
     [SerializeField]
     private float swarmerInterval = 2.5f;
 
+    [SerializeField]
+    private float minX;
+    [SerializeField]
+    private float maxX;
+
+    [SerializeField]
+    private float minY;
+    [SerializeField]
+    private float maxY;
+
     private int swarmerCount = 0;
 
     private void Start()
@@ -57,7 +67,7 @@ public class RatSpawner : MonoBehaviour
         do
         {
             // Generate a random spawn position
-            spawnPosition = new Vector3(Random.Range(22f, 32f), Random.Range(-4f,15f), 0);
+            spawnPosition = new Vector3(Random.Range(minX, maxX), Random.Range(minY,maxY), 0);
 
             // Check if the spawn position is valid (not inside wall colliders)
             Collider2D[] hitColliders = Physics2D.OverlapCircleAll(spawnPosition, 0.5f); // Adjust the radius as needed
