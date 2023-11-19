@@ -10211,7 +10211,7 @@ PrefabInstance:
       objectReference: {fileID: 920101584}
     - target: {fileID: 202188900186956318, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1454903119028385569, guid: 341934191a3ac0a4dbacdf696bf13aba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10298,8 +10298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.01454, y: 0.08398}
-  m_SizeDelta: {x: 0.88247, y: 0.26906}
+  m_AnchoredPosition: {x: 0.01454, y: 0.07546}
+  m_SizeDelta: {x: 0.88247, y: 0.13274}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373080866
 MonoBehaviour:
@@ -11649,7 +11649,7 @@ MonoBehaviour:
   damage: 1
   moleAnimator: {fileID: 829942586}
   itemDrops:
-  - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
+  - {fileID: 5770570619722049334, guid: f54cb3b7ca060c84aad932cc9abe2ce0, type: 3}
   moleBoss: {fileID: 1075246495}
   moleDigging: {fileID: 1156250879}
   moleGoUnderground: {fileID: 351408143}
@@ -12140,8 +12140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0325, y: 0.023}
-  m_SizeDelta: {x: 0.3894, y: 0.2045}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075641863
 MonoBehaviour:
@@ -12163,7 +12163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70de9068a6da3304facded24f20fa1f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ae43dad17e96ee4282ac3ff8a3dbdad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12379,7 +12379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2626170051453876289, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4127890365546053234, guid: 530a7b8d6c8fa0d4abf5805d3fa4e122, type: 3}
       propertyPath: mainCharacter
@@ -90852,6 +90852,10 @@ PrefabInstance:
       propertyPath: openGate
       value: 
       objectReference: {fileID: 549880970}
+    - target: {fileID: 8885122191049713964, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
