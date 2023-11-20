@@ -2,53 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Linq;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
     private Vector2 direction;
-    private Rigidbody playerRB;
     private Animator playerAnimator;
 
-    private Vector3 respawnPosition;
-    //public GameObject nextSceneCollider;
+    //private Vector3 respawnPosition;
+    public Transform respawnPoint;
 
+    public GameObject player;
     public GameObject[] keyPrefab;
     public treat_counter tc;        // manages the treat counter script -deb
-    public Gate openGate;
+    //public Gate openGate;
+
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerRB = GetComponent<Rigidbody>();
         playerAnimator = GetComponent<Animator>();
-        respawnPosition = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
         takeInput();
-        Move();
-    }
-
-    private void FixedUpdate()
-    {
-        //respawnPosition = transform.position;
-        //nextSceneCollider.transform.position = new Vector2(transform.position.x, nextSceneCollider.transform.position.y);
-    }
-
-    private void Move()
-    {
-        transform.Translate(direction * speed * Time.deltaTime);
-        if (direction.x != 0 || direction.y != 0)
-        {
-            SetAnimatorMovement(direction);
-        }
-        else
-        {
-            playerAnimator.SetLayerWeight(1, 0);
-        }
     }
 
     private void takeInput()
@@ -95,16 +76,15 @@ public class PlayerMovement : MonoBehaviour
         else if (collision.gameObject.CompareTag("NextScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            respawnPosition = transform.position;
         }
         else if (collision.gameObject.CompareTag("PreviousScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            respawnPosition = transform.position;
         }
-        //else if (collision.gameObject.CompareTag("Gate"))
-        //{
-        //    openGate.OpenGate();
-        //}
+        else if (collision.gameObject.CompareTag("MausoleumExit"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            player.transform.position = respawnPoint.position;
+        }
     }
 }

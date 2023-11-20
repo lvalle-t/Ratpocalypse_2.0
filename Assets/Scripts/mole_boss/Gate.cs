@@ -19,6 +19,14 @@ public class Gate : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
+    {
+        if (collision.gameObject.CompareTag("Key"))
+        {
+            OpenGate();
+        }
+    }
+
     public void OpenGate()
     {
         gateAnima.SetBool("isOpen", true);

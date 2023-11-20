@@ -682,10 +682,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb12dd56b4cade4f9601d592f5440fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  respawnPoint: {fileID: 2806514551957385781, guid: 661c25343f8547e4c922d2e7469572f4, type: 3}
+  player: {fileID: 3808156096295150566}
   keyPrefab: []
   tc: {fileID: 1298411881304712945, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
   openGate: {fileID: 0}
+  speed: 0
+  collisionOffset: 0.5
+  movementFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
 --- !u!114 &921039056303084813
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5854004030922903772}
   - component: {fileID: 9006646981934204772}
   - component: {fileID: 7546460471005663228}
+  - component: {fileID: 6342812217629945271}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Enemy
@@ -66,3 +67,26 @@ MonoBehaviour:
   swarmerPrefab: {fileID: 6824989780859858797, guid: d144250d85f8d1a4d9992940249377a4, type: 3}
   totalSwarmerEnemies: 10
   swarmerInterval: 2.5
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
+--- !u!114 &6342812217629945271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6623644430033108066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85b5aa515859b4ebae97bbe9bcccb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swarmerPrefab: {fileID: 0}
+  totalSwarmerEnemies: 10
+  swarmerInterval: 2.5
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
