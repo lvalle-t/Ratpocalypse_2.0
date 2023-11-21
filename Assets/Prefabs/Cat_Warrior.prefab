@@ -447,6 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  playerAnimator: {fileID: 1348712869742208222}
   punchHitbox: {fileID: 7629891780829049623}
   walkingSFX: {fileID: 1047536886071741761}
   tr: {fileID: 0}
@@ -682,12 +683,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb12dd56b4cade4f9601d592f5440fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 1348712869742208222}
   respawnPoint: {fileID: 2806514551957385781, guid: 661c25343f8547e4c922d2e7469572f4, type: 3}
   player: {fileID: 3808156096295150566}
   keyPrefab: []
   tc: {fileID: 1298411881304712945, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
-  openGate: {fileID: 0}
-  speed: 0
+  moveSpeed: 8
   collisionOffset: 0.5
   movementFilter:
     useTriggers: 0
@@ -703,6 +704,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  walkingSFX: {fileID: 1047536886071741761}
 --- !u!114 &921039056303084813
 MonoBehaviour:
   m_ObjectHideFlags: 0

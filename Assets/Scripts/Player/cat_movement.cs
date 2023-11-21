@@ -14,7 +14,7 @@ public class cat_movement : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     public float speed = 0.2f;
-    private Animator playerAnimator;
+    public Animator playerAnimator;
     public GameObject punchHitbox;
     Collider2D punchCollider;
     //public GameObject hitBox;
