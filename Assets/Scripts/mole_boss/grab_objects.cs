@@ -25,18 +25,11 @@ public class grab_objects : MonoBehaviour
 
         if (hitInfo.collider != null && hitInfo.collider.gameObject.layer == layerIndex) 
         {
-            if (Keyboard.current.spaceKey.wasPressedThisFrame && grabbedObject == null)
+            if (grabbedObject == null)
             {
                 grabbedObject = hitInfo.collider.gameObject;
-                //grabbedObject.GetComponent<Rigidbody2D>().isKinematic = true;
                 grabbedObject.transform.position = grabPoint.position;
                 grabbedObject.transform.SetParent(transform);
-            }
-            else if (Keyboard.current.spaceKey.wasPressedThisFrame)
-            {
-                //grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
-                grabbedObject.transform.SetParent(null);
-                grabbedObject = null;
             }
         }
     }
