@@ -4,26 +4,18 @@ using UnityEngine;
 
 public class SpawnEnemies : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject swarmerPrefab;
+    [SerializeField] private GameObject swarmerPrefab;
 
-    [SerializeField]
-    private int totalSwarmerEnemies = 10;
-    [SerializeField]
-    private float swarmerInterval = 2.5f;
+    [SerializeField] private int totalSwarmerEnemies = 10;
+    [SerializeField] private float swarmerInterval = 2.5f;
 
-    [SerializeField]
-    private float minX;
-    [SerializeField]
-    private float maxX;
+    public float minX;
+    public float maxX;
 
-    [SerializeField]
-    private float minY;
-    [SerializeField]
-    private float maxY;
+    public float minY;
+    public float maxY;
 
-    public float sendWave;
-
+    public float nextWaveWaitFor;
     private int swarmerCount = 0;
 
     private void Start()
@@ -45,7 +37,7 @@ public class SpawnEnemies : MonoBehaviour
         }
 
         // Wait for a delay before starting the next wave.
-        yield return new WaitForSeconds(sendWave); // Adjust this time to control the gap between waves.
+        yield return new WaitForSeconds(nextWaveWaitFor); // Adjust this time to control the gap between waves.
 
         // Start the next wave.
         StartCoroutine(SpawnWave());
@@ -68,7 +60,7 @@ public class SpawnEnemies : MonoBehaviour
 
         do
         {
-            // Generate a random spawn position
+            // Generate a random spawn position within a given coordinates in unity.
             spawnPosition = new Vector3(Random.Range(minX, maxX), Random.Range(minY,maxY), 0);
 
             // Check if the spawn position is valid (not inside wall colliders)
@@ -83,14 +75,8 @@ public class SpawnEnemies : MonoBehaviour
                     break;
                 }
             }
-
             attempts++;
         } while (!isPositionValid && attempts < maxAttempts);
-
-        if (attempts >= maxAttempts)
-        {
-            Debug.LogWarning("Unable to find a valid spawn position after multiple attempts.");
-        }
 
         return spawnPosition;
     }
