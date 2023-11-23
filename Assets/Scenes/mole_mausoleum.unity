@@ -10107,6 +10107,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1444018913}
     - target: {fileID: 4311695438613209235, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: moveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4311695438613209235, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: nextSceneCollider
       value: 
       objectReference: {fileID: 1474559820}
@@ -10157,6 +10161,10 @@ PrefabInstance:
     - target: {fileID: 7506065972809508758, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_SortingLayerID
       value: -1847146893
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817779726072294517, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: speed
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8985716272654675517, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: rayDistance

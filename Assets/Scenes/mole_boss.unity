@@ -5605,7 +5605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CinemachineVirtualCamera: {fileID: 1329084331}
-  boss: {fileID: 5832449567376687864}
+  player: {fileID: 0}
   shakeIntensity: 10
   shakeTime: 5
   shakeDurationAfterCollision: 5
@@ -78273,7 +78273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1067891894511937448, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: speed
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1067891894511937448, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_Enabled
@@ -78295,6 +78295,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5008391339551491370, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 8ce06246c97026449a25e3a9e9aaa27e, type: 2}
     - target: {fileID: 5096143507450994416, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: gameManager
       value: 
@@ -78302,7 +78306,7 @@ PrefabInstance:
     - target: {fileID: 5119331102227069506, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6200000, guid: 8ce06246c97026449a25e3a9e9aaa27e, type: 2}
     - target: {fileID: 5216903545853083801, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_TagString
       value: AttackBox
@@ -78337,7 +78341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5717559266550704974, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: moveSpeed
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5717559266550704974, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: walkingSFX
@@ -78361,11 +78365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6432360732482188488, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.214
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 6432360732482188488, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.027
+      value: -0.056
       objectReference: {fileID: 0}
     - target: {fileID: 8519242938643295582, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_LocalScale.x
@@ -78381,11 +78385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8519242938643295582, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.221
+      value: -0.191
       objectReference: {fileID: 0}
     - target: {fileID: 8519242938643295582, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.035
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 8885122191049713964, guid: a9230a4b9d6cf8145afe07279fcd24f1, type: 3}
       propertyPath: m_Mass
@@ -78454,5 +78458,5 @@ SceneRoots:
   - {fileID: 2074970524}
   - {fileID: 1634668366}
   - {fileID: 1047028921}
-  - {fileID: 5832449567376687863}
   - {fileID: 1117914129}
+  - {fileID: 5832449567376687863}

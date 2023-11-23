@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0221d7ed16d188246928ec6b32bcd128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 3
   playerAnimator: {fileID: 9114070079929041590}
   punchHitbox: {fileID: 373494619925140863}
   walkingSFX: {fileID: 7081242434884627241}
@@ -1960,14 +1960,14 @@ MonoBehaviour:
   collisionOffset: 0.5
   movementFilter:
     useTriggers: 0
-    useLayerMask: 0
+    useLayerMask: 1
     useDepth: 0
     useOutsideDepth: 0
     useNormalAngle: 0
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 0
+      m_Bits: 192
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
