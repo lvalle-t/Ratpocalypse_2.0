@@ -136,13 +136,13 @@ public class mole_movement : MonoBehaviour
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
-            Invoke("SpawnBats", 1);
+            Invoke("SpawnAnts", 1);
         }
         else if (updater.moleHp == 6f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
-            Invoke("SpawnAnts", 1);
+            Invoke("SpawnBats", 1);
         }
         breakTime = false;
     }

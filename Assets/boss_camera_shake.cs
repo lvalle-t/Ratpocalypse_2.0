@@ -6,7 +6,7 @@ using UnityEngine;
 public class boss_camera_shake : MonoBehaviour
 {
     public CinemachineVirtualCamera CinemachineVirtualCamera;
-    public GameObject boss;                         // Reference to the boss GameObject
+    public GameObject player;                         // Reference to the boss GameObject
     public float shakeIntensity = 1f;
     public float shakeTime = 0.2f;
     public float shakeDurationAfterCollision = 2f;
@@ -54,12 +54,12 @@ public class boss_camera_shake : MonoBehaviour
         {
             StopShake();
         }
-        CinemachineVirtualCamera.Follow = boss.transform;
+        CinemachineVirtualCamera.Follow = player.transform;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("Mole_Boss") && counter == 0)
+        if (col.gameObject.CompareTag("Mole_Boss") || col.gameObject.CompareTag("Alligator_Boss") && counter == 0)
         {
             ShakeCamera();
             StartCoroutine(StopShakeAfterDuration(shakeDurationAfterCollision));
