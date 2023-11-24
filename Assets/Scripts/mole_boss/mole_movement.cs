@@ -189,8 +189,6 @@ public class mole_movement : MonoBehaviour
 
     public void Aboveground()
     {
-        //antMobs.SetActive(false);
-        //batMobs.SetActive(false);
         moleStayUnder.SetActive(false);
         moleComeOut.SetActive(true);
         Invoke("StartFighting", 1);
@@ -200,6 +198,8 @@ public class mole_movement : MonoBehaviour
     {
         moleComeOut.SetActive(false);
         moleBoss.SetActive(true);
+        updater.moleHp += 0.1f;
+        healthBar.UpdateHealth(updater.moleHp);
     }
 
     public void ScoreCollection()

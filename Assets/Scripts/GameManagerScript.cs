@@ -29,7 +29,7 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         updater.playerHp = 9f;
         updater.treatCount = 0;
-        updater.alligatorHp = 1f;
+        updater.alligatorHp = 20f;
         updater.antHp = 1f;
         updater.batHp = 1f;
         updater.moleHp = 10f;

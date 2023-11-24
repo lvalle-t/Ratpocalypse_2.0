@@ -57,7 +57,7 @@ public class Alligator_Controller : MonoBehaviour
         {
             gatorAnimator.SetBool("Alligator_bite", true);             // Start attacking when the player is within attack range
         }
-        else if (Vector2.Distance(player.position, gatorRb.position) >= attackRange)
+        else if (Vector2.Distance(player.position, -gatorRb.position) <= attackRange)
         {
             gatorAnimator.SetBool("Alligator_tail_swipe", true);
         }
