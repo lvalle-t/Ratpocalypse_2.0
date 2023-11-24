@@ -11,7 +11,7 @@ public class scroll_script : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             scrollCanvas.SetActive(true);
-            Invoke("TurnScrollOff", 8);
+            Invoke("TurnScrollOff", 4);
         }
     }
 

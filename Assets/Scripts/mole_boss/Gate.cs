@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Gate : MonoBehaviour
 {
     public Animator gateAnima;
+    public int nextScene;
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +38,7 @@ public class Gate : MonoBehaviour
 
     private void NextScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + nextScene);
     }
 
     //private void CloseGate()
