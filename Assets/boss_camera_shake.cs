@@ -59,7 +59,7 @@ public class boss_camera_shake : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("Mole_Boss") || col.gameObject.CompareTag("Alligator_Boss") || col.gameObject.CompareTag("snake boss") && counter == 0)
+        if (col.gameObject.CompareTag("Mole_Boss") || col.gameObject.CompareTag("Alligator_Boss") || col.gameObject.CompareTag("snake_boss") && counter == 0)
         {
             ShakeCamera();
             StartCoroutine(StopShakeAfterDuration(shakeDurationAfterCollision));

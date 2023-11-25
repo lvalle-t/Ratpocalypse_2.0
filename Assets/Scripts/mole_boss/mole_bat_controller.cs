@@ -21,6 +21,11 @@ public class mole_bat_controller : MonoBehaviour
 
     public MoleBatHp healthBar;
 
+    public GameObject sonarFire;
+    public Transform sonarFirePos;
+    public float startTimeBtwShots;
+    private float timeBtwShots;
+
     private Rigidbody2D batRb;
     public Animator batAnimator;
     public GameObject[] itemDrop;
@@ -31,6 +36,7 @@ public class mole_bat_controller : MonoBehaviour
     {
         batRb = GetComponent<Rigidbody2D>();
         batAnimator = GetComponent<Animator>();
+        timeBtwShots = startTimeBtwShots;
     }
 
     void Update()
@@ -57,8 +63,19 @@ public class mole_bat_controller : MonoBehaviour
         {
             newPos = batRb.position + direction * speed * Time.fixedDeltaTime; // Move towards the player if they are outside the stopping distance
         }
-
         batRb.MovePosition(newPos);
+
+
+        if (timeBtwShots <= 0)
+        {
+            CastSonar();
+            timeBtwShots = startTimeBtwShots;
+        }
+        else
+        {
+            timeBtwShots -= Time.deltaTime;
+        }
+
     }
 
     void Follow(Vector2 direction)
@@ -78,6 +95,11 @@ public class mole_bat_controller : MonoBehaviour
             transform.Rotate(0f, 180f, 0f);
             isFlipped = true;
         }
+    }
+
+    void CastSonar()
+    {
+        Instantiate(sonarFire, sonarFirePos.position, Quaternion.identity);
     }
 
     public void TakeDamage(int damage)

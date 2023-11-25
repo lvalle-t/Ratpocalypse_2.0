@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 7998151324929471888}
   - component: {fileID: 2074487973358559458}
   - component: {fileID: 3297202180020433651}
-  - component: {fileID: 5042266879620840137}
-  - component: {fileID: 9003841194774082760}
+  - component: {fileID: 5939855144139833155}
   m_Layer: 8
   m_Name: SpiderKeyCard
-  m_TagString: FirstFloor
+  m_TagString: Key
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,8 +159,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.75, y: 23.40625}
   m_EdgeRadius: 0
---- !u!60 &5042266879620840137
-PolygonCollider2D:
+--- !u!58 &5939855144139833155
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -192,49 +191,6 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 14.75, y: 23.40625}
-    newSize: {x: 4.72, y: 7.49}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 7.125, y: 11.703125}
-      - {x: 6.927799, y: 13.967886}
-      - {x: 2.476677, y: 11.896725}
-      - {x: -3.3769379, y: 14.850264}
-      - {x: -3.3225594, y: 11.890583}
-      - {x: -6.8439636, y: 13.815575}
-      - {x: -6.90625, y: 11.703125}
-      - {x: -7.421814, y: 11.718723}
-      - {x: -7.375, y: 11.140625}
-      - {x: -10.269733, y: 9.927635}
-      - {x: -8.888775, y: -12.634716}
-      - {x: -7.375, y: -11.140625}
-      - {x: -7.03125, y: -11.640625}
-      - {x: -6.71875, y: -11.703125}
-      - {x: -4.2579994, y: -14.409084}
-      - {x: 5.6617584, y: -14.302359}
-      - {x: 6.875, y: -11.703125}
-      - {x: 7.375, y: -11.296875}
-      - {x: 9.696182, y: -8.569136}
-      - {x: 10.395588, y: 5.963106}
-      - {x: 7.375, y: 11.234375}
-  m_UseDelaunayMesh: 0
---- !u!114 &9003841194774082760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5229785989427226280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ad2188cd3ce01f419f093b33b18fbff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Offset: {x: -1.0146332, y: 0}
+  serializedVersion: 2
+  m_Radius: 22.052288

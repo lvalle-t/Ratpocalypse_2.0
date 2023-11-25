@@ -18,7 +18,7 @@ public class PetcorpDoors : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
     {
-        if (collision.gameObject.CompareTag("FirstFloor"))
+        if (collision.gameObject.CompareTag("Key"))
         {
             OpenDoors();
         }
