@@ -328,7 +328,7 @@ MonoBehaviour:
   radius: 0.56
   height: 2
   canMove: 1
-  maxSpeed: 1
+  maxSpeed: 1.8
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 0
-  MaxHitpoints: 5
+  MaxHitpoints: 2
   Healthbar: {fileID: 1689323617932231456}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
