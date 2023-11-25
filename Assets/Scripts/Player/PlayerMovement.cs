@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform respawnPoint;
 
     public GameObject player;
-    public GameObject[] keyPrefab;
+    //public GameObject[] keyPrefab;
     public treat_counter tc;        // manages the treat counter script -deb
 
     public float moveSpeed = 8f;

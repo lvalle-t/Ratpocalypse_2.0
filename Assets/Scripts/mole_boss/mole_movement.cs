@@ -132,16 +132,20 @@ public class mole_movement : MonoBehaviour
 
             ScoreCollection();
         }
-        else if (updater.moleHp == 4f && breakTime == true)
+        else if (updater.moleHp == 5f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
+            //updater.moleHp += 3f;
+            //healthBar.UpdateHealth(updater.moleHp);
             Invoke("SpawnAnts", 1);
         }
-        else if (updater.moleHp == 6f && breakTime == true)
+        else if (updater.moleHp == 15f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
+            //updater.moleHp += 3f;
+            //healthBar.UpdateHealth(updater.moleHp);
             Invoke("SpawnBats", 1);
         }
         breakTime = false;
@@ -167,7 +171,7 @@ public class mole_movement : MonoBehaviour
 
         for (int i = 0; i < enemiesThisRow; i++)
         {
-            Instantiate(batPrefab[Random.Range(0, batPrefab.Length)], new Vector3(Random.Range(-12, 16), Random.Range(8, 24), 0), Quaternion.identity);
+            Instantiate(batPrefab[Random.Range(0, batPrefab.Length)], new Vector3(Random.Range(-12, 12), Random.Range(-5, 8), 0), Quaternion.identity);
         }
 
         Invoke("Underground", 1);
@@ -184,7 +188,7 @@ public class mole_movement : MonoBehaviour
     {
         moleGoUnderground.SetActive(false);
         moleStayUnder.SetActive(true);
-        Invoke("Aboveground", 6);
+        Invoke("Aboveground", 8);
     }
 
     public void Aboveground()
@@ -198,8 +202,6 @@ public class mole_movement : MonoBehaviour
     {
         moleComeOut.SetActive(false);
         moleBoss.SetActive(true);
-        updater.moleHp += 0.1f;
-        healthBar.UpdateHealth(updater.moleHp);
     }
 
     public void ScoreCollection()
@@ -218,6 +220,6 @@ public class mole_movement : MonoBehaviour
 
     public void ResetMole()
     {
-        updater.moleHp = 10f;
+        updater.moleHp = 20f;
     }
 }

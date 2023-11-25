@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ExitCredits : MonoBehaviour
 {
-    public AudioSource creditsMusic
-        ;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioSource creditsMusic;
 
-    // Update is called once per frame
+    
     void Update()
     {
         GoBack();
