@@ -22,6 +22,9 @@ public class cat_movement : MonoBehaviour
     public bool climb { get; set; }
     private float dirX, dirY;
     [SerializeField] AudioSource walkingSFX;
+    [Header("Pause Menu Objects")]
+    public GameObject PausePanel;
+    public GameObject catPlayer;
     [Header("Dash Settings")]
     [SerializeField] float dashSpeed = 10f;
     [SerializeField] float dashDuration = 1f;
@@ -67,6 +70,22 @@ public class cat_movement : MonoBehaviour
         {
             walkingSFX.Stop();
             playerAnimator.SetBool("isWalking", false);
+        }
+
+
+    }
+    public void OnPause()
+    {
+        if (!PausePanel.activeSelf)
+        {
+            PausePanel.SetActive(true);
+            catPlayer.SetActive(false);
+            Time.timeScale = 0;
+        }
+        else{
+            PausePanel.SetActive(false);
+            catPlayer.SetActive(true);
+            Time.timeScale = 1;
         }
 
 
