@@ -22,17 +22,19 @@ public class cat_movement : MonoBehaviour
     public bool climb { get; set; }
     private float dirX, dirY;
     [SerializeField] AudioSource walkingSFX;
-    private bool canDash = true;
-    private bool isDashing;
-    private float dashingPower = 24f;
-    private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
+    [Header("Dash Settings")]
+    [SerializeField] float dashSpeed = 10f;
+    [SerializeField] float dashDuration = 1f;
+    [SerializeField] float dashCooldown = 1f;
+    bool isDashing;
+    bool canDash;
     [SerializeField] private TrailRenderer tr;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         punchCollider = punchHitbox.GetComponent<Collider2D>();
+        canDash = true;
     }
     private void Update()
     {
@@ -45,7 +47,6 @@ public class cat_movement : MonoBehaviour
             StartCoroutine(Dash());
         }
     }
-
     private void OnMovement(InputValue value)
     {
         movement = value.Get<Vector2>();
@@ -77,7 +78,6 @@ public class cat_movement : MonoBehaviour
             return;
         }
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -99,15 +99,14 @@ public class cat_movement : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
-        float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f;
-        rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        rb.velocity = new Vector2(movement.x * dashSpeed, movement.y * dashSpeed);
         tr.emitting = true;
-        yield return new WaitForSeconds(dashingTime);
-        tr.emitting = false;
-        rb.gravityScale = originalGravity;
+        //rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        yield return new WaitForSeconds(dashDuration);
+        tr.emitting = true;
         isDashing = false;
-        yield return new WaitForSeconds(dashingCooldown);
+        yield return new WaitForSeconds(dashCooldown);
         canDash = true;
+
     }
 }
