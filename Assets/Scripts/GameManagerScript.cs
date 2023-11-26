@@ -26,7 +26,7 @@ public class GameManagerScript : MonoBehaviour
 
     public void restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Laboratory");
         updater.playerHp = 9f;
         updater.treatCount = 0;
         updater.alligatorHp = 20f;
