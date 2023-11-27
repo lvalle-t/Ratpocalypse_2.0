@@ -14,7 +14,6 @@ public class snake_health : MonoBehaviour
     public GameObject[] itemDrops;
     public float damaged = 0.2f;
     public int scoreNum = 0;
-    
 
     public GameObject enemy;
 
@@ -23,7 +22,6 @@ public class snake_health : MonoBehaviour
     private GameObject door_exit;
     private GameObject door_exit_bg;
     private GameObject snake;
-    private FlashDamage flashDamage;
 
     SpriteRenderer m_SpriteRenderer;
     Color m_NewColor;
@@ -36,7 +34,6 @@ public class snake_health : MonoBehaviour
         // m_SpriteRenderer = GetComponent<SpriteRenderer>();
         snake = GameObject.Find("snake");
         m_SpriteRenderer = snake.GetComponent<SpriteRenderer>();
-        flashDamage = GetComponent<FlashDamage>();
 
         Debug.Log(snake);
         Debug.Log(m_SpriteRenderer);
@@ -63,8 +60,6 @@ public class snake_health : MonoBehaviour
         {
             return;
         }
-
-        flashDamage.FlashOnDamage();
 
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
