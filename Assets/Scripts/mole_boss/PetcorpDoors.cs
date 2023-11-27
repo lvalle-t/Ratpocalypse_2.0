@@ -26,8 +26,8 @@ public class PetcorpDoors : MonoBehaviour
 
     public void OpenDoors()
     {
-        doorLeft.SetBool("Open", true);
         doorRight.SetBool("Open", true);
+        doorLeft.SetBool("Open", true);
 
         Invoke("NextScene", 2);
     }

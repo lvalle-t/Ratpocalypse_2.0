@@ -127,11 +127,11 @@ public class Alligator_Controller : MonoBehaviour
             ItemDrop();
             Destroy(gameObject);
         }
-        else if (updater.alligatorHp == 5f && breakTime == true)
+        else if (updater.alligatorHp == 18f && breakTime == true)
         {
             SpawnAnts();
         }
-        else if (updater.alligatorHp == 15f && breakTime == true)
+        else if (updater.alligatorHp == 36f && breakTime == true)
         {
             SpawnBats();
         }

@@ -5,17 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ExitCredits : MonoBehaviour
 {
-    public AudioSource creditsMusic;
-
-    
-    void Update()
-    {
-        GoBack();
-    }
-
     private void FixedUpdate()
     {
-        GetComponents<AudioSource>()[0].Play();
+        GoBack();
     }
 
     public void GoBack()

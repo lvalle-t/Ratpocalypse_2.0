@@ -123,6 +123,64 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &49542146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2998859902706881032, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_Name
+      value: AudioManager (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46012497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24670528
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.009202534
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706228088987555840, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3109505700877465675, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 503425aeeef07dd45ad4555d1cfad068, type: 3}
 --- !u!1 &621374538
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 851ceac050335204399ccc20b81aeefa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  creditsMusic: {fileID: 0}
 --- !u!82 &898211468
 AudioSource:
   m_ObjectHideFlags: 0
@@ -536,7 +593,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 08a592c015848a64eaefb2eba7b4980e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8a341fac86aaac44b801ad1cc957315c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -656,8 +713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6, y: -3832.4001}
-  m_SizeDelta: {x: 1820, y: 6544.8}
+  m_AnchoredPosition: {x: 6, y: -3903.8}
+  m_SizeDelta: {x: 1820, y: 6687.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981028605
 MonoBehaviour:
@@ -690,6 +747,7 @@ MonoBehaviour:
 
 
 
+
     Designer:
 
 
@@ -701,6 +759,10 @@ MonoBehaviour:
 
 
 
+
+
+
+    Music:
 
 
 
@@ -750,7 +812,6 @@ MonoBehaviour:
 
     Character
     Art Design:
-
 
 
 
@@ -967,8 +1028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3861.4}
-  m_SizeDelta: {x: 1820, y: 6486.8}
+  m_AnchoredPosition: {x: 0, y: -3932.9}
+  m_SizeDelta: {x: 1820, y: 6629.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132305054
 MonoBehaviour:
@@ -1008,9 +1069,7 @@ MonoBehaviour:
 
 
 
-
     Patricia Kurniawan
-
 
 
 
@@ -1027,7 +1086,10 @@ MonoBehaviour:
 
     Lupita Valle
 
-'
+
+
+    Fabian
+    Silva'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
   m_sharedMaterial: {fileID: 5866575379975551743, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
@@ -1360,7 +1422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -42, y: -4239.3}
+  m_AnchoredPosition: {x: -47, y: -4382.2}
   m_SizeDelta: {x: 601.644, y: 5731}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576762952
@@ -1387,7 +1449,7 @@ MonoBehaviour:
     Boss\n\nAnt Mob\t\n\n\nBat Mob\t\n\n\nRat Mob\t\n\n\nSpider Mob\n\nAnt Fire Breath\n\nGate/Key\n\nFront
     Door/Keycard\n\nStairwell Door/Keycard\n\nScroll\n\nCamera Shake\n\nGame Over
     Screen\n\nMain Menu\n\n\n\nCat Warrior\n\n\n\nSnake Boss\n\nMole Boss\n\nAlligator
-    Boss\n\n\nAnt Mob\t\n\n\nBat Mob\t\n\n\nSpider Mob\n\nRat Mob\n\nRat King\t\n\n\n\nScientist
+    Boss\n\nAnt Mob\t\n\n\nBat Mob\t\n\n\nSpider Mob\n\nRat Mob\n\nRat King\t\n\n\n\nScientist
     Scene\t\n\nMob Sewer Scene\n\n\nSnake Sewer Scene\n\n\nCity Scene\n\nCemetery
     Scene\t\n\n\nMausoleum Scene\n\nPetcorp Outside\n\nPetcorp First Floor\n\nPetcorp
     Rat King Scene\n\n\n\n Cat Warrior\n\n\n\n\nRat King\t\n\n\nAnt Mob\t\n\nBat
@@ -1506,7 +1568,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 456, y: -4238.7573}
+  m_AnchoredPosition: {x: 436, y: -4381.6}
   m_SizeDelta: {x: 578.8993, y: 5732.215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1749067031
@@ -1535,19 +1597,18 @@ MonoBehaviour:
     \r\nDebbie DeLeon\r\n\nHannah Hebert\r\n\nLupita Valle\r\n\nDebbie Bauer\r\n\nDebbie
     Bauer\r\n\nDebbie Bauer\r\n\nDebbie DeLeon\r\n\nTristan Fry\r\n\nDebbie DeLeon\r\n\nAnthony
     Castillo\r\n\r\n\n\nAnthony Castillio, \r\nDebbie DeLeon,\r\nFabian Silva\r\n\nTristian
-    Fry\r\n\nDebbie DeLeon\r\n\nHannah Hebert, \r\nDebbie DeLeon\r\n\nLupita Valle,
-    \r\nDebbie Deleon\r\n\nDebbie DeLeon\r,\nTristan Fry\n\nHannah Hebert\r\n\nLupita
-    Valle\r\n\nTristian Fry\r\n\r\n\n\nAnthony Castillo\r\n\nHannah Herbert, \r\nDebbie
-    DeLeon\r\n\nHannah Herbert, \r\nTristian Fry\r\n\nLupita Valle\r\n\nLupita Valle,
-    \nDebbie Deleon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nTristian
-    Fry\r\n\r\n\n\nAnthony Castillo, \r\nLupita Valle,\r\nFabian Silva,\r\nDebbie
-    Deleon\r\n\nTristian Fry\r\n\nLupita Valle, \r\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nLupita
-    Valle\r\n\nHannah Hebert\r\n\nTristian Fry\r\n\nDebbie DeLeon\r\n\nTristian Fry,
-    \nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie
-    DeLeon\r\n\nLupita Valle\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nTristian
-    Fry\r\n\nLupita Valle\r\n\r\n\n\nDebbie DeLeon\r\n\nPatricia Kurniawan\r\n\nDebbie
-    DeLeon\r\n\nDebbie DeLeon\r\n\r\n\n\nDebbie DeLeon\r\n\nAnthony Castillo, \r\nDebbie
-    DeLeon\r\n\nFabian Silva\r\n\nDebbie DeLeon\r\n"
+    Fry\r\n\nDebbie DeLeon\r\n\nHannah Hebert \n\nLupita Valle, \r\nDebbie Deleon\r\n\nDebbie
+    DeLeon\r,\nTristan Fry\n\nHannah Hebert\r\n\nLupita Valle\r\n\nTristian Fry\r\n\r\n\n\nAnthony
+    Castillo\r\n\nHannah Herbert, \r\nDebbie DeLeon\r\n\nHannah Herbert, \r\nTristian
+    Fry\r\n\nLupita Valle\r\n\nLupita Valle, \nDebbie Deleon\r\n\nDebbie DeLeon\r\n\nDebbie
+    DeLeon\r\n\nDebbie DeLeon\r\n\nTristian Fry\r\n\r\n\n\nAnthony Castillo, \r\nLupita
+    Valle,\r\nFabian Silva,\r\nDebbie Deleon\r\n\nTristian Fry\r\n\nLupita Valle,
+    \r\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nLupita Valle\r\n\nHannah Hebert\r\n\nTristian
+    Fry\r\n\nDebbie DeLeon\r\n\nTristian Fry, \nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie
+    DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nLupita Valle\r\n\nDebbie DeLeon\r\n\nDebbie
+    DeLeon\r\n\nDebbie DeLeon\r\n\nTristian Fry\r\n\nLupita Valle\r\n\r\n\n\nDebbie
+    DeLeon\r\n\nPatricia Kurniawan\r\n\nDebbie DeLeon\r\n\nTBD\n\r\n\n\nDebbie DeLeon\r\n\nAnthony
+    Castillo, \r\nDebbie DeLeon\r\n\nFabian Silva\r\n\nDebbie DeLeon\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
   m_sharedMaterial: {fileID: 5866575379975551743, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
@@ -1766,3 +1827,4 @@ SceneRoots:
   - {fileID: 1321200619}
   - {fileID: 1485382961}
   - {fileID: 898211466}
+  - {fileID: 49542146}
