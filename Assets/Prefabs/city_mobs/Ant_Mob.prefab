@@ -265,6 +265,7 @@ MonoBehaviour:
   Healthbar: {fileID: 719021805834198017}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
+  deathEffect: {fileID: 8977350845970236212, guid: a3bfaf8beb8b2cd49afe45cba06fd545, type: 3}
 --- !u!114 &4242163449887264349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,7 +305,7 @@ MonoBehaviour:
   - {x: 0.31, y: -0.255, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 219280
+  m_InstanceId: 185460
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.31, y: 0.255, z: 0}
