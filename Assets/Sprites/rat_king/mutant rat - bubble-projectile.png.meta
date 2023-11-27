@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504abf822db122f4394d8235bb9959b4
+      internalID: -1559343313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 13
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666f2e1ef67095242a7f63e4dbba65fb
+      internalID: -195920994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11df3df26b293a478a8d6d3e7958b1e
+      internalID: -1146783866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 13
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cbdf1155abb0e4f8087a378b5bdbaa
+      internalID: -1031128843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 13
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6faa7d6cb7e9614eb7a03566320fe64
+      internalID: -1979668518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 13
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0d94dd63c6d1442b4f4cfcd8150611
+      internalID: -890227534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 15
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37dc323286523a40acd33370b9826f3
+      internalID: 1782935136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 16
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baed757f9ea5b544b7a9ec7f86ac380
+      internalID: 467153262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mutant rat - bubble-projectile_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 18
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e027d352eeec14f8679ff74b979c09
+      internalID: -676124219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mutant rat - bubble-projectile_0: -1559343313
+      mutant rat - bubble-projectile_1: -195920994
+      mutant rat - bubble-projectile_2: -1146783866
+      mutant rat - bubble-projectile_3: -1031128843
+      mutant rat - bubble-projectile_4: -1979668518
+      mutant rat - bubble-projectile_5: -890227534
+      mutant rat - bubble-projectile_6: 1782935136
+      mutant rat - bubble-projectile_7: 467153262
+      mutant rat - bubble-projectile_8: -676124219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
