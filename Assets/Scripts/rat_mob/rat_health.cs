@@ -11,11 +11,15 @@ public class rat_health : MonoBehaviour
     public float Hitpoints;
     public float MaxHitpoints;
     public rat_healthbar Healthbar;
+    
+    [Header("Item Drops")]
     public GameObject[] itemDrops;
-    private FlashDamage flashDamage;
-
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
+    [Header("Sound")]
     [SerializeField] private AudioSource hitDamageSFX;
+    [Header("Effects")]
+    public GameObject deathEffect;
+    private FlashDamage flashDamage;
 
     void Start()
     {
@@ -44,6 +48,7 @@ public class rat_health : MonoBehaviour
         hitDamageSFX.Play();
         if (Hitpoints <= 0)
         {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             ItemDrop();
             //ScoreCollection();
