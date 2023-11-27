@@ -2116,7 +2116,7 @@ PrefabInstance:
       objectReference: {fileID: 4551248159238598939, guid: edebf838e9dd5984a811176504444644, type: 3}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: swarmerInterval
-      value: 2.5
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: bigSwarmerPrefab
@@ -2124,11 +2124,11 @@ PrefabInstance:
       objectReference: {fileID: 7401581611416096709, guid: 4f284c28968a8cc419957dd832fee11c, type: 3}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: bigSwarmerInterval
-      value: 2.5
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: totalSwarmerEnemies
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9006646981934204772, guid: 787b10fcd2af82c4cb75b676f27ec0c0, type: 3}
       propertyPath: totalBigSwarmerEnemies
