@@ -1,0 +1,1906 @@
+fileFormatVersion: 2
+guid: f12decbb453e6ce4482bf7f2454d431c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Laboratory_Experiments_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81575355ebc6ff44f9977b41a9dc111b
+      internalID: 662099975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_5
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b88dee42b1430d42a9029bd3d702505
+      internalID: 1133894987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1613b1435144b4e83373589f83ff28
+      internalID: 269504794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caca5069da0393943a87dea5c83fa2b5
+      internalID: -1515644310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_9
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35679c68f6ad74d4db82c36372b00d37
+      internalID: 1150314022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01425d9aa3f3efb478e50e977afe2e7b
+      internalID: 874045446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_11
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ee69b00a0d20a46b58d22223f3c8be
+      internalID: 278982957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_12
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92568dbef1bf11b4cacd39d70de4b211
+      internalID: 1242606598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_13
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272d3acd5cada7142a0af37c8a65ad8f
+      internalID: 892793157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_14
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54677b381052a6b419f21157b868dfb5
+      internalID: 2101883222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_15
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f685f05897a0c4fb04796d5b1d2383
+      internalID: -1776852548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_16
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044bec48e8088454d967cff029093a3e
+      internalID: -1085900547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d088aad6a9fa64ebbf0b843a08ce58
+      internalID: 1649154965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638d54783cef6824b831cb64314dde71
+      internalID: 1409824825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ee30029fee79b4e937f13e95ee264a
+      internalID: -1258378032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3abfc3f44aa4fe4785ef39f1345e847
+      internalID: 1648979410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566da9229fbf7b64abd3e3f4c722ed9f
+      internalID: 869439142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d836eac3f16a749ae29bb2912a849b
+      internalID: -316641762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7e3811258a3ec488af22c7019d2189
+      internalID: -531873314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e982aed73eec43bf6dd540e36d9be
+      internalID: -1666734486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f676492b822880245a206445aad4204f
+      internalID: -606979576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5729115aa548d499b590d3c313efe8
+      internalID: 1721531381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72c0e4075d38f04db68a1bd5dcc7b31
+      internalID: 1064378517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d830f3ecaa5f53244887c12fbdbbd42c
+      internalID: 676478364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882ed2407e4afda4ca83bf3ec569d21a
+      internalID: 2062629887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337d86dac0bd37f42a55e019bc769642
+      internalID: 1603817234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_32
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e421ae73e9766324aba7af1cab527b07
+      internalID: -908096784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_34
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec72520f4fba340b3bc352ef7022a0
+      internalID: -1406912839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_35
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff29b48e4c9f3f42b18ac949616a46e
+      internalID: 1500857544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8892fec442c360144aebf3b969f1c589
+      internalID: -504840690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_37
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0cef7b47c42074580dadb694dcd37d
+      internalID: -796789311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_38
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20207b16043a3f649b2c9aa9d311f268
+      internalID: -1587476334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_39
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e10d67d5625884a8272c927c33cf15
+      internalID: -459638107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_40
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c484789be6bb0db479402c11c51f241f
+      internalID: 1347760165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_41
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2292fb38ad298fc4a9fd98b50c741d62
+      internalID: -785940750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_42
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 470
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74765529c06c82a4e8f0c85faf6d88b5
+      internalID: -201443173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567778f27fca87345905a46f70119ba2
+      internalID: -1807106104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 534
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 6.5367393, y: 1.0288596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb6391207be95478ef62d475d7cff7
+      internalID: -1740389811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0542daf106e5d4ca86569ad1a903ab
+      internalID: -452596689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_48
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 534
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc8e7e628a0077479d9e94597ab5776
+      internalID: 1257433182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_66
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ed38850ec19354596ba0b28fa87e51
+      internalID: -1228448683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_80
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 321
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf5729a52992264eb7717d35df2a44e
+      internalID: -686900500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_81
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 257
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a58f0370928eb4485112d835905c90
+      internalID: -408709907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_92
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 362
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44150b7c2a6882348a4396590372c69d
+      internalID: 1190399694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_93
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0d194ce15d212428c9dd5959912de4
+      internalID: 815115934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_107
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 321
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9247bf53c907f4b88b1cf9c50f4a7c
+      internalID: -1370318067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_109
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 257
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ba3bb609a2f44e9f73b7ae82e755d
+      internalID: -1271041586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_116
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 298
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91c2752510771c499acf2f3379d68ec
+      internalID: 1136501605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_131
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 257
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b094b353235b1564f8ab8858b87115a6
+      internalID: 216199829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_132
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 321
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd7f402b43b3d4bb134aaf0238c8d0
+      internalID: 1024816218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_142
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa62030751097c54fa931a5ee8733821
+      internalID: -519603181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_143
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d848219f5f51cae49b8ffeac1a98fec3
+      internalID: 271530032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_144
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d892a242c3d054abf0232d080c5c14
+      internalID: 1076798778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_145
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 169
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0c9f653628edd4caeab0617bd98054
+      internalID: -1531060137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_146
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7771f1676f412469ef663694195338
+      internalID: 502124635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_147
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124075f27aec14449818d32daf5ae782
+      internalID: -1962238859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_148
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a76c148f30fff44b6b968b0e5f69cd
+      internalID: -125419977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_149
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b69da973506a748a8e5f928eea6eec
+      internalID: -1823788412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_150
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1be4c631e11a1e489b2ffe6bcfa17cf
+      internalID: -1070454388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_152
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329a3b3e1742eae4c9c1e05afa296146
+      internalID: 1637549077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_153
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1f3a457301e1d41b6678109bc46242
+      internalID: 1056083791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_154
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 184
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c939c3816ee6a4497785203c4290c4
+      internalID: -782264065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_155
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 180
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ce8f0e9ecedba4aa7dc72b5e108a20
+      internalID: -1345488110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_156
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 180
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718522363faf4744194292a09310715b
+      internalID: -1006008468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_158
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f71d2861506afc42895571e30a97b4c
+      internalID: 361726687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_159
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee585233042228440aebdfc94ada036c
+      internalID: 1117508930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_160
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee675b692b7524c871fce59c8659a4
+      internalID: -843646525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_161
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8811f531a798e44cb8faa473cdd3d6e
+      internalID: -982195480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_162
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bc0af819e73484aab8006845b8d80d
+      internalID: -136398759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_163
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83696a2b1475944ca4a74599eed59b8
+      internalID: 1358654268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_164
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633037aa026e6894eb283add267d6577
+      internalID: -1598426310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_165
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 234
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e258f208723e40b4b0a9af7e6781d
+      internalID: -1016866338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_166
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 170
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8e1bdeca9e11a4caa922329712d2d7
+      internalID: 236171306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_167
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 169
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a082c60886e3624caee9ae325c38300
+      internalID: 52952136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_168
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 169
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad319bace3b3a14aba998ab623479f1
+      internalID: -838733665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laboratory_Experiments_169
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 169
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c56da1c7c76b646887aaa69d4674f2
+      internalID: -1164779160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Laboratory_Experiments_0: 1147842812
+      Laboratory_Experiments_1: 1615425080
+      Laboratory_Experiments_10: 874045446
+      Laboratory_Experiments_100: 1636878708
+      Laboratory_Experiments_101: 639590015
+      Laboratory_Experiments_102: -2130587378
+      Laboratory_Experiments_103: 790606449
+      Laboratory_Experiments_104: 296316065
+      Laboratory_Experiments_105: 2104685727
+      Laboratory_Experiments_106: -1975063160
+      Laboratory_Experiments_107: -1370318067
+      Laboratory_Experiments_108: 2127736383
+      Laboratory_Experiments_109: -1271041586
+      Laboratory_Experiments_11: 278982957
+      Laboratory_Experiments_110: 854465348
+      Laboratory_Experiments_111: -1854230050
+      Laboratory_Experiments_112: -2091139681
+      Laboratory_Experiments_113: -1393419999
+      Laboratory_Experiments_114: 348583453
+      Laboratory_Experiments_115: -521061558
+      Laboratory_Experiments_116: 1136501605
+      Laboratory_Experiments_117: 788330777
+      Laboratory_Experiments_118: 1630104279
+      Laboratory_Experiments_119: -375759524
+      Laboratory_Experiments_12: 1242606598
+      Laboratory_Experiments_120: -591500183
+      Laboratory_Experiments_121: 138538334
+      Laboratory_Experiments_122: 152476467
+      Laboratory_Experiments_123: 965492535
+      Laboratory_Experiments_124: -2031569896
+      Laboratory_Experiments_125: 1870505813
+      Laboratory_Experiments_126: -1797532598
+      Laboratory_Experiments_127: -362371485
+      Laboratory_Experiments_128: -598846533
+      Laboratory_Experiments_129: 876184439
+      Laboratory_Experiments_13: 892793157
+      Laboratory_Experiments_130: -628106842
+      Laboratory_Experiments_131: 216199829
+      Laboratory_Experiments_132: 1024816218
+      Laboratory_Experiments_133: -1472449286
+      Laboratory_Experiments_134: -1069731642
+      Laboratory_Experiments_135: -1902020286
+      Laboratory_Experiments_136: 74355131
+      Laboratory_Experiments_137: 1973537658
+      Laboratory_Experiments_138: 1191455971
+      Laboratory_Experiments_139: 1996382847
+      Laboratory_Experiments_14: 2101883222
+      Laboratory_Experiments_140: 687822973
+      Laboratory_Experiments_141: -439008194
+      Laboratory_Experiments_142: -519603181
+      Laboratory_Experiments_143: 271530032
+      Laboratory_Experiments_144: 1076798778
+      Laboratory_Experiments_145: -1531060137
+      Laboratory_Experiments_146: 502124635
+      Laboratory_Experiments_147: -1962238859
+      Laboratory_Experiments_148: -125419977
+      Laboratory_Experiments_149: -1823788412
+      Laboratory_Experiments_15: -1776852548
+      Laboratory_Experiments_150: -1070454388
+      Laboratory_Experiments_151: 1638448504
+      Laboratory_Experiments_152: 1637549077
+      Laboratory_Experiments_153: 1056083791
+      Laboratory_Experiments_154: -782264065
+      Laboratory_Experiments_155: -1345488110
+      Laboratory_Experiments_156: -1006008468
+      Laboratory_Experiments_157: 768202773
+      Laboratory_Experiments_158: 361726687
+      Laboratory_Experiments_159: 1117508930
+      Laboratory_Experiments_16: -1085900547
+      Laboratory_Experiments_160: -843646525
+      Laboratory_Experiments_161: -982195480
+      Laboratory_Experiments_162: -136398759
+      Laboratory_Experiments_163: 1358654268
+      Laboratory_Experiments_164: -1598426310
+      Laboratory_Experiments_165: -1016866338
+      Laboratory_Experiments_166: 236171306
+      Laboratory_Experiments_167: 52952136
+      Laboratory_Experiments_168: -838733665
+      Laboratory_Experiments_169: -1164779160
+      Laboratory_Experiments_17: 1484462746
+      Laboratory_Experiments_18: 1649154965
+      Laboratory_Experiments_19: 1409824825
+      Laboratory_Experiments_2: -1913170884
+      Laboratory_Experiments_20: -1258378032
+      Laboratory_Experiments_21: 1648979410
+      Laboratory_Experiments_22: 869439142
+      Laboratory_Experiments_23: -316641762
+      Laboratory_Experiments_24: -531873314
+      Laboratory_Experiments_25: -1666734486
+      Laboratory_Experiments_26: -606979576
+      Laboratory_Experiments_27: 1721531381
+      Laboratory_Experiments_28: 1064378517
+      Laboratory_Experiments_29: 676478364
+      Laboratory_Experiments_3: 1894459336
+      Laboratory_Experiments_30: 2062629887
+      Laboratory_Experiments_31: 1603817234
+      Laboratory_Experiments_32: -908096784
+      Laboratory_Experiments_33: -1234551463
+      Laboratory_Experiments_34: -1406912839
+      Laboratory_Experiments_35: 1500857544
+      Laboratory_Experiments_36: -504840690
+      Laboratory_Experiments_37: -796789311
+      Laboratory_Experiments_38: -1587476334
+      Laboratory_Experiments_39: -459638107
+      Laboratory_Experiments_4: 662099975
+      Laboratory_Experiments_40: 1347760165
+      Laboratory_Experiments_41: -785940750
+      Laboratory_Experiments_42: -201443173
+      Laboratory_Experiments_43: -668495431
+      Laboratory_Experiments_44: -1807106104
+      Laboratory_Experiments_45: -1740389811
+      Laboratory_Experiments_46: -452596689
+      Laboratory_Experiments_47: 1386179162
+      Laboratory_Experiments_48: 1257433182
+      Laboratory_Experiments_49: 1428833952
+      Laboratory_Experiments_5: 1133894987
+      Laboratory_Experiments_50: 303472954
+      Laboratory_Experiments_51: -1122304419
+      Laboratory_Experiments_52: -74536201
+      Laboratory_Experiments_53: 811014539
+      Laboratory_Experiments_54: -1475586763
+      Laboratory_Experiments_55: -187045883
+      Laboratory_Experiments_56: -846971767
+      Laboratory_Experiments_57: 562337773
+      Laboratory_Experiments_58: -55313407
+      Laboratory_Experiments_59: 1798624462
+      Laboratory_Experiments_6: 269504794
+      Laboratory_Experiments_60: -1512934859
+      Laboratory_Experiments_61: -2002863903
+      Laboratory_Experiments_62: -2123978144
+      Laboratory_Experiments_63: 1348663193
+      Laboratory_Experiments_64: 927551524
+      Laboratory_Experiments_65: -1347446679
+      Laboratory_Experiments_66: -1228448683
+      Laboratory_Experiments_67: 1422412807
+      Laboratory_Experiments_68: -701408550
+      Laboratory_Experiments_69: 450860034
+      Laboratory_Experiments_7: 1411326631
+      Laboratory_Experiments_70: -1360089462
+      Laboratory_Experiments_71: -839896473
+      Laboratory_Experiments_72: -1296197748
+      Laboratory_Experiments_73: 876881701
+      Laboratory_Experiments_74: 1460193631
+      Laboratory_Experiments_75: 230628838
+      Laboratory_Experiments_76: 901655045
+      Laboratory_Experiments_77: 2027039140
+      Laboratory_Experiments_78: -1617249172
+      Laboratory_Experiments_79: 1408337338
+      Laboratory_Experiments_8: -1515644310
+      Laboratory_Experiments_80: -686900500
+      Laboratory_Experiments_81: -408709907
+      Laboratory_Experiments_82: -920690234
+      Laboratory_Experiments_83: -1173352289
+      Laboratory_Experiments_84: 1980810000
+      Laboratory_Experiments_85: -1529001334
+      Laboratory_Experiments_86: -761540027
+      Laboratory_Experiments_87: 1164656888
+      Laboratory_Experiments_88: -431593632
+      Laboratory_Experiments_89: -332450468
+      Laboratory_Experiments_9: 1150314022
+      Laboratory_Experiments_90: -302048052
+      Laboratory_Experiments_91: 1145362362
+      Laboratory_Experiments_92: 1190399694
+      Laboratory_Experiments_93: 815115934
+      Laboratory_Experiments_94: 249050266
+      Laboratory_Experiments_95: -153590803
+      Laboratory_Experiments_96: 1521274783
+      Laboratory_Experiments_97: -1129461406
+      Laboratory_Experiments_98: -1957889385
+      Laboratory_Experiments_99: 2085008756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

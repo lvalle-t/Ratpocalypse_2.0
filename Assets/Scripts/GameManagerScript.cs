@@ -29,10 +29,10 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         updater.playerHp = 9f;
         updater.treatCount = 0;
-        updater.alligatorHp = 20f;
+        updater.alligatorHp = 60f;
         updater.antHp = 1f;
         updater.batHp = 1f;
-        updater.moleHp = 20f;
+        updater.moleHp = 40f;
         updater.ratHp = 1f;
         updater.snakeHp = 1f;
         Debug.Log("RESTART!!!!!");
