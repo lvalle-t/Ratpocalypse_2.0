@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [Header("Effects")]
     public GameManagerScript gameManager;
     public HealthBar healthBar;
     private bool isDead;
@@ -15,33 +16,43 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHeart;
     public Animator myAnimator;
 
-    private void Start() {
+    public GameObject deathEffect;
+
+    private void Start()
+    {
         UpdateHealth();
     }
 
-    public void UpdateHealth() {
+    public void UpdateHealth()
+    {
 
         //make sure that player health cannot be more than max health
         /*if(updater.playerHp > updater.maxHp){ 
             updater.playerHp = updater.maxHp;
         }*/
 
-        for(int i = 0; i < hearts.Length; i++){
-            
-            if (i < updater.playerHp && ((i+0.5) == updater.playerHp)){
+        for (int i = 0; i < hearts.Length; i++)
+        {
+
+            if (i < updater.playerHp && ((i + 0.5) == updater.playerHp))
+            {
                 hearts[i].sprite = halfHeart;
             }
-            else if(i< updater.playerHp){ 
+            else if (i < updater.playerHp)
+            {
                 hearts[i].sprite = fullHeart;
             }
-            else{
+            else
+            {
                 hearts[i].sprite = emptyHeart;
             }
 
-            if(i < updater.maxHp){
+            if (i < updater.maxHp)
+            {
                 hearts[i].enabled = true;
             }
-            else{
+            else
+            {
                 hearts[i].enabled = false;
             }
         }
@@ -56,8 +67,12 @@ public class PlayerHealth : MonoBehaviour
 
         if (updater.playerHp <= 0 && !isDead)
         {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             myAnimator.SetTrigger("isDead");
             isDead = true;
+
+
+
             StartCoroutine(ShowGameOverScreenAfterAnimation());
             Debug.Log("Player is dead!"); // Print "dead" message to the console
         }

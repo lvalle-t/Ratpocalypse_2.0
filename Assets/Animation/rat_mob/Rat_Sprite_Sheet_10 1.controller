@@ -142,6 +142,7 @@ MonoBehaviour:
   attackRange: 1
   attackCooldown: 1
   attackDamage: 0.2
+  ratAttackSFX: {fileID: 0}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -224,6 +225,7 @@ MonoBehaviour:
   attackRange: 1
   attackCooldown: 1
   attackDamage: 0.2
+  ratAttackSFX: {fileID: 0}
 --- !u!1102 &3761116872747893806
 AnimatorState:
   serializedVersion: 6
