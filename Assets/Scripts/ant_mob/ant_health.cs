@@ -11,7 +11,8 @@ public class ant_health : MonoBehaviour
     public int MaxHitpoints = 5;
     public ant_healthbar Healthbar;
     public GameObject[] itemDrops;
-
+    [Header("Effects")]
+    public GameObject deathEffect;
     void Start()
     {
         Hitpoints = MaxHitpoints;
@@ -24,6 +25,7 @@ public class ant_health : MonoBehaviour
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if (Hitpoints <= 0)
         {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             ItemDrop();
         }

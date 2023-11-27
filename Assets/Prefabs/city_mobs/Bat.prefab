@@ -688,6 +688,7 @@ MonoBehaviour:
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   scoreNum: 0
+  deathEffect: {fileID: 8977350845970236212, guid: a3bfaf8beb8b2cd49afe45cba06fd545, type: 3}
 --- !u!114 &8433766853657794163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +715,7 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 224434
+  m_InstanceId: 185982
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 0.5, z: 0}
