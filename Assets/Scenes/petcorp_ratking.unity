@@ -386,6 +386,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9058802844297062273, guid: 1d8a5290aa364374da9ecbab8f6e74f4, type: 3}
+      propertyPath: m_Mass
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058802844297062273, guid: 1d8a5290aa364374da9ecbab8f6e74f4, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -401,7 +409,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 829645703095643070, guid: 3f9d6cc43be337b448a91650c1d40c94, type: 3}
       propertyPath: m_Name
-      value: rat king projectile
+      value: rat_king_projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 829645703095643070, guid: 3f9d6cc43be337b448a91650c1d40c94, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690430389250723092, guid: 3f9d6cc43be337b448a91650c1d40c94, type: 3}
       propertyPath: m_LocalPosition.x
