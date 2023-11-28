@@ -20,6 +20,7 @@ public class rat_health : MonoBehaviour
     [Header("Effects")]
     public GameObject deathEffect;
     private FlashDamage flashDamage;
+    int expAmount = 100;
 
     void Start()
     {
@@ -49,6 +50,7 @@ public class rat_health : MonoBehaviour
         if (Hitpoints <= 0)
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
+            ExperienceManager.Instance.AddExperience(expAmount);
             Destroy(gameObject);
             ItemDrop();
             //ScoreCollection();

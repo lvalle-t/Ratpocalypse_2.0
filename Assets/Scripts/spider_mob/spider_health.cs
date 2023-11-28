@@ -21,6 +21,8 @@ public class spider_health : MonoBehaviour
     [Header("Effects")]
     public GameObject deathEffect;
     private FlashDamage flashDamage;
+    [Header("XP Amount")]
+    int expAmount = 100;
     void Start()
     {
         Hitpoints = MaxHitpoints;
@@ -51,6 +53,7 @@ public class spider_health : MonoBehaviour
         {
             Debug.Log("Taking damage: " + damage);
             Instantiate(deathEffect, transform.position, Quaternion.identity);
+            ExperienceManager.Instance.AddExperience(expAmount);
             Destroy(gameObject);
             ItemDrop();
             //ScoreCollection();
