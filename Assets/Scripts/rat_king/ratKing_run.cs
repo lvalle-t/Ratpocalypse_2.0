@@ -10,13 +10,18 @@ public class ratKing_run : StateMachineBehaviour
     ratKing_controller boss;
     Transform boss_transform;
 
+    public GameObject rat_king_projectile;
+
     public float speed = 1f;
 
     public float attackRange = 3f;
     public float throwRange = 5f;
 
-    float cooldownTimer = 1f;
-    bool onCooldown = false;
+    float strikeCooldownTimer = 1f;
+    bool strikeOnCooldown = false;
+
+    float projectileCooldowntimer = 5f;
+    bool projectileOnCooldown = false;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -40,9 +45,25 @@ public class ratKing_run : StateMachineBehaviour
         {
             animator.SetTrigger("ratKing_strike");
         }
-        if (Vector2.Distance(player.position, rb.position) <= throwRange)
+
+        if (projectileOnCooldown == true)
         {
-            animator.SetTrigger("ratKing_throw");
+            projectileCooldowntimer -= Time.deltaTime;
+            if (projectileCooldowntimer <= 0)
+            {
+                projectileOnCooldown = false;
+                projectileCooldowntimer = 5;
+            }
+        }
+        if (Vector2.Distance(player.position, rb.position) <= throwRange && Random.Range(0f, 90000f) >= 89000f)
+        {
+            if (!projectileOnCooldown)
+            {
+                animator.SetTrigger("ratKing_throw");
+                Instantiate(rat_king_projectile, boss_transform.position, Quaternion.identity);
+
+                projectileOnCooldown = true;
+            }
         }
 
     }

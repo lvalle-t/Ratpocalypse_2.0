@@ -7,33 +7,31 @@ public class ratKing_controller : MonoBehaviour
 {
     public Transform player;
     public bool isFlipped = false;
-    public int scoreNum = 0;        // adds to the scoreTxt count - deb
+    public int scoreNum = 0;
     public bool isDead;
-
-    // public snake_healthBar healthBar;
-    // public float damaged = 0.2f;
-
-    // private AIPath aiPath;
-
+    // public GameObject rat_king_projectile;
+    // public float startTimeBtwShots;
+    // private float timeBtwShots;
 
     void Start()
     {
-        // aiPath = GetComponent<AIPath>();
-        // if (aiPath == null)
-        // {
-        //     aiPath = gameObject.AddComponent<AIPath>();
-        // }
-        // //rb = GetComponent<Rigidbody2D>();
-        // //batAnimator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        // aiPath.destination = player.position;
+        // timeBtwShots = startTimeBtwShots;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        // if (timeBtwShots <= 0)
+        // {
+        //     Instantiate(rat_king_projectile, transform.position, Quaternion.identity);
+        //     timeBtwShots = startTimeBtwShots;
+        // }
+        // else
+        // {
+        //     timeBtwShots -= Time.deltaTime;
+        // }
     }
 
     private void FixedUpdate()
