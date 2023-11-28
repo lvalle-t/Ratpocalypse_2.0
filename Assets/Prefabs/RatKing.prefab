@@ -167,8 +167,8 @@ GameObject:
   - component: {fileID: 9058802844297062273}
   - component: {fileID: 5392725749077078459}
   - component: {fileID: 4962439868292125868}
-  m_Layer: 0
-  m_Name: Rat King
+  m_Layer: 11
+  m_Name: RatKing
   m_TagString: rat_king
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -317,6 +317,7 @@ MonoBehaviour:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   damaged: 1
   scoreNum: 0
+  ratKing: {fileID: 865031091953619727}
 --- !u!50 &9058802844297062273
 Rigidbody2D:
   serializedVersion: 4
