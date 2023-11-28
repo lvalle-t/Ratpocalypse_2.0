@@ -8,7 +8,7 @@ public class rat_king_projectile : MonoBehaviour
     public float speed;
     private Transform player;
     private Vector2 target;
-    public float destroyDistance = 3f;
+    public float destroyDistance = 1f;
     private Animator animator;
     public enum states { traveling, popped };
     private states state;
@@ -18,7 +18,7 @@ public class rat_king_projectile : MonoBehaviour
 
     public float attackDamage = 0.02f;
 
-    public float projectileLifeTime = 4f;
+    public float projectileLifeTime = 8f;
 
     // Start is called before the first frame update
     void Start()
