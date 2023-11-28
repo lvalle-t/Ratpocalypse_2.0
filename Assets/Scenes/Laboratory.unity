@@ -429,7 +429,7 @@ Transform:
   m_GameObject: {fileID: 211289770}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.84, y: -1.31, z: 0}
+  m_LocalPosition: {x: -1.7, y: -2.74, z: 0}
   m_LocalScale: {x: 9.465904, y: 9.465904, z: 9.465904}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -473,10 +473,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1847146893
-  m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1302734292, guid: 7434d374582c1da49afe23924ae4b47f, type: 3}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 1780444678, guid: 3a53ae309792bf1429b9ffaa97f3f547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -505,7 +505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &213676478
 RectTransform:
   m_ObjectHideFlags: 0
@@ -885,11 +885,11 @@ Transform:
   m_GameObject: {fileID: 363783631}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.87, y: 1.8, z: 0}
+  m_LocalPosition: {x: 0.17999506, y: -0.04001224, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1138166015}
+  m_Father: {fileID: 573968428}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &363783633
 TilemapRenderer:
@@ -931,7 +931,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -4716,6 +4716,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 363783632}
   - {fileID: 1592470952}
   - {fileID: 211289771}
   - {fileID: 834874285}
@@ -4739,7 +4740,7 @@ MonoBehaviour:
   - The first objective to complete is to learn how to manuever around this world
   textSpeed: 0.05
   dialogueAnimator: {fileID: 573968432}
-  startPlayer: {fileID: 0}
+  startPlayer: {fileID: 1885493641}
   startMap: {fileID: 559120577}
 --- !u!483693784 &573968430
 TilemapRenderer:
@@ -4779,9 +4780,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1847146893
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -27579,9 +27580,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1847146893
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
   m_Sprite: {fileID: -1115225937, guid: 6e3df20358cc51340a190f4ed94eb0d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27686,7 +27687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &955210379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29577,7 +29578,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 573968428}
-  - {fileID: 363783632}
   m_Father: {fileID: 955210382}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &1138166016
@@ -33139,6 +33139,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7506065972809508758, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506065972809508758, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506065972809508758, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33449,6 +33461,11 @@ PolygonCollider2D:
       - {x: 0.29, y: -0.255}
       - {x: 0.31, y: -0.255}
   m_UseDelaunayMesh: 0
+--- !u!1 &1885493641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4945749228415260886, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+  m_PrefabInstance: {fileID: 1696182221}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1939234013
 GameObject:
   m_ObjectHideFlags: 0
