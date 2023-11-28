@@ -22,24 +22,28 @@ public class ratKing_health : MonoBehaviour
 
     // private GameObject door_exit;
     // private GameObject door_exit_bg;
-    private GameObject ratKing;
+    public GameObject ratKing;
     private FlashDamage flashDamage;
 
     SpriteRenderer m_SpriteRenderer;
     Color m_NewColor;
 
+
     void Start()
     {
+        
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints);
 
         // m_SpriteRenderer = GetComponent<SpriteRenderer>();
-        ratKing = GameObject.Find("Rat King");
+        // ratKing = GameObject.Find("RatKing");
         m_SpriteRenderer = ratKing.GetComponent<SpriteRenderer>();
         flashDamage = GetComponent<FlashDamage>();
 
-        Debug.Log(ratKing);
-        Debug.Log(m_SpriteRenderer);
+        // Debug.Log(ratKing);
+        // Debug.Log(m_SpriteRenderer);
+
+
 
         // door_exit_bg = GameObject.Find("Door Bg");
         // door_exit = GameObject.Find("Door Exit");
@@ -69,13 +73,6 @@ public class ratKing_health : MonoBehaviour
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
 
-        // if (Hitpoints <= 5)
-        // {
-        //      Instantiate(enemy, new Vector3(0, 0, 0), Quaternion.identity);
-        //     GetComponent<Animator>().SetBool("isEnraged", true);
-        //     m_SpriteRenderer.color = Color.red;
-        // }
-
         if (Hitpoints <= 0)
         {
             Destroy(gameObject);
@@ -87,6 +84,8 @@ public class ratKing_health : MonoBehaviour
             //ScoreCollection();
         }
     }
+
+
 
     private void ItemDrop()
     {
