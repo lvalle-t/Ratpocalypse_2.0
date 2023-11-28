@@ -6,6 +6,10 @@ public class LevelProgression : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] int currExp, maxExp, currLevel;
+    [SerializeField] XPBAr xpBar;
+    private void Awake(){
+        xpBar = GetComponentInChildren<XPBAr>();
+    }
     private void OnEnable(){
         ExperienceManager.Instance.OnExperienceChange += HandleExperienceChange;
     }
@@ -14,8 +18,10 @@ public class LevelProgression : MonoBehaviour
     }
     private void HandleExperienceChange(int newExperience){
         currExp += newExperience;
+        xpBar.UpdateXPBar(currExp, newExperience, maxExp);
         if(currExp >= maxExp){
             LevelUp();
+            xpBar.ResetXpBar();
         }
     }
     private void LevelUp(){

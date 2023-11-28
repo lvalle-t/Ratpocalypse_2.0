@@ -11,7 +11,7 @@ public class LevelMove_City : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+            SceneManager.LoadScene("city");
         }
     }
 }
