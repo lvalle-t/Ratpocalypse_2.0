@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Gate : MonoBehaviour
 {
     public Animator gateAnima;
+    public int nextScene;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,14 @@ public class Gate : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)         // detects collition -deb
+    {
+        if (collision.gameObject.CompareTag("Key"))
+        {
+            OpenGate();
+        }
+    }
+
     public void OpenGate()
     {
         gateAnima.SetBool("isOpen", true);
@@ -29,7 +38,7 @@ public class Gate : MonoBehaviour
 
     private void NextScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + nextScene);
     }
 
     //private void CloseGate()

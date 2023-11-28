@@ -24,9 +24,10 @@ public class bulletScript : MonoBehaviour
         }
     }
     void OnTriggerEnter2D(Collider2D col){
-        if(col.CompareTag("Enemy") || col.CompareTag("snake_boss") || col.CompareTag("Mole_Boss")){
+        if(col.CompareTag("Enemy") || col.CompareTag("snake_boss") || col.CompareTag("Mole_Boss") || col.CompareTag("Alligator_Boss"))
+        {
             Destroy(gameObject);
-            Debug.Log("OnTrigger is Working");
+            //Debug.Log("OnTrigger is Working");
             col.SendMessage("TakeDamage", bulletDamage);
         }
         else if(col.CompareTag("walls")){

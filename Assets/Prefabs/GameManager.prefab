@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 367341803505749385}
   - component: {fileID: 4087227367403106730}
   - component: {fileID: 8934625315756937296}
+  - component: {fileID: 8959187175410207233}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -81,6 +82,7 @@ MonoBehaviour:
   halfHeart: {fileID: 21300000, guid: 7614850f73cf9cd45a4565a505773af9, type: 3}
   emptyHeart: {fileID: 21300000, guid: fef3b9db07d35c14a8a920b5bd67c48b, type: 3}
   myAnimator: {fileID: 0}
+  deathEffect: {fileID: 0}
 --- !u!114 &4087227367403106730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,3 +109,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0.3
+--- !u!114 &8959187175410207233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88656389381557338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2add3fb2702c2af4f9c1ccbea4545a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gateAnima: {fileID: 7441080808593364533, guid: ee06d350ff7d9a94da68bcff6ef6e0c0, type: 3}
+  nextScene: 0

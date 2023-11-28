@@ -44,6 +44,18 @@ PrefabInstance:
       propertyPath: tr
       value: 
       objectReference: {fileID: 7470116559400018994}
+    - target: {fileID: 730874524683048773, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 730874524683048773, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+      propertyPath: dashSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 730874524683048773, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+      propertyPath: dashDuration
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 1752316183887387814, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -136,6 +148,18 @@ PrefabInstance:
       propertyPath: myAnimator
       value: 
       objectReference: {fileID: 8421974446935193724}
+    - target: {fileID: 8272851759373491635, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272851759373491635, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272851759373491635, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

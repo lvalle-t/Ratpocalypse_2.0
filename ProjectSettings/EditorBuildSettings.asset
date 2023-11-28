@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 186b0456276f12943a4629d5ab393457
   - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: db40b3920d0f818458683104262fd6c6
+  - enabled: 1
     path: Assets/Scenes/Laboratory.unity
     guid: 7f6d9cbfd816a2f40a63500ad377a2d9
   - enabled: 1
@@ -24,15 +27,18 @@ EditorBuildSettings:
     path: Assets/Scenes/mole_boss.unity
     guid: af1d8f93a573e6f48a37177b5f295da2
   - enabled: 1
-    path: Assets/Scenes/mole_key_room.unity
+    path: Assets/Scenes/mole_mausoleum.unity
     guid: ecf68764d3d580a47a7e6d637f0fdfc5
   - enabled: 1
     path: Assets/Scenes/petcorp_outside.unity
     guid: d968a7eb45e9a0346a2e3378f738bf26
   - enabled: 1
-    path: Assets/Scenes/petcorp_firstfloor.unity
+    path: Assets/Scenes/petcorp_store.unity
     guid: 4c87fd6c2ee2ec948960710daa310f02
   - enabled: 1
     path: Assets/Scenes/petcorp_ratking.unity
     guid: 80dcabf2956e4e647a1d6a2aa263c0de
+  - enabled: 0
+    path: Assets/Scenes/Credits.unity
+    guid: 0eb43b7910bc6124791524b357d67071
   m_configObjects: {}

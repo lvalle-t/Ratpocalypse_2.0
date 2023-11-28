@@ -13,6 +13,8 @@ public class bat_health : MonoBehaviour
     public GameObject[] itemDrops;
 
     public int scoreNum = 0;
+    [Header("Effects")]
+    public GameObject deathEffect;
 
     void Start()
     {
@@ -26,6 +28,7 @@ public class bat_health : MonoBehaviour
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if (Hitpoints <= 0)
         {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             ItemDrop();
             //ScoreCollection();

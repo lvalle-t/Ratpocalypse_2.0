@@ -26,13 +26,13 @@ public class GameManagerScript : MonoBehaviour
 
     public void restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Laboratory");
         updater.playerHp = 9f;
         updater.treatCount = 0;
-        updater.alligatorHp = 1f;
+        updater.alligatorHp = 60f;
         updater.antHp = 1f;
         updater.batHp = 1f;
-        updater.moleHp = 10f;
+        updater.moleHp = 40f;
         updater.ratHp = 1f;
         updater.snakeHp = 1f;
         Debug.Log("RESTART!!!!!");

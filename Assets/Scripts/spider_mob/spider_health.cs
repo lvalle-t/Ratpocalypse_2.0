@@ -13,12 +13,14 @@ public class spider_health : MonoBehaviour
     public float MaxHitpoints = 5;
     public spider_healthbar Healthbar;
     public GameObject[] itemDrops;
-    private FlashDamage flashDamage;
+
     [SerializeField] private AudioSource spiderHitSFX;
 
     public int scoreNum = 0;        // adds to the scoreTxt count - deb
     // [SerializeField] private AudioSource hitDamageSFX;
-
+    [Header("Effects")]
+    public GameObject deathEffect;
+    private FlashDamage flashDamage;
     void Start()
     {
         Hitpoints = MaxHitpoints;
@@ -26,7 +28,7 @@ public class spider_health : MonoBehaviour
         flashDamage = GetComponent<FlashDamage>();
     }
 
- 
+
 
 
     // // testing area//
@@ -48,12 +50,13 @@ public class spider_health : MonoBehaviour
         if (Hitpoints <= 0)
         {
             Debug.Log("Taking damage: " + damage);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             ItemDrop();
             //ScoreCollection();
         }
 
-       
+
     }
 
     private void ItemDrop()

@@ -5,8 +5,10 @@ using UnityEngine.InputSystem;
 
 public class grab_objects : MonoBehaviour
 {
-    [SerializeField] private Transform grabPoint;
-    [SerializeField] private Transform rayPoint;
+    [SerializeField] private Transform grabPoint1;
+    [SerializeField] private Transform rayPoint1;
+    [SerializeField] private Transform grabPoint2;
+    [SerializeField] private Transform rayPoint2;
     [SerializeField] private float rayDistance;
 
     private GameObject grabbedObject;
@@ -21,22 +23,25 @@ public class grab_objects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(rayPoint.position, transform.right, rayDistance);
+        RaycastHit2D hitInfo1 = Physics2D.Raycast(rayPoint1.position, transform.right, rayDistance);
+        RaycastHit2D hitInfo2 = Physics2D.Raycast(rayPoint2.position, transform.right, rayDistance);
 
-        if (hitInfo.collider != null && hitInfo.collider.gameObject.layer == layerIndex) 
+        if (hitInfo1.collider != null && hitInfo1.collider.gameObject.layer == layerIndex) 
         {
-            if (Keyboard.current.spaceKey.wasPressedThisFrame && grabbedObject == null)
+            if (grabbedObject == null)
             {
-                grabbedObject = hitInfo.collider.gameObject;
-                grabbedObject.GetComponent<Rigidbody2D>().isKinematic = true;
-                grabbedObject.transform.position = grabPoint.position;
+                grabbedObject = hitInfo1.collider.gameObject;
+                grabbedObject.transform.position = grabPoint1.position;
                 grabbedObject.transform.SetParent(transform);
             }
-            else if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        }
+        else if (hitInfo2.collider != null && hitInfo2.collider.gameObject.layer == layerIndex)
+        {
+            if (grabbedObject == null)
             {
-                grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
-                grabbedObject.transform.SetParent(null);
-                grabbedObject = null;
+                grabbedObject = hitInfo2.collider.gameObject;
+                grabbedObject.transform.position = grabPoint2.position;
+                grabbedObject.transform.SetParent(transform);
             }
         }
     }

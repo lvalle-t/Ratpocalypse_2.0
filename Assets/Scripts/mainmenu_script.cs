@@ -28,4 +28,9 @@ public class mainmenu_script : MonoBehaviour
         Debug.Log("EXITTT!!!!!");
         Application.Quit();
     }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene(10);
+    }
 }

@@ -20,7 +20,6 @@ public class AlligatorBiteAttack : MonoBehaviour
         if (colInfo != null)
         {
             colInfo.GetComponent<PlayerHealth>().EnemyDamage(attackDamage);
-
         }
 
     }
