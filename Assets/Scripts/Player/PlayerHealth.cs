@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
 
     public GameObject deathEffect;
 
-    private void Start()
+    private void Update()
     {
         UpdateHealth();
     }
