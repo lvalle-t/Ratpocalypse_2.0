@@ -17,8 +17,8 @@ public class ratKing_run : StateMachineBehaviour
     public float attackRange = 3f;
     public float throwRange = 5f;
 
-    float strikeCooldownTimer = 1f;
-    bool strikeOnCooldown = false;
+    // float strikeCooldownTimer = 1f;
+    // bool strikeOnCooldown = false;
 
     float projectileCooldowntimer = 5f;
     bool projectileOnCooldown = false;

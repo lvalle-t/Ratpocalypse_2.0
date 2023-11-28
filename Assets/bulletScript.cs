@@ -24,7 +24,7 @@ public class bulletScript : MonoBehaviour
         }
     }
     void OnTriggerEnter2D(Collider2D col){
-        if(col.CompareTag("Enemy") || col.CompareTag("snake_boss") || col.CompareTag("Mole_Boss") || col.CompareTag("Alligator_Boss"))
+        if(col.CompareTag("Enemy") || col.CompareTag("snake_boss") || col.CompareTag("Mole_Boss") || col.CompareTag("Alligator_Boss") || col.CompareTag("rat_king"))
         {
             Destroy(gameObject);
             //Debug.Log("OnTrigger is Working");
