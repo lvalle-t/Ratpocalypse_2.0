@@ -77,6 +77,15 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Player is dead!"); // Print "dead" message to the console
         }
     }
+
+    public void LifePurchase(float restore)
+    {
+        updater.playerHp += restore;
+
+        healthBar.UpdateHealth(updater.playerHp);
+        UpdateHealth();
+    }
+
     IEnumerator ShowGameOverScreenAfterAnimation()
     {
         // Wait for the death animation to complete

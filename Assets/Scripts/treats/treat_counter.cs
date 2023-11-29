@@ -19,4 +19,9 @@ public class treat_counter : MonoBehaviour
     {
         treatNum = updater.treatCount += 1;                 // updates the treat counter
     }
+
+    public void TreatDisburement(int amount)
+    {
+        treatNum = updater.treatCount -= amount;                 // updates the treat counter
+    }
 }

@@ -132,7 +132,7 @@ public class mole_movement : MonoBehaviour
 
             ScoreCollection();
         }
-        else if (updater.moleHp == 5f && breakTime == true)
+        else if (updater.moleHp == 12f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
@@ -140,7 +140,7 @@ public class mole_movement : MonoBehaviour
             //healthBar.UpdateHealth(updater.moleHp);
             Invoke("SpawnAnts", 1);
         }
-        else if (updater.moleHp == 15f && breakTime == true)
+        else if (updater.moleHp == 24f && breakTime == true)
         {
             moleBoss.SetActive(false);
             moleDigging.SetActive(true);
