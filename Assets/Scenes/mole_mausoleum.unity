@@ -736,17 +736,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!114 &335431862 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 367341803505749385, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
-  m_PrefabInstance: {fileID: 1604152890}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aa4937e3b86c244e97320c826f5a73c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &335431863 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1298411881304712945, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
@@ -12123,6 +12112,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7126879799741516880, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7206861012843675108, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.182
@@ -14454,7 +14447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   treats: 0
   tc: {fileID: 335431863}
-  ph: {fileID: 335431862}
+  ph: {fileID: 1444018922}
 --- !u!4 &1334953233
 Transform:
   m_ObjectHideFlags: 0
@@ -14683,6 +14676,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4945749228415260886, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
   m_PrefabInstance: {fileID: 825105867}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1444018922 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3618574615679243565, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+  m_PrefabInstance: {fileID: 825105867}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444018913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa4937e3b86c244e97320c826f5a73c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1447913346
 GameObject:
   m_ObjectHideFlags: 0
@@ -18946,6 +18950,10 @@ PrefabInstance:
     - target: {fileID: 88656389381557338, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298411881304712945, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
+      propertyPath: treatNum
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4094642967109823830, guid: d731925d254aff24cb2bdf4d9b28c96a, type: 3}
       propertyPath: m_LocalPosition.x
