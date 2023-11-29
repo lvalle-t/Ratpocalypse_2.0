@@ -1,0 +1,7268 @@
+fileFormatVersion: 2
+guid: 80f293f483988664d8ebe690bcc32799
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mausoleum_Original_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9e074ea71a9e4986313aeafbd14a3
+      internalID: 50397991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ef48ac745ef414dba8bed9a9935bc5
+      internalID: -1200291026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26335178814c92e45b756a8ae2a5ea34
+      internalID: -1759955411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b512dff88ba134db023c2d98d946d4
+      internalID: 649384941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01891fe2f83fe6f4ab6e358cd6a538d8
+      internalID: 59387704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5816d2dcc52fa404394d1d1dcd7bab02
+      internalID: -679451970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c69b5144da16b344acf220951ed12b4
+      internalID: 193825528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be70d8da331ec094c8bf489702bcc32e
+      internalID: -767965312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be29b519f501fb44adf998c5ad4d47f
+      internalID: -1616056589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04e96589569f2a44bb211fa56a83446
+      internalID: 228441991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05015e53a239a9244a70eb7b7665b534
+      internalID: 1399611961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eee00ef0c70ef241a141134cfeb2899
+      internalID: -881578511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87600d181851927458a5e55f96d1d33f
+      internalID: 617326761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df97dea2bd024534f84027c0c9519939
+      internalID: -318731507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee606c61b91732d4aadb592ce68f1e88
+      internalID: 1282438601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dce557b86aa4346a28f7fff461b216
+      internalID: -216721744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac131ee116284ec4cbdaf0d29a6d3f62
+      internalID: 2069448342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984958907c0b2834dabef21f5d6b9f10
+      internalID: -427951314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49461fb4cc7d0624ab30bb1341ab19c4
+      internalID: 1779864574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2598a7f36e8ca440a8141b3d124c2fa
+      internalID: 247497917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c5af5be8a35294f80ab82a5e11a3b0
+      internalID: 1351067511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1098
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4fe2b4bca1cd948af2168442454c25
+      internalID: -21181877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709888264be96624b895269885a5612f
+      internalID: 1514512080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd032d33ec0fff4cb84009176bb2ec2
+      internalID: 1316098058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca57b089aeb6a0b4b94a60d3e0aee582
+      internalID: -6945649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fc8f28b51ef454d96fd6783da29701
+      internalID: 164986157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d75732aaae4c844a42f3ea4bf435ba
+      internalID: 885196171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5291e79ee76e40040812abe6d6d0e14f
+      internalID: -1994189414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39fa5358856f9c469007fecb9ed6104
+      internalID: 2005848353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8552a85d62cee54e94e93ad0d3fc52f
+      internalID: -1260926519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748a7ddb6e0045e4f8c2ef22703ec676
+      internalID: 1345228505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d999e0950da2349b5b7fd1d810b089
+      internalID: -1396079302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_32
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdcca0bf56591b4e800f7a203ced229
+      internalID: -1152411101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e3dc46a15806747abea7b7dc124ccc
+      internalID: -195777111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_34
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4706a91b4a63147b1f0f180f10a063
+      internalID: -2048456026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cde6981953d253468186dee4a41bece
+      internalID: 1445128642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4699d25d4de6eb34a951b262ad401c3f
+      internalID: 1170753864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75b4a3629f0e1d42bef6a4df75ebd22
+      internalID: 1741535424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_38
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c7453badfd4a4fb5102098ad619aa
+      internalID: -2099607643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e68cd0413d729c4e81828737e81524b
+      internalID: -1020454367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_40
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa90bbec6ad1e524896263da4d09f39d
+      internalID: 1184090984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_41
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf01644c58e8704487cb1716e52c8c7
+      internalID: 1231744338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_42
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1034
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa673a3abf9ebd49a159ce13e597e4d
+      internalID: 1130822331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2666304b66a6b9e44bf77a7ff26cf67a
+      internalID: -630197929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e96c9ec910bb444ea3f9d14a55c62b3
+      internalID: 163615695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1051fdad8809c4c8fd428fafaee01c
+      internalID: 531108155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26388957dc439f548bec00b00649654d
+      internalID: -1308612169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d33ae3e48534984ca4ef916d20f0bdd
+      internalID: -1032712371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d149a82894af842a20f71d91d95619
+      internalID: -672679659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2c2b25c739864693df9351021fe4c
+      internalID: -1803087035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf1f8cefe16cfa488b337ac3df367eb
+      internalID: 1177532990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf37bbf726b358442a58808140de6e87
+      internalID: -195152672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_52
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1899551f5b1bb843a4333ed5b22db3d
+      internalID: 1667675063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9740bb01181b8439b9a7a059f4e1f3
+      internalID: 41256942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_54
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f709377ac787424f84723d94e584478
+      internalID: 1308619224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_55
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92afcb5c7b4263459699f49ad17e2ad
+      internalID: 399241277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_56
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6dcc8e5f0dd2c4b95e7929a1162733
+      internalID: -1962359027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b4755447a6904ebdb7c7fc2034df0
+      internalID: -229308575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76718bbbbc3dee448d39fc76006c980
+      internalID: -1416852896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f148bd308476c4d93ea723ad2361f0
+      internalID: -262101366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaa1554edebb1241b823653a18e48e3
+      internalID: -1827473578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_61
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f3306d90900044b80e30244a50a3b0
+      internalID: 434471159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_62
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09354228bebe3c94fa6cd63a202a6cfb
+      internalID: 1010838034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_63
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb11a79959ff14294b98577920af59
+      internalID: 1628018617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_64
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 970
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d4c5cb5d2f4984bb2d8fef1ca67de2
+      internalID: 1414041227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed09d30499fbf438998317b9cbecea
+      internalID: 496445988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b27fc9cd7cbbd64f90d1d78d5a1ce21
+      internalID: -1829912006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c64897e59d5494ebdae482c1048b65
+      internalID: 921752109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25a8cc02c76a04383de77b1f8d7b7d
+      internalID: -175300733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a6ceb8008ea14ea51664a0aa1456f
+      internalID: 200866042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc800239d59b694689da982b3668501
+      internalID: 1545469241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5440e33670f014698452146fc49421
+      internalID: -1728126372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d4ffca651a50d4d8ebc100ead447a0
+      internalID: 1282005750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c225567761d83e4199763ef6fc768d5
+      internalID: -1672418924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_74
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edd19b8c78689e43906263dfed5ae5b
+      internalID: -986748022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473995815998727498091067e2d0dbc3
+      internalID: -1235924982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_76
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96639d384226814ca1325d979835756
+      internalID: -828107003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_77
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ef3249be81ca408254811a862b20e
+      internalID: 1450958312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_78
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31a8f8284832164fa36ec2f29eac8e9
+      internalID: 1452349739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_79
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9508c60c8d5d4549b04480d94439e3d
+      internalID: 967378411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_80
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac9060426c6db84c90941c4321c2bde
+      internalID: -1931345373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_81
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c7088d41d1e7e4696aa9ec0464ae19
+      internalID: 1208443920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_82
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c40a5e64e43934a83344b85e3af201
+      internalID: -968655288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_83
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580cf97d445d6f94cb2436d08f9c8cff
+      internalID: -2130306015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_84
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aae79ef92ec1e844a4a986fb3c0899d
+      internalID: -1367416114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a7b3e81a304f5468ed7ab6a02d6a87
+      internalID: -1038929226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_86
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06de9c71743c1f74d98887de9c8af79a
+      internalID: -1061882137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_87
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 906
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b701ab1cf49a02a4794998bccbf3910e
+      internalID: 117046855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e23c10c2953f047934d296834b0770
+      internalID: -190849248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdd9037eb04d71418ee48a73c423214
+      internalID: -2128652084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b641515ed153a4e936582e6638d14d
+      internalID: 1497438243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43685493b6e5192409862694141b2585
+      internalID: -1339389514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8c136566516a84081bcc48fcbccbe0
+      internalID: 943706854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cbb5a6fa0b4194eba8c187d950fade
+      internalID: 2006199962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd38a316f8b60bb48bd15952539e3a5b
+      internalID: -905453626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b039fb339a81046b386749c912c17e
+      internalID: 1491187553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d7cbd802244584fab56be835060404
+      internalID: -365652659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_97
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1f254c7530164479132706c2385447
+      internalID: -1789013700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_98
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5da13e5427a8ed43bd0f036b1fbcf0a
+      internalID: -2078019001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_99
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0908b4d617388c64f8e4c0c2d03c1a41
+      internalID: -135816393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_100
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa64466a74255df4185f08faeb70c8ae
+      internalID: 1166967151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_101
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731a7dbc615787a46864ff67c5ccbf65
+      internalID: 1526836591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_102
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd3c57595f0ee468e32e222f750b1c
+      internalID: -1019302020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_103
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63f45e0e4b0fd049ada1dfe3f892d12
+      internalID: -1951417095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_104
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5808c68ea4af8439b75485cc57bace
+      internalID: -876508094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_105
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f97ef1a5afe6524f9a9623a1e0332ed
+      internalID: 98729943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_106
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a1b2cf7e20db84e9f459e605f4be1d
+      internalID: -607744229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_107
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efb8dbdf832e384ca38e50545b336af
+      internalID: 1256205834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_108
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5dd5bb3bed49f428509d9da2c7bae8
+      internalID: -608950105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_109
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 842
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8396521d9a723643af107418c76b50a
+      internalID: -322567724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b308a5d2dd3f5468be44d25f361358
+      internalID: -897257187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91f25875022eea4c94b707a331fc921
+      internalID: 321176966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2487ca77b3e48994d8db08299d72136d
+      internalID: -366903879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b235a815777a4e8eba80911df37b6
+      internalID: 302385213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee2f4a39660fc0479044090cdcb1530
+      internalID: 1378037312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_115
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2def4000e3a6054d84679375591a262
+      internalID: 1451999170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5ba6db48d223b4fae22f8b9ea84a45
+      internalID: 1736716897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_117
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b285dfe996133479c6e240417b52e9
+      internalID: -628265672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cf02d62b80a10438c6e5e004a86d38
+      internalID: -1352339756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_119
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38abdc18f1d5a7e448a56adb13cfb6eb
+      internalID: 1875179165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_120
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d223c209c7edb4d9c65d0d31c36c69
+      internalID: 1857246466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_121
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec7eaade72a31741be073b9a12433cf
+      internalID: -1169555375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_122
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d013264657bef4459baffa2d354c26c
+      internalID: -999111417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_123
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc7ecea05035284cb3e4c9c3a0cbe87
+      internalID: 1972172557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_124
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b3fb09a2388314a96f54c7de0dd38a
+      internalID: 1402223949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_125
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85685d5bc63843645b50185103bd74c7
+      internalID: 638539853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_126
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11511461cea5da041a8d178b3366f9f3
+      internalID: 1029662239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_127
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b537016e123f50b4bb4f5e7d4b5cd045
+      internalID: -1236032563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_128
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ec883b6461254eae8153281d23c66
+      internalID: -1446546495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_129
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02766b3d21bc6347b28e57a5e9ee59f
+      internalID: -1114728537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_130
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b40dbe3565a4a4ea9757dfaa7415b9
+      internalID: 727380160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_131
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ce7f2848713f49b2082256b2137d7
+      internalID: 49990795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_132
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a8f9ecf743a3a46bcf1bd892e42bf7
+      internalID: -14138918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_133
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 778
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7195277446eae8b4bb9962b449f03e30
+      internalID: -477514548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3703da792e7fc38418480ef4dd57d719
+      internalID: -1963219283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f966c63bb9edf4296c4f3214676fbb
+      internalID: -821273651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd28106e0875f09418e3c95539ae5be8
+      internalID: 726695943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de485bfe5ce58b4e84427ada00aa92a
+      internalID: -454018158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342ff1d90dfb71c489a52db56304ddd2
+      internalID: 1869259777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2cd237249909b46bcc66ba735a8faf
+      internalID: -1110185702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eac54851430dfb4aa84c61ef3882d79
+      internalID: 695057661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_141
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4069932601ba39f43a9642a3b772e9ad
+      internalID: 2069694704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_142
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f28a97bb7cab744b454db179177e00
+      internalID: -1690438411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_143
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dc897bb77e9db4d81f4173e5801185
+      internalID: 1922761069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_144
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bedf9cd35c6d2f4abd91abffc459313
+      internalID: -1670238724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_145
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78ae9d44fefbe6469d87454c9bac161
+      internalID: 2017768985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502301e0161a2b146a25e818b37b4381
+      internalID: 1036941045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_147
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e9826970575b54dbdacd0adaef6b18
+      internalID: 940110351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_148
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4978429df5882741bc28eeb1733e311
+      internalID: -159812393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_149
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7592b3088c32f5847901104a2fedd9ab
+      internalID: 586159714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_150
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef979723d4d3424db9771970eab40f6
+      internalID: 631584398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_151
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c7b01cf84599348930974539e27d23
+      internalID: 341420349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_152
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc2176abc096943add0e9e97bc0d6b
+      internalID: -388599415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_153
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c319187b7692d284f897b80fac0c4236
+      internalID: -864553686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_154
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d53c1bb5a913df46884bf640198e7ef
+      internalID: 1242227562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_155
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db7e11b7b2940b468b68000b8ef31c2
+      internalID: -1977703145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_156
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62388fa8240c58647ac2a61f2e5b3876
+      internalID: -1085719235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_157
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 714
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b95086d386ff0439ce416a1a957d69
+      internalID: -879266303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f944804757a7c4eb4fa4428e28bd77
+      internalID: -672256483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cb0528e6a5f994a92d498a28adf021
+      internalID: 1203039868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863e243a49b066f42ad2d802c98dde5c
+      internalID: -810942038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_161
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16939ddb306b74347ac00bdae0f9a38d
+      internalID: -673660429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe51d13914b2a44b987d0f35c900e4d
+      internalID: 2064545805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_163
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e521928443e9d1489bc87710b25d7e8
+      internalID: -1748442876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_164
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893a5297e668ed2438eb857d885403f4
+      internalID: -742168399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_165
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84919f64ddfde447865dfdf0c5437d0
+      internalID: -2132291431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_166
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30a2775d2b2b494cbd4571b8ef7f837
+      internalID: 577682806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_167
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3a529decf319546ab9c495c6da624d
+      internalID: -1291586997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_168
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c887c15604ba484a835750e1a8b6c34
+      internalID: 200947830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_169
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feed4d9cc8868b4c9492b3daec217b8
+      internalID: -390791637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_170
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68c39f007f6f054cb585f8ec572155e
+      internalID: -1546230014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_171
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc9c1ac8b43b2b4f8882924276943f3
+      internalID: 725780165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_172
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77420ea6949044747b014158497e36fa
+      internalID: -1576639075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_173
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24319b770bf172c409fe45302d31facb
+      internalID: 2131217432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_174
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003273e8bd2dbad46ab7c7d07d485791
+      internalID: -379850830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_175
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4144e1cb4d7837447a9667a667301789
+      internalID: 1594506045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_176
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbafea42d5d16f40aa0b89957a144e7
+      internalID: -924358382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_177
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d46ef5ecc072034081fe1ff5ffb9622
+      internalID: -1416272432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d097b60f41ed634abaceb71246cbfa8
+      internalID: 218453619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_179
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f911faa8688d1a498ca2703a7b71258
+      internalID: -1271076344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_180
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 650
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f110825eb09b49bc2269bec3fcbdf
+      internalID: -1759036496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_181
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf8a2581393c7f42bf7cfb7de634cc2
+      internalID: -1767877950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_182
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8825e24e13c3a4ebba79c253c543b6
+      internalID: -1869839467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_183
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7afe781f6ff9de41b52a8e2effaffe8
+      internalID: -954008771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886c389b06b15df488da3b7bb3372b76
+      internalID: 694440923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_185
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d36a71630a0eed4fab07d228147eb5a
+      internalID: -1355472544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_186
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82039dd5c5740ce47a101320a322ade4
+      internalID: 1058806845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_187
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e35678365bdfc240a60ef44d93a1898
+      internalID: -2104015077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_188
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2ab263902c7524c9840d35cc112850
+      internalID: -1321146415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_189
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be1cb778c1d644ab0fce33c4a6a7b4
+      internalID: -415438852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_190
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1591fc362898a574e8a911baa67b3d9f
+      internalID: 1846485779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_191
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744d2f26dabcc72458e7e5a02e8e5d33
+      internalID: -475527651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_192
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae99522339b9834c9dd41c990621fd3
+      internalID: 941243152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_193
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737fb386f1c5d0441bb77af6660dcd3a
+      internalID: -2136425321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_194
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a137925908d30664d9147cbf932a6e91
+      internalID: -1084278414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_195
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7494e7fc3bd61264dae9fb64bf45282a
+      internalID: -127100518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_196
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbb2ce56a44cdd4a96a89fdf8647f19
+      internalID: 971097594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_197
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab83da17cb6ff469092f3a7e564292
+      internalID: 443766563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_198
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedc7a26f234ba640966ca64ac480b74
+      internalID: -1579078607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_199
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d622d7e9d67cf5644b7567c9d8c8898b
+      internalID: -1069556563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_200
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b066dddc7851a29408836b010c4e833c
+      internalID: -977266296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_201
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beedaeb7620714f40b65206e6baabd1e
+      internalID: -709005833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_202
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d354f660d7fe64f95ab3bce33f26a0
+      internalID: -180429692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbb8c76d505dc84b8f3b2d7139046eb
+      internalID: -548615324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_204
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c26cc526240724eae1e6e4157d015e
+      internalID: -512899147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_205
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836af995c0d190d4d8812d6426b5914f
+      internalID: -2053400233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06b44c2fc64a8042b70d935b8ea72df
+      internalID: 2011614740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1372229ca7cceb458b6174e7de1f0e2
+      internalID: -1200192176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_208
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44af8a4131b9a3746ba15ddb0d229d41
+      internalID: 1758394361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_209
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9745da27c82c347a2f2694c97ddd95
+      internalID: 47135700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_210
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b92d2c26ca49c44805bb6a11f04a3a
+      internalID: 562949481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_211
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390015a620ab27848b71a9c90cca785f
+      internalID: -947310347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_212
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff190c08da851e428b75d2a0b746c31
+      internalID: 683866340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_213
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a76cb16f3a53c8409b1773420029a48
+      internalID: -1795517025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_214
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c647e1c358c042ba886a245ba43ff
+      internalID: -450688872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_215
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa03f550986b5db4da63913fff80286f
+      internalID: 1453262716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_216
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa69986f4678343bf05e50eff76ab2
+      internalID: 1321258752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_217
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f555160e2bb6fa849a59f6f1efc8175e
+      internalID: -170102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_218
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf43ed2b92fbf94da96bc0feb21f5c6
+      internalID: -2126764804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_219
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564f120329b9cc84682876f7fc79cfd2
+      internalID: -114259182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_220
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8528e16e586998d489d3e19a79a46dc6
+      internalID: 1491026650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_221
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337108a2b7432d34daa4dfce183d8b6b
+      internalID: 1756429468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_222
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae66fed1ae706614b9d3a353a0463233
+      internalID: 705681117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_223
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f941dbbd08f7e4281382d453c40adb
+      internalID: -2141888277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_224
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0070b1ecf50da4d806c7965ace7ff6
+      internalID: -1956962608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_225
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 522
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd59cedfc17df844b9795c7754e2424
+      internalID: 1404914595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_226
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce69890a45629af4f838582bf4e3580a
+      internalID: -1517535596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_227
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062ccb0a17f008c47b83f9107e2f7cd9
+      internalID: 2063263621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_228
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed097c17c54f304aa5ad2544b192ee7
+      internalID: 1752216703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_229
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3061ee29e14796349a34d82eeff9919d
+      internalID: 186758946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_230
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76afd6cb5e1ea242866070d9e168685
+      internalID: -378102677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_231
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ede2a55bb9dc5f40bb13767ab89629a
+      internalID: 978689687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_232
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfbcf63c9113854391fe25773de9ce2
+      internalID: 1661462374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_233
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a27b52491cb0dd4aa6e1216531ed233
+      internalID: 2008214437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_234
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be401dede25674fadbacc6dfdb5c1e
+      internalID: -1820757864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_235
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bb3bb120643ee47bdb06ea964efb11
+      internalID: -1997030655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_236
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4a74bf8cd85d49b6c1188af5f93e0
+      internalID: 981456939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_237
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e8aae74801ffa47a4376b562d92d39
+      internalID: 334733622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_238
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e75738ffed705e4f94b3e213e9251fd
+      internalID: -916619441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_239
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fcfd1ae03c98346a2174ea4768d965
+      internalID: -758260063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_240
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8838060f9d018740af7a573ec0764b8
+      internalID: -1141627054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_241
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bada89ecbacc534998cb3d2f863804f
+      internalID: 1185049230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_242
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e44964904692ad4084e82b942fc0619
+      internalID: 1455405932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_243
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa66907934ed4d418dcae322911ce3c
+      internalID: 20021544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_244
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8685041c090742f4391fc6104b74abdc
+      internalID: 766052443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_245
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb1f292138d907488283c139f03c5fa
+      internalID: -406975969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_246
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47113643ab441f4baeee4784eda20e4
+      internalID: -807965540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_247
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6af105a957ee534e83a0aca739d3744
+      internalID: 1690658708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_248
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e9456dc2a9ce4499dc408211a487b0
+      internalID: -612971362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_249
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 458
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c34ff62758099b4491cadf67a040862
+      internalID: 1806613299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9b0f0af29f3744c888fa293fc72517
+      internalID: 1341961741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_251
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88fd46e06613e34ea9f77a1212a57da
+      internalID: -1391967658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_252
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729cc8918d023624280113618e292cfc
+      internalID: 2030105321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_253
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3798dff7499a740821f000fb7f4147
+      internalID: 1987621387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_254
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89c8b85c93aa3a44ae7d4ba27f72ca9
+      internalID: 1607949640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_255
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392571a298ececf4aa6a54b60672d2e6
+      internalID: -985235652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_256
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c319b2e24bd838f4691a0f54cff39cd4
+      internalID: 858803082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_257
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f935911c9acd43040a3e47b8d55a13aa
+      internalID: -252750473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_258
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90735c0c6fb34384da7e5ada6bdfa58b
+      internalID: -675318220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_259
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc0c9f643cd37b4a95ca2ee9ccefd96
+      internalID: -272312529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_260
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1fd9d3c2d4e6343a333b867fbea788
+      internalID: 1199201474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_261
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e717ae91b61cf44f940e0cc4bdf6278
+      internalID: -871478108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_262
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47e09d6fdf49f41b8bd7dcf84bd118
+      internalID: 1785280531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_263
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015203bce96657840bd3b586e8f54be7
+      internalID: -1555958528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_264
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c2756179aa9474589f3021cb9c8b0e
+      internalID: -1884842192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_265
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4845eb99f345254a94260cd4c0534c9
+      internalID: 1701024321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_266
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acfc745941f21041be1e1eb53930532
+      internalID: 1587453898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_267
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288d614c5336ae144af8b4f30f39e5c6
+      internalID: 67031403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_268
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eea7b6a1e7de749818a4d2a521ebd9
+      internalID: 892649040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_269
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba75c98a510903439efb159e80fe0b0
+      internalID: 1019014003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_270
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a578e72bf01c1c479904bf8a4a2d13e
+      internalID: -1018446460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_271
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f4bd2c61a6894d9dc07772d1a32f4
+      internalID: -1958264379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_272
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 394
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649ba6a97fd0b04f9ce7efd9e59b941
+      internalID: 875679401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_273
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c04e2487f894f4f91d8ddf84d5c1b8
+      internalID: -1012599134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_274
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee77a069d31d543459a4d5b25da4579a
+      internalID: -1739101145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_275
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e392b140689dac4dacef4d743fd59c2
+      internalID: 330251645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_276
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05d52a88416274b860c71872182574
+      internalID: -1714309360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_277
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d83e69bf96ff554b8393aaaf95d9708
+      internalID: 1662411703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_278
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac25b3334f502d4288ce670ea2162aa
+      internalID: -1063616126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_279
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a76a1c28963db34f83015b1c33b81f5
+      internalID: -869107089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_280
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4df21d1407afa4899f2b423cb5a52c
+      internalID: 877010529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_281
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55812aa4c650ed41ab491f3438d5b0e
+      internalID: -486442990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_282
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5386acee13da94e99c25a4dc264288
+      internalID: 1662047256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_283
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b844edd4167eb4facff637e285b30f
+      internalID: -373106395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_284
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0fe2de7fbeb14d85fbf3e6b1a1c72
+      internalID: 1502735987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_285
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba77337817121e4eba0cd6170691870
+      internalID: -1624779015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_286
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa1124382d2e814daae617f1ee62246
+      internalID: 1070301617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_287
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c76b2a4fd2d7b4f9d1c00c06494220
+      internalID: -1966397858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_288
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc89c630f51d744af9a26f639a3b4f
+      internalID: -559563970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_289
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c70a7de46b15440b24d7f002f41d8c
+      internalID: 512586587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_290
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8072301643d8dbe4eb04166adb5229b8
+      internalID: 500502103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_291
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482fd497800aa6844863eb4445b0b86f
+      internalID: 1577188412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_292
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244d8bca39cbfc94c9dbfa4a192e76ee
+      internalID: 2136368388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_293
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 330
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87916926086d3f45a4f9320b81d4aea
+      internalID: 245235333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_294
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee8350499725eb41954c001e9ecad6b
+      internalID: -386969575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_295
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65f96e1e446fb44994f9afecbf11e1f
+      internalID: -1988754408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_296
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384237bfa21373441a410a5860eaec01
+      internalID: -440068370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_297
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896812027f7771d418feb7bb7893b35e
+      internalID: -1510396003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_298
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578efb407353d04fa8dda0b3d167717
+      internalID: 436228067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_299
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300dce031d6054949bc8ec37c1f0dd0b
+      internalID: 1314530567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_300
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f13fcbd60008984190ad336329edb58
+      internalID: 2044209661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_301
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa876f25b50b4948a05de440be8d64f
+      internalID: 1645522818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_302
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70fc24a357b7194eba6be70b5655eb4
+      internalID: 333770845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_303
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09884f7f68f602d4d916b01a3bb2c782
+      internalID: 1701796436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_304
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99815e00b8012514f809e26f92030513
+      internalID: 1204736524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_305
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87c3335709c9b640b9ec2425bfc55c0
+      internalID: -195055667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_306
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76065ddd85ab5d4eb6b6ffed6bedf2e
+      internalID: 224029124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_307
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7828728a95efa304cadf849dddbf34ac
+      internalID: 2090308835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_308
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89e79cd9deedd9448ebff9ff1e7ac24
+      internalID: 122306829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_309
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ae621f0e77ac043a29ab2174ea2b92
+      internalID: -1858888890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_310
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3763c59e8bb9241bb455f2ea23216c
+      internalID: 1139429519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_311
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9ee718502332847a749685961b18d5
+      internalID: 1998164839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_312
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 266
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aa2a3afd9da8541a617cc16ac58dbb
+      internalID: 2038803182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_313
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4db1c09f5895b44834f979a53e9d85
+      internalID: 348698104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_314
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aa063b668657047a1e18487fd50523
+      internalID: -192946540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_315
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822bbc017946ec2408c4693b6e079db2
+      internalID: 1067643793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_316
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb4b13093a0ba44388ef6452129f068
+      internalID: 1945048378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_317
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6da47f6f2e666b48964a81d01722f4a
+      internalID: 216271976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_318
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cecdb753af8ef24e88bc8d5d6da14ba
+      internalID: -215063245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_319
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d149386c4e22489a8de0cdd41b7f4
+      internalID: -602232712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_320
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7caf477cb4fe14a9a96dd1ea89e47a
+      internalID: -2026789697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_321
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb749053320ccc54395d74c1436a7c1f
+      internalID: -1446792700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_322
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bdacf20de3088479d914ca6d3edd55
+      internalID: -1439746291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mausoleum_Original_323
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 202
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e949728184c1499498d3fc62b94b292e
+      internalID: -644404120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mausoleum_Original_0: 50397991
+      mausoleum_Original_1: -1200291026
+      mausoleum_Original_10: 1399611961
+      mausoleum_Original_100: 1166967151
+      mausoleum_Original_101: 1526836591
+      mausoleum_Original_102: -1019302020
+      mausoleum_Original_103: -1951417095
+      mausoleum_Original_104: -876508094
+      mausoleum_Original_105: 98729943
+      mausoleum_Original_106: -607744229
+      mausoleum_Original_107: 1256205834
+      mausoleum_Original_108: -608950105
+      mausoleum_Original_109: -322567724
+      mausoleum_Original_11: -881578511
+      mausoleum_Original_110: -897257187
+      mausoleum_Original_111: 321176966
+      mausoleum_Original_112: -366903879
+      mausoleum_Original_113: 302385213
+      mausoleum_Original_114: 1378037312
+      mausoleum_Original_115: 1451999170
+      mausoleum_Original_116: 1736716897
+      mausoleum_Original_117: -628265672
+      mausoleum_Original_118: -1352339756
+      mausoleum_Original_119: 1875179165
+      mausoleum_Original_12: 617326761
+      mausoleum_Original_120: 1857246466
+      mausoleum_Original_121: -1169555375
+      mausoleum_Original_122: -999111417
+      mausoleum_Original_123: 1972172557
+      mausoleum_Original_124: 1402223949
+      mausoleum_Original_125: 638539853
+      mausoleum_Original_126: 1029662239
+      mausoleum_Original_127: -1236032563
+      mausoleum_Original_128: -1446546495
+      mausoleum_Original_129: -1114728537
+      mausoleum_Original_13: -318731507
+      mausoleum_Original_130: 727380160
+      mausoleum_Original_131: 49990795
+      mausoleum_Original_132: -14138918
+      mausoleum_Original_133: -477514548
+      mausoleum_Original_134: -1963219283
+      mausoleum_Original_135: -821273651
+      mausoleum_Original_136: 726695943
+      mausoleum_Original_137: -454018158
+      mausoleum_Original_138: 1869259777
+      mausoleum_Original_139: -1110185702
+      mausoleum_Original_14: 1282438601
+      mausoleum_Original_140: 695057661
+      mausoleum_Original_141: 2069694704
+      mausoleum_Original_142: -1690438411
+      mausoleum_Original_143: 1922761069
+      mausoleum_Original_144: -1670238724
+      mausoleum_Original_145: 2017768985
+      mausoleum_Original_146: 1036941045
+      mausoleum_Original_147: 940110351
+      mausoleum_Original_148: -159812393
+      mausoleum_Original_149: 586159714
+      mausoleum_Original_15: -216721744
+      mausoleum_Original_150: 631584398
+      mausoleum_Original_151: 341420349
+      mausoleum_Original_152: -388599415
+      mausoleum_Original_153: -864553686
+      mausoleum_Original_154: 1242227562
+      mausoleum_Original_155: -1977703145
+      mausoleum_Original_156: -1085719235
+      mausoleum_Original_157: -879266303
+      mausoleum_Original_158: -672256483
+      mausoleum_Original_159: 1203039868
+      mausoleum_Original_16: 2069448342
+      mausoleum_Original_160: -810942038
+      mausoleum_Original_161: -673660429
+      mausoleum_Original_162: 2064545805
+      mausoleum_Original_163: -1748442876
+      mausoleum_Original_164: -742168399
+      mausoleum_Original_165: -2132291431
+      mausoleum_Original_166: 577682806
+      mausoleum_Original_167: -1291586997
+      mausoleum_Original_168: 200947830
+      mausoleum_Original_169: -390791637
+      mausoleum_Original_17: -427951314
+      mausoleum_Original_170: -1546230014
+      mausoleum_Original_171: 725780165
+      mausoleum_Original_172: -1576639075
+      mausoleum_Original_173: 2131217432
+      mausoleum_Original_174: -379850830
+      mausoleum_Original_175: 1594506045
+      mausoleum_Original_176: -924358382
+      mausoleum_Original_177: -1416272432
+      mausoleum_Original_178: 218453619
+      mausoleum_Original_179: -1271076344
+      mausoleum_Original_18: 1779864574
+      mausoleum_Original_180: -1759036496
+      mausoleum_Original_181: -1767877950
+      mausoleum_Original_182: -1869839467
+      mausoleum_Original_183: -954008771
+      mausoleum_Original_184: 694440923
+      mausoleum_Original_185: -1355472544
+      mausoleum_Original_186: 1058806845
+      mausoleum_Original_187: -2104015077
+      mausoleum_Original_188: -1321146415
+      mausoleum_Original_189: -415438852
+      mausoleum_Original_19: 247497917
+      mausoleum_Original_190: 1846485779
+      mausoleum_Original_191: -475527651
+      mausoleum_Original_192: 941243152
+      mausoleum_Original_193: -2136425321
+      mausoleum_Original_194: -1084278414
+      mausoleum_Original_195: -127100518
+      mausoleum_Original_196: 971097594
+      mausoleum_Original_197: 443766563
+      mausoleum_Original_198: -1579078607
+      mausoleum_Original_199: -1069556563
+      mausoleum_Original_2: -1759955411
+      mausoleum_Original_20: 1351067511
+      mausoleum_Original_200: -977266296
+      mausoleum_Original_201: -709005833
+      mausoleum_Original_202: -180429692
+      mausoleum_Original_203: -548615324
+      mausoleum_Original_204: -512899147
+      mausoleum_Original_205: -2053400233
+      mausoleum_Original_206: 2011614740
+      mausoleum_Original_207: -1200192176
+      mausoleum_Original_208: 1758394361
+      mausoleum_Original_209: 47135700
+      mausoleum_Original_21: -21181877
+      mausoleum_Original_210: 562949481
+      mausoleum_Original_211: -947310347
+      mausoleum_Original_212: 683866340
+      mausoleum_Original_213: -1795517025
+      mausoleum_Original_214: -450688872
+      mausoleum_Original_215: 1453262716
+      mausoleum_Original_216: 1321258752
+      mausoleum_Original_217: -170102
+      mausoleum_Original_218: -2126764804
+      mausoleum_Original_219: -114259182
+      mausoleum_Original_22: 1514512080
+      mausoleum_Original_220: 1491026650
+      mausoleum_Original_221: 1756429468
+      mausoleum_Original_222: 705681117
+      mausoleum_Original_223: -2141888277
+      mausoleum_Original_224: -1956962608
+      mausoleum_Original_225: 1404914595
+      mausoleum_Original_226: -1517535596
+      mausoleum_Original_227: 2063263621
+      mausoleum_Original_228: 1752216703
+      mausoleum_Original_229: 186758946
+      mausoleum_Original_23: 1316098058
+      mausoleum_Original_230: -378102677
+      mausoleum_Original_231: 978689687
+      mausoleum_Original_232: 1661462374
+      mausoleum_Original_233: 2008214437
+      mausoleum_Original_234: -1820757864
+      mausoleum_Original_235: -1997030655
+      mausoleum_Original_236: 981456939
+      mausoleum_Original_237: 334733622
+      mausoleum_Original_238: -916619441
+      mausoleum_Original_239: -758260063
+      mausoleum_Original_24: -6945649
+      mausoleum_Original_240: -1141627054
+      mausoleum_Original_241: 1185049230
+      mausoleum_Original_242: 1455405932
+      mausoleum_Original_243: 20021544
+      mausoleum_Original_244: 766052443
+      mausoleum_Original_245: -406975969
+      mausoleum_Original_246: -807965540
+      mausoleum_Original_247: 1690658708
+      mausoleum_Original_248: -612971362
+      mausoleum_Original_249: 1806613299
+      mausoleum_Original_25: 164986157
+      mausoleum_Original_250: 1341961741
+      mausoleum_Original_251: -1391967658
+      mausoleum_Original_252: 2030105321
+      mausoleum_Original_253: 1987621387
+      mausoleum_Original_254: 1607949640
+      mausoleum_Original_255: -985235652
+      mausoleum_Original_256: 858803082
+      mausoleum_Original_257: -252750473
+      mausoleum_Original_258: -675318220
+      mausoleum_Original_259: -272312529
+      mausoleum_Original_26: 885196171
+      mausoleum_Original_260: 1199201474
+      mausoleum_Original_261: -871478108
+      mausoleum_Original_262: 1785280531
+      mausoleum_Original_263: -1555958528
+      mausoleum_Original_264: -1884842192
+      mausoleum_Original_265: 1701024321
+      mausoleum_Original_266: 1587453898
+      mausoleum_Original_267: 67031403
+      mausoleum_Original_268: 892649040
+      mausoleum_Original_269: 1019014003
+      mausoleum_Original_27: -1994189414
+      mausoleum_Original_270: -1018446460
+      mausoleum_Original_271: -1958264379
+      mausoleum_Original_272: 875679401
+      mausoleum_Original_273: -1012599134
+      mausoleum_Original_274: -1739101145
+      mausoleum_Original_275: 330251645
+      mausoleum_Original_276: -1714309360
+      mausoleum_Original_277: 1662411703
+      mausoleum_Original_278: -1063616126
+      mausoleum_Original_279: -869107089
+      mausoleum_Original_28: 2005848353
+      mausoleum_Original_280: 877010529
+      mausoleum_Original_281: -486442990
+      mausoleum_Original_282: 1662047256
+      mausoleum_Original_283: -373106395
+      mausoleum_Original_284: 1502735987
+      mausoleum_Original_285: -1624779015
+      mausoleum_Original_286: 1070301617
+      mausoleum_Original_287: -1966397858
+      mausoleum_Original_288: -559563970
+      mausoleum_Original_289: 512586587
+      mausoleum_Original_29: -1260926519
+      mausoleum_Original_290: 500502103
+      mausoleum_Original_291: 1577188412
+      mausoleum_Original_292: 2136368388
+      mausoleum_Original_293: 245235333
+      mausoleum_Original_294: -386969575
+      mausoleum_Original_295: -1988754408
+      mausoleum_Original_296: -440068370
+      mausoleum_Original_297: -1510396003
+      mausoleum_Original_298: 436228067
+      mausoleum_Original_299: 1314530567
+      mausoleum_Original_3: 649384941
+      mausoleum_Original_30: 1345228505
+      mausoleum_Original_300: 2044209661
+      mausoleum_Original_301: 1645522818
+      mausoleum_Original_302: 333770845
+      mausoleum_Original_303: 1701796436
+      mausoleum_Original_304: 1204736524
+      mausoleum_Original_305: -195055667
+      mausoleum_Original_306: 224029124
+      mausoleum_Original_307: 2090308835
+      mausoleum_Original_308: 122306829
+      mausoleum_Original_309: -1858888890
+      mausoleum_Original_31: -1396079302
+      mausoleum_Original_310: 1139429519
+      mausoleum_Original_311: 1998164839
+      mausoleum_Original_312: 2038803182
+      mausoleum_Original_313: 348698104
+      mausoleum_Original_314: -192946540
+      mausoleum_Original_315: 1067643793
+      mausoleum_Original_316: 1945048378
+      mausoleum_Original_317: 216271976
+      mausoleum_Original_318: -215063245
+      mausoleum_Original_319: -602232712
+      mausoleum_Original_32: -1152411101
+      mausoleum_Original_320: -2026789697
+      mausoleum_Original_321: -1446792700
+      mausoleum_Original_322: -1439746291
+      mausoleum_Original_323: -644404120
+      mausoleum_Original_33: -195777111
+      mausoleum_Original_34: -2048456026
+      mausoleum_Original_35: 1445128642
+      mausoleum_Original_36: 1170753864
+      mausoleum_Original_37: 1741535424
+      mausoleum_Original_38: -2099607643
+      mausoleum_Original_39: -1020454367
+      mausoleum_Original_4: 59387704
+      mausoleum_Original_40: 1184090984
+      mausoleum_Original_41: 1231744338
+      mausoleum_Original_42: 1130822331
+      mausoleum_Original_43: -630197929
+      mausoleum_Original_44: 163615695
+      mausoleum_Original_45: 531108155
+      mausoleum_Original_46: -1308612169
+      mausoleum_Original_47: -1032712371
+      mausoleum_Original_48: -672679659
+      mausoleum_Original_49: -1803087035
+      mausoleum_Original_5: -679451970
+      mausoleum_Original_50: 1177532990
+      mausoleum_Original_51: -195152672
+      mausoleum_Original_52: 1667675063
+      mausoleum_Original_53: 41256942
+      mausoleum_Original_54: 1308619224
+      mausoleum_Original_55: 399241277
+      mausoleum_Original_56: -1962359027
+      mausoleum_Original_57: -229308575
+      mausoleum_Original_58: -1416852896
+      mausoleum_Original_59: -262101366
+      mausoleum_Original_6: 193825528
+      mausoleum_Original_60: -1827473578
+      mausoleum_Original_61: 434471159
+      mausoleum_Original_62: 1010838034
+      mausoleum_Original_63: 1628018617
+      mausoleum_Original_64: 1414041227
+      mausoleum_Original_65: 496445988
+      mausoleum_Original_66: -1829912006
+      mausoleum_Original_67: 921752109
+      mausoleum_Original_68: -175300733
+      mausoleum_Original_69: 200866042
+      mausoleum_Original_7: -767965312
+      mausoleum_Original_70: 1545469241
+      mausoleum_Original_71: -1728126372
+      mausoleum_Original_72: 1282005750
+      mausoleum_Original_73: -1672418924
+      mausoleum_Original_74: -986748022
+      mausoleum_Original_75: -1235924982
+      mausoleum_Original_76: -828107003
+      mausoleum_Original_77: 1450958312
+      mausoleum_Original_78: 1452349739
+      mausoleum_Original_79: 967378411
+      mausoleum_Original_8: -1616056589
+      mausoleum_Original_80: -1931345373
+      mausoleum_Original_81: 1208443920
+      mausoleum_Original_82: -968655288
+      mausoleum_Original_83: -2130306015
+      mausoleum_Original_84: -1367416114
+      mausoleum_Original_85: -1038929226
+      mausoleum_Original_86: -1061882137
+      mausoleum_Original_87: 117046855
+      mausoleum_Original_88: -190849248
+      mausoleum_Original_89: -2128652084
+      mausoleum_Original_9: 228441991
+      mausoleum_Original_90: 1497438243
+      mausoleum_Original_91: -1339389514
+      mausoleum_Original_92: 943706854
+      mausoleum_Original_93: 2006199962
+      mausoleum_Original_94: -905453626
+      mausoleum_Original_95: 1491187553
+      mausoleum_Original_96: -365652659
+      mausoleum_Original_97: -1789013700
+      mausoleum_Original_98: -2078019001
+      mausoleum_Original_99: -135816393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
