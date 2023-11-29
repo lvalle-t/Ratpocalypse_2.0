@@ -9,12 +9,12 @@ using UnityEngine.Tilemaps;
 public class snake_health : MonoBehaviour
 {
     public float Hitpoints;
-    public float MaxHitpoints = 5f;
+    public float MaxHitpoints = 7f;
     public snake_healthbar Healthbar;
     public GameObject[] itemDrops;
-    public float damaged = 0.2f;
+    public float damaged = 1f;
     public int scoreNum = 0;
-    
+
 
     public GameObject enemy;
 
@@ -69,9 +69,9 @@ public class snake_health : MonoBehaviour
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
 
-        if (Hitpoints <= 5)
+        if (Hitpoints <= 34)
         {
-             Instantiate(enemy, new Vector3(0, 0, 0), Quaternion.identity);
+            Instantiate(enemy, new Vector3(0, 0, 0), Quaternion.identity);
             GetComponent<Animator>().SetBool("isEnraged", true);
             m_SpriteRenderer.color = Color.red;
         }
