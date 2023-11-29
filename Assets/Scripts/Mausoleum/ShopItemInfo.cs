@@ -13,7 +13,7 @@ public class ShopItemInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        price.text = "Price: " + sm.GetComponent<ShopManagerScript>().shopItems[1, ID].ToString();
+        price.text = "Price: " + sm.GetComponent<ShopManagerScript>().shopItems[2, ID].ToString();
         quantity.text = "Life: " + sm.GetComponent<ShopManagerScript>().lifeQuantity[1, ID].ToString();
 
     }
