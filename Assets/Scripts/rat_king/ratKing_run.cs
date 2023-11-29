@@ -20,7 +20,7 @@ public class ratKing_run : StateMachineBehaviour
     // float strikeCooldownTimer = 1f;
     // bool strikeOnCooldown = false;
 
-    float projectileCooldowntimer = 5f;
+    float projectileCooldowntimer = 2f;
     bool projectileOnCooldown = false;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -36,10 +36,10 @@ public class ratKing_run : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         boss.LookAtPlayer();
-        Vector2 target = new Vector2(player.position.x, player.position.y);
-        Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
+        // Vector2 target = new Vector2(player.position.x, player.position.y);
+        // Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
 
-        rb.MovePosition(newPos);
+        // rb.MovePosition(newPos);
 
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {
@@ -52,8 +52,9 @@ public class ratKing_run : StateMachineBehaviour
             if (projectileCooldowntimer <= 0)
             {
                 projectileOnCooldown = false;
-                projectileCooldowntimer = 5;
+                projectileCooldowntimer = 2;
             }
+
         }
         if (Vector2.Distance(player.position, rb.position) <= throwRange && Random.Range(0f, 90000f) >= 89000f)
         {
