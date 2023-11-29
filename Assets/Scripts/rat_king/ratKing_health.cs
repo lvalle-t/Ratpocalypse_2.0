@@ -9,7 +9,7 @@ using UnityEngine.Tilemaps;
 public class ratKing_health : MonoBehaviour
 {
     public float Hitpoints;
-    public float MaxHitpoints = 5f;
+    public float MaxHitpoints = 150f;
     public ratKing_healthbar Healthbar;
     public GameObject[] itemDrops;
     public float damaged = 0.2f;
