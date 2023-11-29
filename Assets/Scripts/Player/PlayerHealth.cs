@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHeart;
     public Animator myAnimator;
 
+    public GameObject go;
     public GameObject deathEffect;
 
     private void Update()
@@ -92,6 +93,7 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(myAnimator.GetCurrentAnimatorClipInfo(0).Length);
 
         // Show the game over screen
+        go.SetActive(true);
         gameManager.gameOver();
         gameObject.SetActive(false);
     }
