@@ -1771,17 +1771,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4075030354100409121, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
   m_PrefabInstance: {fileID: 978787212}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &608824608 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6475287248652476037, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
-  m_PrefabInstance: {fileID: 978787212}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5c9092e5027f734aa531b6f72a492ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &655220822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,10 +2118,10 @@ PrefabInstance:
       propertyPath: lp
       value: 
       objectReference: {fileID: 1552637915}
-    - target: {fileID: 950917449617629285, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
-      propertyPath: xpBar
+    - target: {fileID: 3618574615679243565, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: go
       value: 
-      objectReference: {fileID: 608824608}
+      objectReference: {fileID: 1008257962}
     - target: {fileID: 3618574615679243565, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: gameManager
       value: 
@@ -2151,7 +2140,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5471168247165629637, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_text
-      value: 'Level:'
+      value: 0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471168247165629637, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_fontSize
+      value: 44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471168247165629637, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 5471168247165629637, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 5471168247165629637, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6600891684495054227, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
       propertyPath: m_LocalPosition.x
