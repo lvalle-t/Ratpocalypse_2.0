@@ -352,9 +352,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
-  m_WholeNumbers: 0
-  m_Value: 10
+  m_MaxValue: 75
+  m_WholeNumbers: 1
+  m_Value: 75
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -960,11 +960,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 0
-  MaxHitpoints: 10
+  MaxHitpoints: 74
   Healthbar: {fileID: 3331922303937980659}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
-  damaged: 0.2
+  damaged: 1
   scoreNum: 0
   enemy: {fileID: 7553663567114340157, guid: 00e1533f4cc2dc04293e7776aa0c4bf9, type: 3}
   isInvulnerable: 0
