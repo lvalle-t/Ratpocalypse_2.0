@@ -212,6 +212,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 668473274}
+--- !u!95 &42895983 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8856385434143600606, guid: 1d8a5290aa364374da9ecbab8f6e74f4, type: 3}
+  m_PrefabInstance: {fileID: 2139716398585880001}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &53363846
 GameObject:
   m_ObjectHideFlags: 0
@@ -27188,6 +27193,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 7961858635510984224, guid: 1d8a5290aa364374da9ecbab8f6e74f4, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 42895983}
     - target: {fileID: 8253030003438016017, guid: 1d8a5290aa364374da9ecbab8f6e74f4, type: 3}
       propertyPath: m_FlipX
       value: 1

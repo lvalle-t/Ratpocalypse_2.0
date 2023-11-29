@@ -14,14 +14,13 @@ public class ratKing_health : MonoBehaviour
     public GameObject[] itemDrops;
     public float damaged = 0.2f;
     public int scoreNum = 0;
-    
+    private bool isDead = false;
+    public Animator animator;
 
     // public GameObject enemy;
 
     // public bool isInvulnerable = false;
 
-    // private GameObject door_exit;
-    // private GameObject door_exit_bg;
     public GameObject ratKing;
     private FlashDamage flashDamage;
 
@@ -31,7 +30,7 @@ public class ratKing_health : MonoBehaviour
 
     void Start()
     {
-        
+
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints);
 
@@ -42,14 +41,6 @@ public class ratKing_health : MonoBehaviour
 
         // Debug.Log(ratKing);
         // Debug.Log(m_SpriteRenderer);
-
-
-
-        // door_exit_bg = GameObject.Find("Door Bg");
-        // door_exit = GameObject.Find("Door Exit");
-
-        // door_exit_bg.SetActive(false);
-        // door_exit.SetActive(false);
 
     }
 
@@ -73,19 +64,20 @@ public class ratKing_health : MonoBehaviour
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
 
-        if (Hitpoints <= 0)
+        if (Hitpoints <= 0 && !isDead)
         {
-            Destroy(gameObject);
-
-            // door_exit_bg.SetActive(true);
-            // door_exit.SetActive(true);
-
-            ItemDrop();
-            //ScoreCollection();
+            isDead = true;
+            StartCoroutine(PlayDeathAnimationAndDestroy());
         }
     }
 
-
+    private IEnumerator PlayDeathAnimationAndDestroy()
+    {
+        animator.Play("rat_king_death", 0, 0.9f);
+        yield return new WaitForSeconds(1.5f); // Adjust the delay time if needed
+        Destroy(gameObject);
+        ItemDrop();
+    }
 
     private void ItemDrop()
     {
