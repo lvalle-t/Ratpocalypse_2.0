@@ -20,16 +20,16 @@ public class ShopManagerScript : MonoBehaviour
         lifeAmount = 0f;
 
         // Item ID's
-        shopItems[0, 1] = 1;
-        shopItems[0, 2] = 2;
+        shopItems[1, 1] = 1;
+        shopItems[1, 2] = 2;
 
         // Item Price
-        shopItems[1, 1] = 50;
-        shopItems[1, 2] = 100;
+        shopItems[2, 1] = 50;
+        shopItems[2, 2] = 100;
 
         // Item Quantity
         lifeQuantity[1, 1] = 0.5f;
-        lifeQuantity[1, 2] = 1.0f;
+        lifeQuantity[1, 2] = 0;
     }
 
 
@@ -37,12 +37,14 @@ public class ShopManagerScript : MonoBehaviour
     {
         GameObject buttonRef = GameObject.FindGameObjectWithTag("Event").GetComponent<EventSystem>().currentSelectedGameObject;
 
-        if (treats >= shopItems[1, buttonRef.GetComponent<ShopItemInfo>().ID])
+        if (treats >= shopItems[2, buttonRef.GetComponent<ShopItemInfo>().ID])
         {
-            treats -= shopItems[1, buttonRef.GetComponent<ShopItemInfo>().ID];
+            treats += shopItems[2, buttonRef.GetComponent<ShopItemInfo>().ID];
+            tc.TreatDisburement(treats);
+
             lifeQuantity[1, buttonRef.GetComponent<ShopItemInfo>().ID]++;
             lifeAmount = lifeQuantity[1, buttonRef.GetComponent<ShopItemInfo>().ID]++;
-            tc.TreatDisburement(treats);
+
             ph.LifePurchase(lifeAmount);
             buttonRef.GetComponent<ShopItemInfo>().quantity.text = lifeQuantity[1, buttonRef.GetComponent<ShopItemInfo>().ID].ToString();
         }
