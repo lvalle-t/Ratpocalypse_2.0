@@ -447,6 +447,7 @@ GameObject:
   - component: {fileID: 8248954469792314320}
   - component: {fileID: 5214629301185494388}
   - component: {fileID: 4556248342193321598}
+  - component: {fileID: 1888598040517259074}
   m_Layer: 11
   m_Name: Bat_Mob
   m_TagString: Enemy
@@ -584,7 +585,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.44682616, y: 0.1942501}
     oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
@@ -715,7 +716,7 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 199260
+  m_InstanceId: 211824
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 0.5, z: 0}
@@ -777,7 +778,7 @@ MonoBehaviour:
   radius: 0.51
   height: 2
   canMove: 1
-  maxSpeed: 1
+  maxSpeed: 1.8
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -803,3 +804,16 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+--- !u!114 &1888598040517259074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106437095515876125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}

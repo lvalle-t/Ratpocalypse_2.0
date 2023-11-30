@@ -52,6 +52,7 @@ GameObject:
   - component: {fileID: 3668080813898308599}
   - component: {fileID: 6108623351163000702}
   - component: {fileID: 4571965464217640039}
+  - component: {fileID: 1843655499197696998}
   m_Layer: 11
   m_Name: Fire_Ant
   m_TagString: Enemy
@@ -306,7 +307,7 @@ MonoBehaviour:
   - {x: 0.31, y: -0.255, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 236528
+  m_InstanceId: 211654
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.31, y: 0.255, z: 0}
@@ -368,7 +369,7 @@ MonoBehaviour:
   radius: 0.5
   height: 2
   canMove: 1
-  maxSpeed: 1
+  maxSpeed: 1.8
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
@@ -394,6 +395,19 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+--- !u!114 &1843655499197696998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837328126477410877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc3e85e0ee40740b605d81bdfc6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: c741a7cb249ee454a92e5587f6f42154, type: 2}
 --- !u!1 &2198929163536868450
 GameObject:
   m_ObjectHideFlags: 0

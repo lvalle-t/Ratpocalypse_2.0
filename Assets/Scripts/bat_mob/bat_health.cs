@@ -15,6 +15,8 @@ public class bat_health : MonoBehaviour
     public int scoreNum = 0;
     [Header("Effects")]
     public GameObject deathEffect;
+
+    private FlashDamage flashDamage;
     [Header("Exp Amount")]
     int expAmount = 50;
 
@@ -22,10 +24,12 @@ public class bat_health : MonoBehaviour
     {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        flashDamage = GetComponent<FlashDamage>();
     }
 
     public void TakeDamage(int damage)
     {
+        flashDamage.FlashOnDamage();
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if (Hitpoints <= 0)

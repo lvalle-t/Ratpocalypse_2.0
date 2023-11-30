@@ -13,16 +13,19 @@ public class ant_health : MonoBehaviour
     public GameObject[] itemDrops;
     [Header("Effects")]
     public GameObject deathEffect;
+    private FlashDamage flashDamage;
     [Header("Exp Amount")]
     int expAmount = 50;
     void Start()
     {
         Hitpoints = MaxHitpoints;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        flashDamage = GetComponent<FlashDamage>();
     }
 
     public void TakeDamage(int damage)
     {
+        flashDamage.FlashOnDamage();
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
         if (Hitpoints <= 0)
