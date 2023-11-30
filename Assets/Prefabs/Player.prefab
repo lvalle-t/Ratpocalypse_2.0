@@ -442,7 +442,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 3893338608431799531}
-  lp: {fileID: 950917449617629285}
 --- !u!1 &8922769238387479437
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,26 +827,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eeecf067a7cc642926c101a3f5c7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currExp: 0
-  maxExp: 500
-  currLevel: 1
   xpBar: {fileID: 6475287248652476037}
   upScreen: {fileID: 0}
   catPlayer: {fileID: 4945749228415260886}
-  catMovement: {fileID: 8817779726072294517}
 --- !u!95 &7119076409611968494 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1348712869742208222, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
   m_PrefabInstance: {fileID: 8105245072623385392}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8817779726072294517 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 730874524683048773, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
-  m_PrefabInstance: {fileID: 8105245072623385392}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4945749228415260886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0221d7ed16d188246928ec6b32bcd128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
