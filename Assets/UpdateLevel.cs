@@ -18,6 +18,6 @@ public class UpdateLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        levelTxt.text = "XP Level: "+lp.CurrLevel.ToString();    // assigning the text and counter updater before adding - deb
+        levelTxt.text = "XP Level: "+updater.currLevel.ToString();    // assigning the text and counter updater before adding - deb
     }
 }

@@ -13,7 +13,7 @@ public class cat_movement : MonoBehaviour
     // Start is called before the first frame update
     private Vector2 movement;
     private Rigidbody2D rb;
-    public float speed = 0.2f;
+    //public float speed = 0.2f;
     public Animator playerAnimator;
     public GameObject punchHitbox;
     Collider2D punchCollider;
@@ -96,7 +96,7 @@ public class cat_movement : MonoBehaviour
         {
             return;
         }
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * updater.speed * Time.fixedDeltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

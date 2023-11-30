@@ -6,11 +6,11 @@ public class XPBAr : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private Slider slider;
-    [SerializeField] LevelProgression lp;
+    //[SerializeField] LevelProgression lp;
     public void Awake()
     {
         slider.minValue = 0;
-        slider.maxValue = lp.MaxExp;
+        slider.maxValue = updater.maxExp;
     }
     public void UpdateXPBar(int currExperience, int gainedExperience, int maxExperienece)
     {
@@ -21,6 +21,6 @@ public class XPBAr : MonoBehaviour
     {
         slider.value = 0;
         slider.minValue = 0;
-        slider.maxValue = lp.MaxExp;
+        slider.maxValue = updater.maxExp;
     }
 }
