@@ -19,7 +19,7 @@ public class ratKing_health : MonoBehaviour
 
     // public GameObject enemy;
 
-    // public bool isInvulnerable = false;
+    public bool isInvulnerable = false;
 
     public GameObject ratKing;
     private FlashDamage flashDamage;
@@ -54,16 +54,20 @@ public class ratKing_health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        // if (isInvulnerable)
-        // {
-        //     return;
-        // }
+        if (isInvulnerable)
+        {
+            return;
+        }
 
         flashDamage.FlashOnDamage();
 
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
 
+        if (Hitpoints <= 75)
+        {
+            GetComponent<Animator>().SetBool("isEnraged", true);
+        }
         if (Hitpoints <= 0 && !isDead)
         {
             isDead = true;

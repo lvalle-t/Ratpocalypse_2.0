@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class ratKing_strike : MonoBehaviour
 {
-    public float attackDamage = 1f;
-    public float enragedAttackDamage = 2f;
+    public float attackDamage = 0.5f;
+    public float enragedAttackDamage = 1f;
     public Vector2 attackOffset;
     public float attackRange = 5f;
     public LayerMask attackMask;
