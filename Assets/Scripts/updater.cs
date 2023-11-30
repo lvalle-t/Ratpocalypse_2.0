@@ -14,7 +14,7 @@ public class updater : MonoBehaviour
     // accumulates the treats, score, and adjusts
     // the hp as a collective of all scenes 
 
-    public static int treatCount = 150;
+    public static int treatCount = 0;
     public static float playerHp = 9f;
     public static float alligatorHp = 60.0f;
     public static float antHp = 1.0f;
