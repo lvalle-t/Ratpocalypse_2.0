@@ -24648,6 +24648,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4193963177023754862, guid: 896e879311cac2e47827c3069997c8c9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193963177023754862, guid: 896e879311cac2e47827c3069997c8c9, type: 3}
       propertyPath: swarmerPrefab
       value: 
       objectReference: {fileID: 4551248159238598939, guid: edebf838e9dd5984a811176504444644, type: 3}
@@ -24655,6 +24659,14 @@ PrefabInstance:
       propertyPath: bigSwarmerPrefab
       value: 
       objectReference: {fileID: 7401581611416096709, guid: 4f284c28968a8cc419957dd832fee11c, type: 3}
+    - target: {fileID: 4193963177023754862, guid: 896e879311cac2e47827c3069997c8c9, type: 3}
+      propertyPath: totalSwarmerEnemies
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193963177023754862, guid: 896e879311cac2e47827c3069997c8c9, type: 3}
+      propertyPath: totalBigSwarmerEnemies
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8666767826161375672, guid: 896e879311cac2e47827c3069997c8c9, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
