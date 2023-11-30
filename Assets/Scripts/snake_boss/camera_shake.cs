@@ -19,6 +19,8 @@ public class camera_shake : MonoBehaviour
 
     void Awake()
     {
+
+
         if (CinemachineVirtualCamera == null)
         {
             CinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
@@ -31,6 +33,7 @@ public class camera_shake : MonoBehaviour
     private void Start()
     {
         StopShake();
+
     }
 
     public void ShakeCamera()
