@@ -22,6 +22,7 @@ public class GameManagerScript : MonoBehaviour
     public void gameOver()
     {
         gameOverUI.SetActive(true);
+        Debug.Log("GAMEOVERSCREENON!!!!!");
     }
 
     public void restart()

@@ -31,6 +31,7 @@ public class mole_bat_controller : MonoBehaviour
     public GameObject[] itemDrop;
 
     public bool isFlipped = false;
+    int expAmount = 100;
 
     void Start()
     {
@@ -112,6 +113,7 @@ public class mole_bat_controller : MonoBehaviour
         {
             updater.batHp = 0f;
             UpdateBat();
+            ExperienceManager.Instance.AddExperience(expAmount);
         }
         healthBar.UpdateHealth(updater.batHp);
     }

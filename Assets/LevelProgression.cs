@@ -18,6 +18,9 @@ public class LevelProgression : MonoBehaviour
         xpBar = GetComponentInChildren<XPBAr>();
         Debug.Log("start max Experience " + updater.maxExp);
     }
+    void Update(){
+        xpBar.UpdateXPBar(updater.currExp, 0, updater.maxExp);
+    }
     private void OnEnable()
     {
         ExperienceManager.Instance.OnExperienceChange += HandleExperienceChange;

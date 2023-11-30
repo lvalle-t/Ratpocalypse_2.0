@@ -30,6 +30,7 @@ public class mole_ant_controller : MonoBehaviour
     public GameObject[] itemDrop;
 
     public bool isFlipped = false;
+    int expAmount = 100;
 
     void Start()
     {
@@ -106,6 +107,7 @@ public class mole_ant_controller : MonoBehaviour
         {
             updater.antHp = 0f;
             UpdateAnt();
+            ExperienceManager.Instance.AddExperience(expAmount);
         }
         healthBar.UpdateHealth(updater.antHp);
     }
