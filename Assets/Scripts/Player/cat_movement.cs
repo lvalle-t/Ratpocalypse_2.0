@@ -122,7 +122,7 @@ public class cat_movement : MonoBehaviour
         tr.emitting = true;
         //rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         yield return new WaitForSeconds(dashDuration);
-        tr.emitting = true;
+        tr.emitting = false;
         isDashing = false;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;

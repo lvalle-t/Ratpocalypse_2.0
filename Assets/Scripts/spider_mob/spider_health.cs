@@ -51,7 +51,7 @@ public class spider_health : MonoBehaviour
         // hitDamageSFX.Play();
         if (Hitpoints <= 0)
         {
-            Debug.Log("Taking damage: " + damage);
+            //Debug.Log("Taking damage: " + damage);
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             ExperienceManager.Instance.AddExperience(expAmount);
             Destroy(gameObject);
