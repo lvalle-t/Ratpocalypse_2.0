@@ -16,8 +16,7 @@ public class camera_shake : MonoBehaviour
 
     private float timer;
     private CinemachineBasicMultiChannelPerlin _cbmcp;
-    private GameObject door_exit;
-    private GameObject door_exit_bg;
+
     void Awake()
     {
 
@@ -34,10 +33,7 @@ public class camera_shake : MonoBehaviour
     private void Start()
     {
         StopShake();
-        door_exit_bg = GameObject.Find("Door Bg");
-        door_exit = GameObject.Find("Door Exit");
-        door_exit_bg.SetActive(false);
-        door_exit.SetActive(false);
+
     }
 
     public void ShakeCamera()
