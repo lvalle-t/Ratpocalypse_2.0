@@ -17,6 +17,8 @@ public class snake_health : MonoBehaviour
 
 
     public GameObject enemy;
+    private bool hasSpawnedEnemy = false; // New variable to track whether the enemy has been spawned
+
 
     public bool isInvulnerable = false;
 
@@ -70,9 +72,10 @@ public class snake_health : MonoBehaviour
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints);
 
-        if (Hitpoints <= 34)
+        if (Hitpoints <= 34 && !hasSpawnedEnemy) // Check if hitpoints are below 34 and enemy hasn't been spawned
         {
             Instantiate(enemy, new Vector3(0, 0, 0), Quaternion.identity);
+            hasSpawnedEnemy = true; // Set the flag to true after spawning the enemy
             GetComponent<Animator>().SetBool("isEnraged", true);
             m_SpriteRenderer.color = Color.red;
         }
@@ -85,7 +88,6 @@ public class snake_health : MonoBehaviour
             door_exit.SetActive(true);
             ExperienceManager.Instance.AddExperience(expAmount);
             ItemDrop();
-            //ScoreCollection();
         }
     }
 
