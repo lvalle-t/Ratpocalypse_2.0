@@ -72,9 +72,8 @@ public class PlayerHealth : MonoBehaviour
             myAnimator.SetTrigger("isDead");
             isDead = true;
 
-
-
-            StartCoroutine(ShowGameOverScreenAfterAnimation());
+            gameManager.gameOver();
+            gameObject.SetActive(false);
             Debug.Log("Player is dead!"); // Print "dead" message to the console
         }
     }
@@ -85,17 +84,6 @@ public class PlayerHealth : MonoBehaviour
 
         healthBar.UpdateHealth(updater.playerHp);
         UpdateHealth();
-    }
-
-    IEnumerator ShowGameOverScreenAfterAnimation()
-    {
-        // Wait for the death animation to complete
-        yield return new WaitForSeconds(myAnimator.GetCurrentAnimatorClipInfo(0).Length);
-
-        // Show the game over screen
-        go.SetActive(true);
-        gameManager.gameOver();
-        gameObject.SetActive(false);
     }
 
 }
