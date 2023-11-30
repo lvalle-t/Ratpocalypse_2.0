@@ -8,11 +8,6 @@ public class LifeATMController : MonoBehaviour
     public GameObject shopCanvas;
     public GameObject messageCanvas;
 
-
-    public void Start()
-    {
-
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
