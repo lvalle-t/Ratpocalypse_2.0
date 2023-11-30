@@ -56,7 +56,7 @@ public class ratKing_run : StateMachineBehaviour
             }
 
         }
-        if (Vector2.Distance(player.position, rb.position) <= throwRange && Random.Range(0f, 90000f) >= 89000f)
+        if (Vector2.Distance(player.position, rb.position) <= throwRange && Random.Range(0f, 90000f) >= 60000f)
         {
             if (!projectileOnCooldown)
             {
