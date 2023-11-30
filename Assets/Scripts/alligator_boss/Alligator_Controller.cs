@@ -1,16 +1,15 @@
 using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Alligator_Controller : MonoBehaviour
 {
     public Rigidbody2D gatorRb;
-    public Transform player;
     public Animator gatorAnimator;
 
-    public float biteAttackRange = 4f;
-    public float tailAttackRange = 8f;
+    public float attackRange;
     public float damage;
     public Alligator_Attack gatorAttack;
 
@@ -18,80 +17,59 @@ public class Alligator_Controller : MonoBehaviour
     public Alligator_healthBar healthBar;
     public GameObject[] itemDrops;
 
-    public GameObject antMobs;
-    public GameObject batMobs;
+    public GameObject enemy1Mobs;
+    public GameObject[] enemy1Prefab;
+    public float enemy1MinX;
+    public float enemy1MaxX;
+    public float enemy1MinY;
+    public float enemy1MaxY;
 
-    public GameObject[] antPrefab;
-    public GameObject[] batPrefab;
+    public GameObject enemy2Mobs;
+    public GameObject[] enemy2Prefab;
+    public float enemy2MinX;
+    public float enemy2MaxX;
+    public float enemy2MinY;
+    public float enemy2MaxY;
 
-    private bool breakTime;
-    private Vector3 direction;
-    private Vector2 move;
-    public bool isFlipped = false;
+    public float stoppingDistance; // tells mole how far it can go before it will overlap
+
+    public Transform player;
+
+    private bool helpTime;
     public bool isDead = false;
-    public float speed = 2f;
-    public float stoppingDistance = .2f; // tells mole how far it can go before it will overlap
+
+    private AIPath aiPath;
 
 
     void Start()
     {
         gatorRb = GetComponent<Rigidbody2D>();
         gatorAnimator = GetComponent<Animator>();
+
+
+        if (aiPath == null)
+        {
+            aiPath = gameObject.AddComponent<AIPath>();
+        }
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        isDead = false;
-        direction = player.position - transform.position;
-        direction.Normalize();
-        move = direction;
+        aiPath.orientation = OrientationMode.YAxisForward;
+        aiPath.destination = player.position;
     }
 
     private void FixedUpdate()
     {
-        gatorAnimator.SetBool("isWalking", true);
-        Follow(move);
-
-        Vector2 target = new Vector2(player.position.x, player.position.y);
-        Vector2 direction = (target - gatorRb.position).normalized;
-        Vector2 newPos = gatorRb.position;
-
-        if (Vector2.Distance(player.position, gatorRb.position) <= biteAttackRange)
+        if (Vector2.Distance(player.position, gatorRb.position) <= attackRange)
         {
-            gatorAnimator.SetTrigger("Alligator_bite");
             gatorAttack.BiteAttack();
         }
-        else if (Vector2.Distance(player.position, gatorRb.position) <= tailAttackRange)
+        else if (Vector2.Distance(player.position, gatorRb.position) >= attackRange)
         {
-            gatorAnimator.SetTrigger("Alligator_tail_swipe");
-            gatorAttack.TailAttack();
-        }
-        else if (Vector2.Distance(player.position, gatorRb.position) > stoppingDistance)
-        {
-            newPos = gatorRb.position + direction * speed * Time.fixedDeltaTime; // Move towards the player if they are outside the stopping distance
-        }
-
-        gatorRb.MovePosition(newPos);
-    }
-
-    void Follow(Vector2 direction)
-    {
-        Vector3 flipped = transform.localScale;
-        flipped.z *= -1f;
-
-        if (transform.position.x < player.position.x && isFlipped)
-        {
-            transform.localScale = flipped;
-            transform.Rotate(0f, 180f, 0f);
-            isFlipped = false;
-        }
-        else if (transform.position.x > player.position.x && !isFlipped)
-        {
-            transform.localScale = flipped;
-            transform.Rotate(0f, 180f, 0f);
-            isFlipped = true;
+            gatorAttack.ExitAttack();
         }
     }
 
@@ -120,44 +98,44 @@ public class Alligator_Controller : MonoBehaviour
 
     IEnumerator SetAlligatorObject()
     {
-        breakTime = true;
+        helpTime = true;
         if (updater.alligatorHp <= 0f)
         {
             isDead = true;
             ItemDrop();
             Destroy(gameObject);
         }
-        else if (updater.alligatorHp == 18f && breakTime == true)
+        else if (updater.alligatorHp == 18f && helpTime == true)
         {
             SpawnAnts();
         }
-        else if (updater.alligatorHp == 36f && breakTime == true)
+        else if (updater.alligatorHp == 36f && helpTime == true)
         {
             SpawnBats();
         }
 
-        yield return breakTime = false;
+        yield return helpTime = false;
     }
 
     public void SpawnAnts()
     {
-        antMobs.SetActive(true);
+        enemy1Mobs.SetActive(true);
         int enemiesThisRow = 8;
 
         for (int i = 0; i < enemiesThisRow; i++)
         {
-            Instantiate(antPrefab[Random.Range(0, antPrefab.Length)], new Vector3(Random.Range(-91, 55), Random.Range(-82, 9), 0), Quaternion.identity);
+            Instantiate(enemy1Prefab[Random.Range(0, enemy1Prefab.Length)], new Vector3(Random.Range(enemy1MinX, enemy1MaxX), Random.Range(enemy1MinY, enemy1MaxY), 0), Quaternion.identity);
         }
     }
 
     public void SpawnBats()
     {
-        batMobs.SetActive(true);
+        enemy2Mobs.SetActive(true);
         int enemiesThisRow = 10;
 
         for (int i = 0; i < enemiesThisRow; i++)
         {
-            Instantiate(batPrefab[Random.Range(0, batPrefab.Length)], new Vector3(Random.Range(-91, 55), Random.Range(-82, 9), 0), Quaternion.identity);
+            Instantiate(enemy2Prefab[Random.Range(0, enemy2Prefab.Length)], new Vector3(Random.Range(enemy2MinX, enemy2MaxX), Random.Range(enemy2MinY, enemy2MaxY), 0), Quaternion.identity);
         }
     }
 
