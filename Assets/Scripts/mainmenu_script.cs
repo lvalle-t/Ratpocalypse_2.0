@@ -31,6 +31,6 @@ public class mainmenu_script : MonoBehaviour
 
     public void Credits()
     {
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(13);
     }
 }
