@@ -311,12 +311,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hitpoints: 0
-  MaxHitpoints: 10
+  MaxHitpoints: 150
   Healthbar: {fileID: 8743903933670665094}
   itemDrops:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
   damaged: 1
   scoreNum: 0
+  animator: {fileID: 8856385434143600606}
+  isInvulnerable: 0
   ratKing: {fileID: 865031091953619727}
 --- !u!50 &9058802844297062273
 Rigidbody2D:
