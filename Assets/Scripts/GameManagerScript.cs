@@ -36,7 +36,7 @@ public class GameManagerScript : MonoBehaviour
         updater.moleHp = 40f;
         updater.ratHp = 1f;
         updater.snakeHp = 1f;
-        updter.currExp = 0;
+        updater.currExp = 0;
         updater.maxExp = 500;
         updater.currLevel = 1;
         //player cat movement
