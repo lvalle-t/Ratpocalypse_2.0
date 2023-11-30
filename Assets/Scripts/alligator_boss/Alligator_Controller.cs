@@ -39,6 +39,7 @@ public class Alligator_Controller : MonoBehaviour
     public bool isDead = false;
 
     private AIPath aiPath;
+    int expAmount = 100;
 
 
     void Start()
@@ -92,6 +93,8 @@ public class Alligator_Controller : MonoBehaviour
         {
             updater.alligatorHp = 0f;
             StartCoroutine(SetAlligatorObject());
+            ExperienceManager.Instance.AddExperience(expAmount);
+            
         }
         healthBar.UpdateHealth(updater.alligatorHp);
     }

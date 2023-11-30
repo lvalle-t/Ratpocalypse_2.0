@@ -74,6 +74,7 @@ public class PlayerHealth : MonoBehaviour
             isDead = true;
 
             gameManager.gameOver();
+            go.SetActive(true);
             gameObject.SetActive(false);
             Debug.Log("Player is dead!"); // Print "dead" message to the console
         }

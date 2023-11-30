@@ -41,6 +41,7 @@ public class mole_movement : MonoBehaviour
     public GameObject[] antPrefab;
     public GameObject[] batPrefab;
     private bool breakTime;
+    int expAmount = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -116,6 +117,7 @@ public class mole_movement : MonoBehaviour
         {
             updater.moleHp = 0f;
             StartCoroutine(SetMoleObject());
+            ExperienceManager.Instance.AddExperience(expAmount);
         }
         healthBar.UpdateHealth(updater.moleHp);
     }

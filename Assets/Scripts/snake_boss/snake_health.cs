@@ -27,6 +27,7 @@ public class snake_health : MonoBehaviour
 
     SpriteRenderer m_SpriteRenderer;
     Color m_NewColor;
+    int expAmount = 100;
 
     void Start()
     {
@@ -82,7 +83,7 @@ public class snake_health : MonoBehaviour
 
             door_exit_bg.SetActive(true);
             door_exit.SetActive(true);
-
+            ExperienceManager.Instance.AddExperience(expAmount);
             ItemDrop();
             //ScoreCollection();
         }
