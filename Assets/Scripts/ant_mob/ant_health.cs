@@ -13,6 +13,8 @@ public class ant_health : MonoBehaviour
     public GameObject[] itemDrops;
     [Header("Effects")]
     public GameObject deathEffect;
+    [Header("Exp Amount")]
+    int expAmount = 50;
     void Start()
     {
         Hitpoints = MaxHitpoints;
@@ -27,6 +29,7 @@ public class ant_health : MonoBehaviour
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            ExperienceManager.Instance.AddExperience(expAmount);
             ItemDrop();
         }
     }

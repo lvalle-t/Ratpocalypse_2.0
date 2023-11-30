@@ -25,4 +25,11 @@ public class updater : MonoBehaviour
     public static float snakeHp = 1.0f;
 
     public static float maxHp = 9f;
+
+    //xp bar
+    public static int currExp = 0;
+    public static int maxExp = 500;
+    public static int currLevel = 1;
+    //player cat movement
+    public static float speed = 6f;
 }

@@ -15,6 +15,8 @@ public class bat_health : MonoBehaviour
     public int scoreNum = 0;
     [Header("Effects")]
     public GameObject deathEffect;
+    [Header("Exp Amount")]
+    int expAmount = 50;
 
     void Start()
     {
@@ -30,6 +32,7 @@ public class bat_health : MonoBehaviour
         {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            ExperienceManager.Instance.AddExperience(expAmount);
             ItemDrop();
             //ScoreCollection();
         }

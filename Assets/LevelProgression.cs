@@ -5,16 +5,18 @@ using UnityEngine;
 public class LevelProgression : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] int currExp, maxExp, currLevel;
-    public int MaxExp => maxExp;
-    public int CurrLevel => currLevel;
+    //[SerializeField] int currExp, maxExp, currLevel;
+    // public int MaxExp => maxExp;
+    // public int CurrLevel => currLevel;
     [SerializeField] XPBAr xpBar;
     public GameObject upScreen;
     public GameObject catPlayer;
-    [SerializeField] cat_movement catMovement;
+    //[SerializeField] private cat_movement catMovement;
+    //private static bool created = false;
     private void Awake()
     {
         xpBar = GetComponentInChildren<XPBAr>();
+        Debug.Log("start max Experience " + updater.maxExp);
     }
     private void OnEnable()
     {
@@ -26,9 +28,9 @@ public class LevelProgression : MonoBehaviour
     }
     private void HandleExperienceChange(int newExperience)
     {
-        currExp += newExperience;
-        xpBar.UpdateXPBar(currExp, newExperience, maxExp);
-        if (currExp >= maxExp)
+        updater.currExp += newExperience;
+        xpBar.UpdateXPBar(updater.currExp, newExperience, updater.maxExp);
+        if (updater.currExp >= updater.maxExp)
         {
             LevelUp();
             xpBar.ResetXpBar();
@@ -48,9 +50,10 @@ public class LevelProgression : MonoBehaviour
         catPlayer.SetActive(false);
         Time.timeScale = 0;
         Debug.Log("Leveled Up");
-        currLevel++;
-        currExp = 0;
-        maxExp += 100;
+        updater.currLevel++;
+        updater.currExp = 0;
+        updater.maxExp += 100;
+        Debug.Log("Current max Experience " + updater.maxExp);
     }
     public void HealthIncrease(){
         if (updater.playerHp <= 9 && updater.playerHp <= updater.maxHp)
@@ -63,8 +66,8 @@ public class LevelProgression : MonoBehaviour
         Time.timeScale = 1;
     }
     public void SpeedIncrease(){
-        catMovement = GetComponent<cat_movement>();
-        catMovement.speed += 1f;
+        //catMovement = GetComponent<cat_movement>();
+        updater.speed += 1f;
         upScreen.SetActive(false);
         catPlayer.SetActive(true);
         Time.timeScale = 1;
