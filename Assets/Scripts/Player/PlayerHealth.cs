@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject go;
     public GameObject deathEffect;
 
+
     private void Update()
     {
         UpdateHealth();
@@ -81,6 +82,7 @@ public class PlayerHealth : MonoBehaviour
     public void LifePurchase(float restore)
     {
         updater.playerHp += restore;
+        
 
         healthBar.UpdateHealth(updater.playerHp);
         UpdateHealth();

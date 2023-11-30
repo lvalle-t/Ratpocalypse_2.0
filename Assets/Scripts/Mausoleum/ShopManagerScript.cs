@@ -1,49 +1,92 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering.Universal;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ShopManagerScript : MonoBehaviour
 {
-    public int[,] shopItems = new int[3, 3];
-    public float[,] lifeQuantity = new float[3, 3];
-    public int treats;
     public treat_counter tc;
     public PlayerHealth ph;
     private float lifeAmount;
 
+
+    public CatnipPotion[] potions;
+
+    public GameObject shopUI;
+    public Transform shopContent;
+    public GameObject itemPrefab;
+
+    public GameObject fullLifeMssg;
+
     // Start is called before the first frame update
     void Start()
     {
-        tc = GetComponent<treat_counter>();
-        ph = GetComponent<PlayerHealth>();
-        lifeAmount = 0f;
-
-        // Item ID's
-        shopItems[1, 1] = 1;
-        shopItems[1, 2] = 2;
-
-        // Item Price
-        shopItems[2, 1] = 50;
-        shopItems[2, 2] = 100;
-
-        // Item Quantity
-        lifeQuantity[1, 1] = 0.5f;
-        lifeQuantity[1, 2] = 1.0f;
-    }
-
-
-    public void Purchase()
-    {
-        GameObject buttonRef = GameObject.FindGameObjectWithTag("Event").GetComponent<EventSystem>().currentSelectedGameObject;
-
-        if (updater.treatCount >= shopItems[2, buttonRef.GetComponent<ShopItemInfo>().ID])
+        foreach (CatnipPotion catnip in potions)
         {
-            treats += shopItems[2, buttonRef.GetComponent<ShopItemInfo>().ID];
-            tc.TreatDisburement(treats);
+            GameObject item = Instantiate(itemPrefab, shopContent);
 
-            lifeAmount += lifeQuantity[1, buttonRef.GetComponent<ShopItemInfo>().ID];
-            ph.LifePurchase(lifeAmount);
+            catnip.itemRef = item;
+
+            foreach (Transform child in item.transform)
+            {
+                if (child.gameObject.name == "Quantity")
+                {
+                    child.gameObject.GetComponent<Text>().text = catnip.quantity.ToString();
+                }
+                else if (child.gameObject.name == "Cost")
+                {
+                    child.gameObject.GetComponent<Text>().text = "Price: " + catnip.cost;
+                }
+                else if (child.gameObject.name == "Name")
+                {
+                    child.gameObject.GetComponent<Text>().text = catnip.name;
+                }
+                else if (child.gameObject.name == "Image")
+                {
+                    child.gameObject.GetComponent<Image>().sprite = catnip.image;
+                }
+            }
+
+            item.GetComponent<Button>().onClick.AddListener(() => { Purchase(catnip); });
         }
     }
+
+    public void Purchase(CatnipPotion catnip)
+    {
+        if (updater.treatCount >= catnip.cost)
+        {
+            if (updater.playerHp < updater.maxHp)
+            {
+                updater.treatCount -= catnip.cost;
+
+                lifeAmount = catnip.quantity;
+                ph.LifePurchase(lifeAmount);
+            }
+            else
+            {
+                fullLifeMssg.SetActive(true);
+                Invoke("FullLifeMssgOff", 2);
+            }
+        }
+    }
+
+    private void FullLifeMssgOff()
+    {
+
+        fullLifeMssg.SetActive(false);
+    }
+}
+
+[System.Serializable]
+public class CatnipPotion
+{
+    public string name;
+    public int id;
+    public int cost;
+    public Sprite image;
+    public float quantity;
+    //[HideInInspector] public int quantity;
+    [HideInInspector] public GameObject itemRef;
 }
