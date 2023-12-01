@@ -12,7 +12,7 @@ public class ExitCredits : MonoBehaviour
 
     public void GoBack()
     {
-        if (Input.GetKeyDown(KeyCode.F5))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene(0);
         }

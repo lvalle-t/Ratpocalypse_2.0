@@ -22,7 +22,7 @@ public class GameManagerScript : MonoBehaviour
     public void gameOver()
     {
         gameOverUI.SetActive(true);
-        Debug.Log("GAMEOVERSCREENON!!!!!");
+        //Debug.Log("GAMEOVERSCREENON!!!!!");
     }
 
     public void restart()
@@ -41,18 +41,18 @@ public class GameManagerScript : MonoBehaviour
         updater.currLevel = 1;
         //player cat movement
         updater.speed = 6f;
-        Debug.Log("RESTART!!!!!");
+        //Debug.Log("RESTART!!!!!");
     }
 
     public void mainMenu()
     {
         SceneManager.LoadScene("MainMenu");
-        Debug.Log("MAINMENU!!!!!");
+        //Debug.Log("MAINMENU!!!!!");
     }
 
     public void quit()
     {
         Application.Quit();
-        Debug.Log("QUITTT!!!!!");
+        //Debug.Log("QUITTT!!!!!");
     }
 }

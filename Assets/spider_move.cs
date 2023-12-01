@@ -6,9 +6,9 @@ public class spider_move : StateMachineBehaviour
 {
     public float speed = 2f;
     public float attackRange = 3f;
-    Transform player; 
-    Rigidbody2D rb;
-    SpiderMob spidermob;
+    private Transform player; 
+    private Rigidbody2D rb;
+    public SpiderMob spidermob;
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

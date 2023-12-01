@@ -41,7 +41,7 @@ using Pathfinding;
 public class ant_mob : MonoBehaviour
 {
     public GameObject fire_breath;
-    public Transform player;
+    private Transform player;
     public float startTimeBtwShots;
     private float timeBtwShots;
 
@@ -79,9 +79,9 @@ public class ant_mob : MonoBehaviour
                 timeBtwShots -= Time.deltaTime;
             }
         }
-        else
-        {
-            Debug.LogError("AIPath component not found!");
-        }
+        //else
+        //{
+        //    Debug.LogError("AIPath component not found!");
+        //}
     }
 }

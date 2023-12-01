@@ -569,7 +569,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.44682616, y: 0.1942501}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -625,11 +625,11 @@ MonoBehaviour:
   speed: 1
   stoppingDistance: 0.5
   attackRange: 0.1
-  player: {fileID: 0}
+  player: {fileID: 6600891684495054227, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
   healthBar: {fileID: 9116441452386120382}
-  sonarFire: {fileID: 0}
-  sonarFirePos: {fileID: 0}
-  startTimeBtwShots: 0
+  sonarFire: {fileID: 6516178702245192064, guid: c6d31b1f6265b544f88b1e0cc258ef91, type: 3}
+  sonarFirePos: {fileID: 1919523840334904575}
+  startTimeBtwShots: 8
   batAnimator: {fileID: 387191152422067097}
   itemDrop:
   - {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}

@@ -37,6 +37,7 @@ public class mole_bat_controller : MonoBehaviour
     {
         batRb = GetComponent<Rigidbody2D>();
         batAnimator = GetComponent<Animator>();
+        batAnimator.SetBool("isAttacking", false);
         timeBtwShots = startTimeBtwShots;
     }
 
@@ -58,7 +59,7 @@ public class mole_bat_controller : MonoBehaviour
 
         if (Vector2.Distance(player.position, batRb.position) <= attackRange)
         {
-            batAnimator.SetTrigger("isAttacking");             // Start attacking when the player is within attack range
+            batAnimator.SetBool("isAttacking", true);            // Start attacking when the player is within attack range
         }
         else if (Vector2.Distance(player.position, batRb.position) > stoppingDistance)
         {

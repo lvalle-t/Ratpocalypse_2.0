@@ -290,7 +290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 778, y: 383}
+  m_AnchoredPosition: {x: 767, y: 410}
   m_SizeDelta: {x: 360.9044, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &643532144
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press F5 To Exit
+  m_text: Press Esc To Exit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
   m_sharedMaterial: {fileID: 5866575379975551743, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
@@ -713,8 +713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6, y: -3980.9}
-  m_SizeDelta: {x: 1820, y: 6841.9}
+  m_AnchoredPosition: {x: 6, y: -3885.5}
+  m_SizeDelta: {x: 1820, y: 6651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981028605
 MonoBehaviour:
@@ -822,8 +822,12 @@ MonoBehaviour:
 
 
 
-    Character
-    Art Design:
+
+
+    Hand
+    Drawn Art:
+
+
 
 
 
@@ -833,6 +837,9 @@ MonoBehaviour:
 
 
     Background Art Design:
+
+
+
 
 
 
@@ -1014,8 +1021,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4010}
-  m_SizeDelta: {x: 1820, y: 6783.9}
+  m_AnchoredPosition: {x: 0, y: -3914.5}
+  m_SizeDelta: {x: 1820, y: 6593}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132305054
 MonoBehaviour:
@@ -1408,8 +1415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -47, y: -4483.4}
-  m_SizeDelta: {x: 601.644, y: 5837}
+  m_AnchoredPosition: {x: -47, y: -4387.9}
+  m_SizeDelta: {x: 601.644, y: 5646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576762952
 MonoBehaviour:
@@ -1434,14 +1441,16 @@ MonoBehaviour:
   m_text: "Cat Warrior\n\n\n\nRat King\t\n\nAlligator Boss\n\n\nMole Boss\n\nSnake
     Boss\n\nAnt Mob\t\n\n\nBat Mob\t\n\n\nRat Mob\t\n\n\nSpider Mob\n\nAnt Fire Breath\n\nGate/Key\n\nFront
     Door/Keycard\n\nStairwell Door/Keycard\n\nScroll\n\nCamera Shake\n\nCamera Panning\n\nGame
-    Over Screen\n\nMain Menu\n\nUI\n\n\nLevel System\n\nItems\n\n\nPromo Video\n\n\n\nAnt
-    Mob\t\n\nRat Mob\n\nAlligator Boss\t\n\n\n\nScientist Scene\t\n\n\nMob Sewer
-    Scene\n\n\nSnake Sewer Scene\n\n\nCity Scene\n\nCemetery Scene\t\n\n\nMausoleum
-    Scene\n\nPetcorp Outside\n\nPetcorp First Floor\n\nPetcorp Rat King Scene\n\n\n\n
-    Cat Warrior\n\n\n\nRat King\t\n\nAnt Mob\t\n\n\nBat Mob\t\n\nRat Mob\t\n\nSpider
-    Mob\n\nSnake Boss\n\nMole Boss\n\nAlligator Boss\n\nPetcorp Animations\n\nLights\n\n\nCamera
-    Shake\n\nCat Warrior Gun\n\n\r\n\nLogo Splash\n\nBackstory Video\n\nCredits Page\n\n\nInstructions
-    Popup\n\n\n\n\n\rGDD\n\n\n\n\n\n\nStory Board\n\n\n\n\nPresentation Slides"
+    Over Screen\n\nMain Menu\n\nUI Cat Hearts \n\n\nLevel System\n\nCatnip Life Potion
+    ATM\n\nItem Drop\n\n\nPromo Video\n\n\n\nAnt Mob\t\n\nRat Mob\n\nAlligator Boss\n\nLogo\t\n\n\n\nScientist
+    Scene\t\n\n\nMob Sewer Scene\n\n\nSnake Sewer Scene\n\n\nCity Scene\n\nCemetery
+    Scene\t\n\n\nMausoleum Scene\n\nPetcorp Outside\n\nPetcorp First Floor\n\nPetcorp
+    Stairs\n\n\nPetcorp Rat King Scene\n\n\n\n Cat Warrior\n\n\n\nRat King\t\n\nAnt
+    Mob\t\n\n\nBat Mob\t\n\nRat Mob\t\n\nSpider Mob\n\nSnake Boss\n\nMole Boss\n\nAlligator
+    Boss\n\nPetcorp Animations\n\nLights\n\n\nCamera Shake\n\nCat Warrior Gun\n\n\r\n\nLogo
+    Splash\n\nBackstory Video\n\nCredits Page\nCredit Page Editor\n\nInstructions
+    Popup\n\n\n\n\n\rGDD\nGDD Editors\n\n\n\n\n\nStory Board\n\n\nStory Board Editor\n\nPresentation
+    Slides\n\nPresentation Slides Turned In "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
   m_sharedMaterial: {fileID: 5866575379975551743, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
@@ -1552,8 +1561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 436, y: -4483.3535}
-  m_SizeDelta: {x: 578.8993, y: 5836.922}
+  m_AnchoredPosition: {x: 436, y: -4387.9}
+  m_SizeDelta: {x: 578.8993, y: 5646.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1749067031
 MonoBehaviour:
@@ -1581,19 +1590,20 @@ MonoBehaviour:
     \r\nDebbie DeLeon\r\n\nHannah Hebert\r\n\nLupita Valle\r\n\nDebbie Bauer\r\n\nDebbie
     Bauer\r\n\nDebbie Bauer\r\n\nDebbie DeLeon\r\n\nTristan Fry\r\n\nAnthony Castillo\n\nDebbie
     DeLeon\r\n\nAnthony Castillo\r\n\nAnthony Castillo\r,\nPatricia Kurniawan\n\nAnthony
-    Castillo\r\n\nAnthony Castillo,\nPatricia Kurniawan\r\n\nPatricia Kurniawan\n\r\n\n\nPatricia
-    Kurniawan\r\n\nPatricia Kurniawan\r\n\nHannah Hebert\n\n\n\nAnthony Castillo,\nLupita
-    Valle\r\n\nHannah Herbert, \r\nDebbie DeLeon\r\n\nHannah Herbert, \r\nTristian
-    Fry\r\n\nLupita Valle\r\n\nLupita Valle, \nDebbie Deleon\r\n\nDebbie DeLeon\r\n\nDebbie
-    DeLeon\r\n\nDebbie DeLeon\r\n\nTristian Fry\r\n\r\n\n\nAnthony Castillo, \r\nLupita
-    Valle,\r\nDebbie Deleon\r\n\nTristian Fry\r\n\nLupita Valle, \r\nDebbie DeLeon\r\n\nDebbie
-    DeLeon\r\n\nLupita Valle\r\n\nHannah Hebert\r\n\nTristian Fry\r\n\nDebbie DeLeon\r\n\nTristian
-    Fry\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon,\nLupita Valle\r\n\nTristian Fry\r\n\nLupita
-    Valle\r\n\r\n\n\nHannah Hebert\r\r\n\nPatricia Kurniawan\r\n\nDebbie DeLeon,\nPatricia
-    Kurniawan\r\n\nAnthony Castillo,\nLupita Valle\n\r\n\n\nDebbie DeLeon\r.\nAnthony
-    Castillo, \r\nLupita Valle,\nTristan Fry,\nPatricia Kurniawan,\nFabian Silva\n\nAnthony
-    Castillo, \r\nLupita Valle,\nDebbie DeLeon,\nPatricia Kurniawan\r\n\nAnthony
-    Castillo"
+    Castillo\r\n\nDebbie DeLeon\n\nAnthony Castillo,\nPatricia Kurniawan\r\n\nPatricia
+    Kurniawan\n\r\n\n\nPatricia Kurniawan\r\n\nPatricia Kurniawan\r\n\nHannah Hebert\n\nHannah
+    Hebert\n\n\n\nAnthony Castillo,\nLupita Valle\r\n\nHannah Herbert, \r\nDebbie
+    DeLeon\r\n\nHannah Herbert, \r\nTristian Fry\r\n\nLupita Valle\r\n\nDebbie DeLeon,\nLupita
+    Valle\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nDebbie DeLeon\nLupita
+    Valle\n\nTristian Fry\r\n\r\n\n\nAnthony Castillo, \r\nLupita Valle,\r\nDebbie
+    Deleon\r\n\nTristian Fry\r\n\nLupita Valle, \r\nDebbie DeLeon\r\n\nDebbie DeLeon\r\n\nLupita
+    Valle\r\n\nHannah Hebert\r\n\nTristian Fry\r\n\nDebbie DeLeon\r\n\nTristian Fry\r\n\nDebbie
+    DeLeon\r\n\nDebbie DeLeon,\nLupita Valle\r\n\nTristian Fry\r\n\nLupita Valle\r\n\r\n\n\nDebbie
+    DeLeon\r\r\n\nPatricia Kurniawan\r\n\nDebbie DeLeon\nPatricia Kurniawan\r\n\nAnthony
+    Castillo,\nLupita Valle\n\r\n\n\nDebbie DeLeon\r.\nAnthony Castillo, \r\nLupita
+    Valle,\nTristan Fry,\nPatricia Kurniawan,\nFabian Silva\n\nAnthony Castillo,
+    \r\nLupita Valle,\nPatricia Kurniawan,\nDebbie DeLeon\r\n\nAnthony Castillo\n\nDebbie
+    DeLeon"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
   m_sharedMaterial: {fileID: 5866575379975551743, guid: ed12f9e7f7a011c488e5cf8194f5df3e, type: 2}
@@ -1705,8 +1715,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11, y: -7604}
-  m_SizeDelta: {x: 1810.1, y: 976.6221}
+  m_AnchoredPosition: {x: 6.0251, y: -7799}
+  m_SizeDelta: {x: 1820, y: 976.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755934301
 MonoBehaviour:
