@@ -15,7 +15,7 @@ public class XPBAr : MonoBehaviour
     public void UpdateXPBar(int currExperience, int gainedExperience, int maxExperienece)
     {
         slider.value = currExperience;
-        Debug.Log("XP Bar increase");
+        //Debug.Log("XP Bar increase");
     }
     public void ResetXpBar()
     {

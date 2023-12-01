@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire_breath: {fileID: 6298997708747871986, guid: a838b4bf3fb6d7345b620b424ea44553, type: 3}
-  player: {fileID: 4654809765849882064, guid: 794bf920ac12b6940b02fa05d545727a, type: 3}
+  player: {fileID: 6600891684495054227, guid: f5fca69590562cd479c3d54e259acafa, type: 3}
   startTimeBtwShots: 8
 --- !u!60 &7572254450637807069
 PolygonCollider2D:
@@ -307,7 +307,7 @@ MonoBehaviour:
   - {x: 0.31, y: -0.255, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 211654
+  m_InstanceId: 131674
   m_LocalBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.31, y: 0.255, z: 0}

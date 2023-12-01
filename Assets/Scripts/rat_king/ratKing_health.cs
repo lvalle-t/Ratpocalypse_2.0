@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 //using UnityEngine.UI;
 
@@ -71,24 +72,33 @@ public class ratKing_health : MonoBehaviour
         if (Hitpoints <= 0 && !isDead)
         {
             isDead = true;
-            StartCoroutine(PlayDeathAnimationAndDestroy());
+            animator.SetBool("isDead", isDead);
+            Invoke("ItemDrop", 1.5f);
+            //StartCoroutine(PlayDeathAnimationAndDestroy());
         }
     }
 
-    private IEnumerator PlayDeathAnimationAndDestroy()
-    {
-        animator.Play("rat_king_death", 0, 0.9f);
-        yield return new WaitForSeconds(1.5f); // Adjust the delay time if needed
-        Destroy(gameObject);
-        ItemDrop();
-    }
+    //private IEnumerator PlayDeathAnimationAndDestroy()
+    //{
+    //    animator.Play("rat_king_death", 0, 0.9f);
+    //    yield return new WaitForSeconds(1.5f); // Adjust the delay time if needed
+    //    Destroy(gameObject);
+    //    ItemDrop();
+    //}
 
     private void ItemDrop()
     {
+        Destroy(gameObject);
         for (int i = 0; i < itemDrops.Length; i++)
         {
             Instantiate(itemDrops[i], transform.position, Quaternion.identity);
         }
+        Invoke("Credits", 2);
+    }
+
+    private void Credits()
+    {
+        SceneManager.LoadScene(12);
     }
     //public void ScoreCollection()
     //{

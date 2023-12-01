@@ -41,7 +41,10 @@ public class bat_movement : MonoBehaviour
             aiPath = gameObject.AddComponent<AIPath>();
         }
         rb = GetComponent<Rigidbody2D>();
+
         batAnimator = GetComponent<Animator>();
+        batAnimator.SetBool("isAttacking", false);
+
         player = GameObject.FindGameObjectWithTag("Player").transform;
         aiPath.destination = player.position;
     }
@@ -56,7 +59,11 @@ public class bat_movement : MonoBehaviour
         // move = direction;
         if (Vector2.Distance(player.position, transform.position) <= attackRange)
         {
-            batAnimator.SetTrigger("isAttacking");
+            batAnimator.SetBool("isAttacking", true);
+        }
+        else
+        {
+            batAnimator.SetBool("isAttacking", false);
         }
 
     }

@@ -13,6 +13,14 @@ public class VideoNextScene : MonoBehaviour
         vp.loopPointReached += OnVideoFinished;
     }
 
+    private void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
     // Update is called once per frame
     void OnVideoFinished(VideoPlayer vp){
         SceneManager.LoadScene("Laboratory");

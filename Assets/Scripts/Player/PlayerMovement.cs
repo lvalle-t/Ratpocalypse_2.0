@@ -91,10 +91,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            foreach (RaycastHit2D hit in castCollision)
-            {
-                print(hit.ToString());
-            }
+            //foreach (RaycastHit2D hit in castCollision)
+            //{
+            //    print(hit.ToString());
+            //}
             return false;
         }
     }

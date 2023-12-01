@@ -16,7 +16,7 @@ public class LevelProgression : MonoBehaviour
     private void Awake()
     {
         xpBar = GetComponentInChildren<XPBAr>();
-        Debug.Log("start max Experience " + updater.maxExp);
+        //Debug.Log("start max Experience " + updater.maxExp);
     }
     void Update(){
         xpBar.UpdateXPBar(updater.currExp, 0, updater.maxExp);
@@ -52,11 +52,11 @@ public class LevelProgression : MonoBehaviour
         upScreen.SetActive(true);
         catPlayer.SetActive(false);
         Time.timeScale = 0;
-        Debug.Log("Leveled Up");
+        //Debug.Log("Leveled Up");
         updater.currLevel++;
         updater.currExp = 0;
         updater.maxExp += 100;
-        Debug.Log("Current max Experience " + updater.maxExp);
+        //Debug.Log("Current max Experience " + updater.maxExp);
     }
     public void HealthIncrease(){
         if (updater.playerHp <= 9 && updater.playerHp <= updater.maxHp)

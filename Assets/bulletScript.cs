@@ -11,6 +11,7 @@ public class bulletScript : MonoBehaviour
     public float force;
     public Collider2D bulletCollider;
     public float bulletDamage = 0.2f;
+
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
@@ -18,12 +19,15 @@ public class bulletScript : MonoBehaviour
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = mousePos-transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
+
         if (bulletCollider == null)
         {
             Debug.LogWarning("bulletCollider not set");
         }
     }
-    void OnTriggerEnter2D(Collider2D col){
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
         if(col.CompareTag("Enemy") || col.CompareTag("snake_boss") || col.CompareTag("Mole_Boss") || col.CompareTag("Alligator_Boss") || col.CompareTag("rat_king"))
         {
             Destroy(gameObject);

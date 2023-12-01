@@ -11659,7 +11659,7 @@ PrefabInstance:
       objectReference: {fileID: 6516178702245192064, guid: c6d31b1f6265b544f88b1e0cc258ef91, type: 3}
     - target: {fileID: 1609160613003002600, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: attackRange
-      value: 0.2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1609160613003002600, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: sonarFirePos
@@ -11677,13 +11677,17 @@ PrefabInstance:
       propertyPath: m_FillRect
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2054553294419062098, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 8ce06246c97026449a25e3a9e9aaa27e, type: 2}
     - target: {fileID: 2328729925953365569, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: m_Name
       value: Mole_Move
       objectReference: {fileID: 0}
     - target: {fileID: 2328729925953365569, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2370565741066927670, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -11813,6 +11817,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7424619850797382891, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 8ce06246c97026449a25e3a9e9aaa27e, type: 2}
     - target: {fileID: 8481914643458003039, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: player
       value: 
@@ -11835,7 +11843,7 @@ PrefabInstance:
       objectReference: {fileID: 570115457035171642, guid: a1aaf628b09140a4da908c7a704986ea, type: 3}
     - target: {fileID: 8582906663207556018, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8627491469643644663, guid: 577202c7f96324c4d8c564de14cce5a3, type: 3}
       propertyPath: damage
@@ -12436,7 +12444,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1277997155}
   - component: {fileID: 1277997154}
-  - component: {fileID: 1277997153}
   - component: {fileID: 1277997152}
   - component: {fileID: 1277997151}
   m_Layer: 0
@@ -12511,14 +12518,6 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!81 &1277997153
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277997150}
-  m_Enabled: 1
 --- !u!20 &1277997154
 Camera:
   m_ObjectHideFlags: 0
