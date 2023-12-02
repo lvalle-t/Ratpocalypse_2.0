@@ -17,12 +17,12 @@ public class VideoNextScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 
     // Update is called once per frame
     void OnVideoFinished(VideoPlayer vp){
-        SceneManager.LoadScene("Laboratory");
+        SceneManager.LoadScene("MainMenu");
     }
 }
