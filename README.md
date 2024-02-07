@@ -1,4 +1,4 @@
-# Ratpocalypse_2.0
+# Ratpocalypse: Rise of the Cat Warrior
 # 2d Top Down Game
 #
 # Team Summary
